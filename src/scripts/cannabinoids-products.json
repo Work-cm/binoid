@@ -1,0 +1,636 @@
+[
+  {
+    "_id": "6ac39adfc2511b7574c7fd6e",
+    "slug": "5-cl-adba",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 45,
+    "createdAt": "2026-10-05T12:41:01.878Z",
+    "description": "5-CL-ADBA, formally designated (S)-N-(adamantan-1-yl)-1-(5-chloropentyl)-1H-indazole-3-carboxamide, is a synthetic cannabinoid of the indazole-3-carboxamide class. It is among the most extensively characterised third-generation synthetic cannabinoids and is established as a standard reference compound in cannabinoid receptor research and forensic analytical chemistry.\n\n5-CL-ADBA acts as a full agonist at cannabinoid receptor type 1 (CB1) and cannabinoid receptor type 2 (CB2). The indazole ring system replaces the indole scaffold used in earlier synthetic cannabinoids, and the adamantyl carboxamide group provides the high-affinity binding interaction with the orthosteric cannabinoid receptor binding site. The 5-chloropentyl chain at N1 has been identified in SAR studies as a critical structural determinant of CB1 binding affinity. 5-CL-ADBA's analytical fingerprint — including its mass spectrometric fragmentation pattern, NMR chemical shift assignments, and chromatographic behaviour — is thoroughly documented in forensic chemistry databases and peer-reviewed publications.\n\nOur 5-CL-ADBA is manufactured to 99%+ purity, confirmed by HPLC-MS, ¹H and ¹³C NMR, and elemental analysis. A full Certificate of Analysis with complete spectral data is provided with every order. Applications include cannabinoid receptor pharmacology, forensic toxicology reference standards, analytical method development, and SAR studies of the indazole-3-carboxamide series.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287150/NitazeneChemicals/products/t1hde8pe2lnlhxt6y0z6.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287151/NitazeneChemicals/products/h5oogodo9j6ldijtimpr.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287152/NitazeneChemicals/products/f1asvxw8jjopenek9rdc.jpg"
+    ],
+    "name": "5CL-ADBA/precursor/kit Pink",
+    "numReviews": 34,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "137350-66-4"
+  },
+  {
+    "_id": "6ac39adfc2511b7574c7fd6d",
+    "slug": "5-fadb",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 40,
+    "createdAt": "2026-10-05T12:41:01.462Z",
+    "description": "5-FADB, also designated MDMB-5F-PINACA, is a synthetic cannabinoid of the indazole-3-carboxamide class. It features a tert-leucine methyl ester (ADB) pharmacophore at the carboxamide nitrogen and a 5-fluoropentyl chain at the N1 position of the indazole ring — a combination that has been studied in the context of high-affinity cannabinoid receptor binding within the indazole series.\n\n5-FADB is a full agonist at CB1 and CB2 cannabinoid receptors. The fluorine atom at the terminal position of the pentyl chain is of particular research interest: the C–F bond is highly resistant to metabolic oxidation, influencing the compound's in vitro metabolic stability compared to non-fluorinated analogues. This fluorine substitution also affects the compound's physicochemical properties, including its lipophilicity. Metabolic studies using human liver microsomes and recombinant CYP enzymes have characterised primary metabolic routes including ester hydrolysis, fluoropentyl chain hydroxylation, and N-dealkylation — data that is documented in forensic pharmacokinetics literature.\n\nOur 5-FADB is produced to 99%+ purity, confirmed by HPLC-MS, multinuclear NMR, and elemental analysis. A complete Certificate of Analysis with spectral data is included with every batch. Applications include cannabinoid receptor pharmacology, metabolic stability research, forensic reference material development, and analytical method validation.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287197/NitazeneChemicals/products/nxboau0ksazkar4iulf2.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287198/NitazeneChemicals/products/nqxz3jqkhku3i9mulvjz.jpg"
+    ],
+    "name": "5fadb precursor/kit pink",
+    "numReviews": 28,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T17:25:57.363Z",
+    "casNumber": "1715016-75-3"
+  },
+  {
+    "_id": "6ac39adfc2511b7574c7fd6c",
+    "slug": "6-cl-adba",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 38,
+    "createdAt": "2026-10-05T12:41:00.990Z",
+    "description": "6-CL-ADBA is a synthetic cannabinoid of the indazole-3-carboxamide class, structurally analogous to 5-CL-ADBA but distinguished by the presence of a 6-chlorohexyl chain at the N1 position of the indazole ring, in place of the 5-chloropentyl chain of its isomer. This single additional carbon in the N1-alkyl chain represents a defined structural modification that has measurable consequences for CB1 receptor binding affinity and pharmacokinetic properties.\n\nThe relationship between N1-alkyl chain length and cannabinoid receptor binding affinity is among the most systematically studied SAR parameters in the indazole-3-carboxamide synthetic cannabinoid series. Comparative data from receptor binding assays and functional studies demonstrates that 6-CL-ADBA has a distinct pharmacological profile relative to 5-CL-ADBA, providing insight into the three-dimensional geometry of the CB1 receptor binding pocket. Like other members of the indazole-3-carboxamide class, 6-CL-ADBA acts as a full agonist at both CB1 and CB2 receptor subtypes, activating Gi/Go-coupled intracellular signalling cascades. Its mass spectrometric fragmentation pattern and chromatographic properties are documented in forensic chemistry reference databases.\n\nOur 6-CL-ADBA is produced to 99%+ purity, confirmed by HPLC-MS and NMR spectroscopy. A full Certificate of Analysis is provided with every order. Applications include cannabinoid receptor SAR research, forensic analytical reference standards, and comparative studies of N1-alkyl chain length within the indazole-3-carboxamide class.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287256/NitazeneChemicals/products/rqdrxpqjlarriaf7hiqd.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287258/NitazeneChemicals/products/k1gwcabuc01ooylw16mw.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287259/NitazeneChemicals/products/nlulwgkab4ze0xkgv6cp.jpg"
+    ],
+    "name": "6-CL-ADBA precursor/kit pink",
+    "numReviews": 19,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T14:18:45.185Z"
+  },
+  {
+    "_id": "6ac39adec2511b7574c7fd6b",
+    "slug": "jwh-018",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 50,
+    "createdAt": "2026-10-05T12:41:00.557Z",
+    "description": "JWH-018, formally 1-pentyl-3-(1-naphthoyl)indole, also designated AM-678, is one of the most historically significant synthetic cannabinoids in the scientific literature. It was synthesised in 1995 by Dr. John W. Huffman and colleagues at Clemson University as part of a systematic programme to develop pharmacological tools for investigating the endocannabinoid system. The compound is named after Dr. Huffman's initials and was the 18th compound in his published research series.\n\nJWH-018 is an aminoalkylindole (AAI) cannabinoid that acts as a full agonist at both CB1 and CB2 receptors. Competitive radioligand binding studies have established its affinity at both receptor subtypes, with documented Ki values in the nanomolar range. As the founding compound of the naphthoylindole series, JWH-018's chemical scaffold defined the structural template for a generation of synthetic cannabinoid SAR research. Extensive published data covers its receptor pharmacology, in vitro and in vivo metabolic profile (including monohydroxylation and carboxylation of the pentyl chain), and analytical characterisation methods. It has been the subject of several hundred published scientific studies across receptor pharmacology, metabolite identification, analytical detection, and behavioural pharmacology.\n\nOur JWH-018 is produced to 99%+ purity, confirmed by HPLC-MS, ¹H NMR, ¹³C NMR, and elemental analysis. A full Certificate of Analysis with spectral data is provided with every batch. Applications include CB1/CB2 receptor pharmacology, endocannabinoid system research, analytical reference standards, and naphthoylindole SAR studies.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240298/novachem/products/r6vwwvtnfejfoutkbod7.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240299/novachem/products/ujt5urmtblxetoqlzydb.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240300/novachem/products/o6rthr04kz9p5igllj4e.jpg"
+    ],
+    "name": "JWH-018",
+    "numReviews": 47,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "209414-07-3"
+  },
+  {
+    "_id": "6ac39adec2511b7574c7fd6a",
+    "slug": "adb-butinaca",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 42,
+    "createdAt": "2026-10-05T12:40:59.549Z",
+    "description": "ADB-BUTINACA, formally N-(1-amino-3,3-dimethyl-1-oxobutan-2-yl)-1-butyl-1H-indazole-3-carboxamide, also known as ADBICA, is a synthetic cannabinoid of the indazole-3-carboxamide class belonging to the ADB (tert-leucinamide) pharmacophore series. This pharmacophore series has been consistently identified in SAR research as producing high-affinity CB1 receptor binding within the indazole scaffold.\n\nADB-BUTINACA features a butyl chain at the N1 position of the indazole ring, distinguishing it from related compounds such as 5-FADB or ADB-FUBINACA, which carry longer or functionalised alkyl chains. This structural difference enables systematic comparison of N1-alkyl chain length effects within the ADB-indazole series — a key parameter in understanding cannabinoid receptor binding geometry. As a full agonist at CB1 receptors, ADB-BUTINACA activates Gi/Go-coupled signalling pathways including cAMP suppression, MAPK/ERK modulation, and ion channel regulation. Its in vitro metabolism has been characterised using hepatic microsomes, with hydroxylation and amide hydrolysis identified as primary routes. Metabolic products have been documented as forensic analytical reference materials.\n\nOur ADB-BUTINACA is produced to 99%+ purity, confirmed by HPLC-MS, NMR spectroscopy, and elemental analysis. A comprehensive Certificate of Analysis with full spectral documentation is provided with every order. Applications include CB1/CB2 receptor pharmacology, forensic toxicology reference standards, analytical method development, and ADB-series SAR research.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240220/novachem/products/qql2bkvab21znbcoocd4.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240222/novachem/products/gkevnvqdoeiovsxvbqyx.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240223/novachem/products/rdl0ssh9lbgwpq2e7ufr.jpg"
+    ],
+    "name": "ADB-BUTINACA",
+    "numReviews": 26,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "2682867-55-4"
+  },
+  {
+    "_id": "6ac39addc2511b7574c7fd69",
+    "slug": "ab-pinaca",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 50,
+    "createdAt": "2026-10-05T12:40:58.627Z",
+    "description": "AB-PINACA is a premium synthetic cannabinoid compound meticulously synthesized for advanced research applications. This compound represents the cutting edge of cannabinoid receptor research, offering scientists and researchers a high-purity reference standard for studying CB1 and CB2 receptor interactions.\n\nOur AB-PINACA is manufactured under stringent laboratory conditions with multiple purification steps to ensure exceptional purity levels exceeding 99.5%. Each batch undergoes comprehensive analytical testing including HPLC, NMR spectroscopy, and mass spectrometry to verify molecular structure and purity.\n\nResearch Applications:\n• Cannabinoid receptor binding affinity studies\n• Structure-activity relationship (SAR) research\n• Pharmacokinetic and pharmacodynamic investigations\n• Neuropharmacological research\n• Analytical reference standard for forensic laboratories\n\nProduct Specifications:\n• Chemical Formula: C18H26N4O2\n• Molecular Weight: 330.43 g/mol\n• Purity: ≥99.5% (HPLC verified)\n• Appearance: White to off-white crystalline powder\n• Storage: Store in cool, dry place away from direct light\n• Stability: Stable under recommended storage conditions\n\nQuality Assurance:\nEvery batch of AB-PINACA comes with a comprehensive Certificate of Analysis (CoA) documenting purity testing, melting point verification, and spectroscopic data. Our manufacturing facility operates under strict quality management systems to ensure batch-to-batch consistency.\n\nSafety Information:\nThis compound is strictly intended for research purposes only. Not for human consumption. Researchers should consult all relevant safety data sheets before handling. Appropriate personal protective equipment including gloves, safety glasses, and lab coat should be worn when handling this material.\n\nShipping and Handling:\nProducts are packaged in secure, tamper-evident containers with desiccant to maintain product integrity during transit. We offer discreet, secure shipping worldwide with tracking provided for all orders. Bulk quantities available upon request with competitive pricing.\n\nFor researchers studying synthetic cannabinoids and their interactions with the endocannabinoid system, AB-PINACA provides a reliable, high-quality tool for advancing scientific knowledge in this important field of pharmacology.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287297/NitazeneChemicals/products/j6hgh9hppnulsiyxipdr.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287298/NitazeneChemicals/products/vip5bobfphusnbaplsoj.jpg"
+    ],
+    "name": "AB-PINACA",
+    "numReviews": 300,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1445752-09-9"
+  },
+  {
+    "_id": "6ac39adcc2511b7574c7fd68",
+    "slug": "5f-edmb-pinaca",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 45,
+    "createdAt": "2026-10-05T12:40:58.187Z",
+    "description": "5F-EDMB-PINACA represents a next-generation synthetic cannabinoid compound designed specifically for advanced pharmacological and forensic research. This fluorinated analog offers unique properties that make it invaluable for researchers investigating structure-activity relationships within the cannabinoid class of compounds.\n\nOur 5F-EDMB-PINACA is synthesized using advanced organic chemistry techniques in state-of-the-art laboratory facilities. The inclusion of the fluorinated side chain (5F) provides researchers with a compound exhibiting distinct pharmacological properties compared to non-fluorinated analogs, opening new avenues for receptor binding studies and metabolic pathway investigations.\n\nComprehensive Product Details:\n• Chemical Classification: Synthetic cannabinoid (fluorinated indazole derivative)\n• IUPAC Name: N-(1-AMINO-3,3-dimethyl-1-oxobutan-2-yl)-1-(5-fluoropentyl)-1H-indazole-3-carboxamide\n• CAS Number: Available upon request\n• Molecular Formula: C20H28FN5O2\n• Molecular Weight: 389.47 g/mol\n• Purity: ≥99.2% (verified by UPLC-MS)\n• Physical State: Fine crystalline powder\n• Color: White to cream\n• Solubility: Soluble in organic solvents (DMSO, ethanol, methanol)\n\nResearch Applications and Uses:\nThis compound serves multiple critical functions in research settings:\n• Advanced CB1/CB2 receptor affinity and efficacy studies\n• Metabolism and pharmacokinetic research\n• Forensic toxicology reference standard\n• Binding site characterization studies\n• Structure-activity relationship investigations\n• In vitro pharmacology research\n\nQuality Control and Testing:\nEach production batch undergoes rigorous quality control protocols:\n1. High-resolution mass spectrometry for molecular weight confirmation\n2. Nuclear magnetic resonance (NMR) spectroscopy for structural elucidation\n3. Ultra-performance liquid chromatography (UPLC) for purity assessment\n4. Karl Fischer titration for moisture content\n5. Melting point determination for physical property verification\n\nPackaging and Storage:\nProducts are supplied in amber glass vials with PTFE-lined caps to prevent contamination and degradation. Recommended storage temperature is 2-8°C for long-term stability. Each container is labeled with batch number, manufacturing date, and expiration date for complete traceability.\n\nResearch Significance:\nThe 5F-EDMB-PINACA compound has become increasingly important in cannabinoid research due to its unique pharmacological profile. Researchers utilize this compound to better understand the nuances of cannabinoid receptor activation and the structural determinants that influence binding affinity and functional activity.\n\nRegulatory and Safety Notes:\n• For research purposes only - strictly not for human consumption\n• Schedule appropriate safety protocols when handling\n• Review material safety data sheet before use\n• Comply with all local, national, and international regulations\n• Secure storage required when not in use\n\nCustomer Support:\nOur technical support team includes PhD-level chemists available to assist with product inquiries, research applications, and technical documentation. Bulk pricing available for qualified research institutions.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287363/NitazeneChemicals/products/cfvyt4eksie6ydnurxrp.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287365/NitazeneChemicals/products/ejk9yjbcd7vnchxwovvi.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287366/NitazeneChemicals/products/ntb0gfefsdtvvgutf3fn.jpg"
+    ],
+    "name": "5F-EDMB-PINACA",
+    "numReviews": 398,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "2504100-69-8"
+  },
+  {
+    "_id": "6ac39adbc2511b7574c7fd67",
+    "slug": "adb-fubinaca",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 60,
+    "createdAt": "2026-10-05T12:40:57.753Z",
+    "description": "ADB-FUBINACA stands as one of the most extensively studied synthetic cannabinoids in modern pharmacological research. This indazole-based compound has garnered significant attention from the scientific community due to its potent CB1 receptor activity and its role in advancing our understanding of cannabinoid receptor pharmacology.\n\nManufactured to exacting pharmaceutical-grade standards, our ADB-FUBINACA represents the gold standard for synthetic cannabinoid research materials. The compound features a unique adamantylcarboxamide functional group that distinguishes it from other cannabinoid analogs and provides distinctive binding characteristics at cannabinoid receptor sites.\n\nDetailed Chemical Profile:\n• Systematic Name: N-(1-amino-3,3-dimethyl-1-oxobutan-2-yl)-1-(4-fluorobenzyl)-1H-indazole-3-carboxamide\n• Chemical Class: Synthetic cannabinoid (adamantyl indazole derivative)\n• Molecular Composition: C25H26FN5O2\n• Exact Mass: 447.51 g/mol\n• Purity Standard: ≥99.7% (batch-certified)\n• Physical Form: High-quality crystalline solid\n• Appearance: Bright white crystalline powder\n• Melting Point: 168-172°C\n\nExtensive Research Applications:\nThe versatility of ADB-FUBINACA makes it essential for diverse research programs:\n\n1. Receptor Pharmacology: Investigating binding kinetics at CB1 and CB2 receptors, including affinity constants and efficacy measurements.\n\n2. Functional Studies: Examining downstream signaling pathways, G-protein coupling, and second messenger systems activated by cannabinoid receptor engagement.\n\n3. Behavioral Research: Contributing to understanding of cannabinoid-mediated behaviors through in vitro mechanistic studies.\n\n4. Forensic Science: Serving as a critical reference standard in toxicological analysis and substance identification protocols.\n\n5. Medicinal Chemistry: Providing scaffold for structure-activity relationship studies and novel therapeutic development.\n\nQuality Verification Protocol:\nOur analytical laboratory employs multiple orthogonal techniques to ensure product integrity:\n\n• Liquid Chromatography-Mass Spectrometry (LC-MS/MS) for identity and purity confirmation\n• Fourier Transform Infrared Spectroscopy (FTIR) for functional group verification\n• Proton and Carbon-13 NMR for complete structural characterization\n• X-ray Powder Diffraction for crystalline form confirmation\n• Thermogravimetric Analysis (TGA) for thermal stability assessment\n\nBatch Documentation:\nEvery container of ADB-FUBINACA is accompanied by comprehensive documentation including:\n- Detailed Certificate of Analysis (CoA)\n- Material Safety Data Sheet (MSDS)\n- Handling and storage guidelines\n- Spectral data package (NMR, MS, IR)\n- Stability monitoring data\n\nResearch Community Recognition:\nADB-FUBINACA has been cited in over 200 peer-reviewed scientific publications spanning pharmacology, toxicology, forensic science, and medicinal chemistry. Its well-characterized pharmacological profile makes it an ideal training compound for new researchers entering the cannabinoid field.\n\nStorage Recommendations:\nFor optimal stability and longevity:\n• Store in original sealed container\n• Maintain temperature between 2-8°C\n• Protect from moisture and humidity\n• Avoid exposure to direct sunlight or UV radiation\n• Use inert atmosphere (argon or nitrogen) for long-term storage\n\nProfessional Support Services:\nWe provide comprehensive technical support including consultation on experimental design, analytical method development, and regulatory compliance. Our scientific team includes experts in cannabinoid pharmacology, analytical chemistry, and research methodology.\n\nInstitutional Pricing and Availability:\nDiscounted pricing structures available for academic institutions, government research laboratories, and qualified commercial research organizations. Custom synthesis services available for analog compounds and isotopically labeled versions.\n\nEthical Research Use:\nThis compound is supplied exclusively for legitimate scientific research purposes. We maintain strict compliance with all applicable controlled substance regulations and require end-user certification for all purchases.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287405/NitazeneChemicals/products/fmnxcewoycmddbqwax0h.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287407/NitazeneChemicals/products/umylw4sr4tfnmxbbdlyd.jpg"
+    ],
+    "name": "ADB-FUBINACA",
+    "numReviews": 34,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1445583-51-6"
+  },
+  {
+    "_id": "6ac39adbc2511b7574c7fd66",
+    "slug": "amb-fubinaca",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 40,
+    "createdAt": "2026-10-05T12:40:57.317Z",
+    "description": "AMB-FUBINACA represents a significant advancement in synthetic cannabinoid chemistry, offering researchers a compound with distinct pharmacological properties that have proven invaluable for understanding cannabinoid receptor dynamics. This carefully engineered molecule combines structural elements that optimize receptor interaction while providing a well-defined research tool for scientific investigation.\n\nThe AMB designation indicates the presence of a methyl group on the amide nitrogen, a subtle structural modification that significantly alters the compound's pharmacokinetic and pharmacodynamic properties compared to related analogs. This makes AMB-FUBINACA particularly valuable for structure-activity relationship studies and mechanistic investigations of cannabinoid receptor function.\n\nComprehensive Chemical and Physical Characteristics:\n\nMolecular Architecture:\n• IUPAC Name: Methyl N-(1-amino-3,3-dimethyl-1-oxobutan-2-yl)-1-(4-fluorobenzyl)-1H-indazole-3-carboxamide\n• Chemical Formula: C26H28FN5O3\n• Molecular Mass: 477.54 g/mol\n• Stereochemistry: Racemic mixture (enantiomers available upon request)\n• Purity Specification: ≥99.4% (HPLC-UV at 254nm)\n• Physical State: Free-flowing microcrystalline powder\n• Bulk Density: 0.45-0.55 g/cm³\n• Hygroscopicity: Low (suitable for standard laboratory conditions)\n\nAdvanced Research Applications:\nAMB-FUBINACA serves as a cornerstone compound in multiple research disciplines:\n\nPharmacological Investigation:\n• Detailed CB1 receptor binding affinity quantification\n• Functional selectivity profiling across cannabinoid receptor subtypes\n• Allosteric modulation studies\n• Receptor internalization and trafficking research\n\nAnalytical Chemistry:\n• High-performance liquid chromatography method development\n• Mass spectrometry fragmentation pattern studies\n• Retention index standardization for forensic databases\n• Cross-reactivity assessment in immunoassay systems\n\nNeuroscience Research:\n• Synaptic transmission modulation studies\n• Neurotransmitter release investigations\n• Neuroprotective mechanism exploration\n• Neuroinflammatory response research\n\nMedicinal Chemistry Development:\n• Lead compound optimization programs\n• Bioisosteric replacement studies\n• Prodrug and soft-drug design projects\n• Targeted delivery system development\n\nManufacturing Excellence:\nOur synthesis protocol employs advanced organic chemistry methodologies including:\n- Regioselective indazole alkylation under controlled conditions\n- High-yielding amide coupling using modern activating reagents\n- Multi-stage purification via flash chromatography and recrystallization\n- Final polishing through preparative HPLC for maximum purity\n\nAnalytical Verification Suite:\nEach batch is subjected to comprehensive characterization:\n\nChromatographic Analysis:\n• Reversed-phase HPLC with diode array detection\n• Chiral HPLC for enantiomeric purity assessment (when applicable)\n• Gas chromatography-mass spectrometry for volatile impurity screening\n• Ion chromatography for counterion quantification\n\nSpectroscopic Characterization:\n• High-field NMR (400 MHz and above) for complete structural assignment\n• High-resolution mass spectrometry for exact mass determination\n• Infrared spectroscopy for functional group confirmation\n• UV-Vis spectroscopy for chromophore characterization\n\nPhysical Property Determination:\n• Differential scanning calorimetry for thermal behavior\n• Dynamic vapor sorption for moisture interaction\n• Particle size distribution analysis\n• Scanning electron microscopy for morphology assessment\n\nDocumentation and Compliance:\nWe provide extensive documentation to support your research:\n\n• Detailed Certificate of Analysis with all analytical data\n• Complete Material Safety Data Sheet (MSDS/SDS)\n• Stability testing protocols and results\n• Regulatory compliance declarations\n• Chain of custody documentation available\n• Custom analytical reports upon request\n\nHandling and Safety Protocols:\nAMB-FUBINACA requires appropriate laboratory handling procedures:\n\nPersonal Protective Equipment:\n• Nitrile or neoprene gloves (double-gloving recommended)\n• Safety goggles or face shield\n• Laboratory coat made of appropriate resistant material\n• Closed-toe shoes with chemical-resistant soles\n\nEngineering Controls:\n• Fume hood usage mandatory for weighing and manipulation\n• HEPA filtration for powder handling areas\n• Emergency eyewash and safety shower accessibility\n• Spill containment materials readily available\n\nStorage Requirements:\n• Original container tightly sealed when not in use\n• Desiccant inclusion for moisture control\n• Temperature-controlled environment (refrigeration preferred)\n• Separate storage from incompatible materials\n• Security measures appropriate for research chemicals\n\nResearch Collaboration Support:\nOur organization actively supports the research community through:\n• Publication-quality spectral data sharing\n• Collaborative method development programs\n• Reference material exchange initiatives\n• Conference presentation and poster support\n• Graduate student research sponsorship opportunities\n\nLogistics and Customer Service:\n• Worldwide shipping with temperature control options\n• Express delivery available for urgent requirements\n• Discreet, professional packaging for all shipments\n• Order tracking and proactive delivery notifications\n• Dedicated customer service representatives\n• Technical hotline for product inquiries\n\nResearch Use Only Certification:\nAll purchasers must provide documentation confirming legitimate research use. We reserve the right to verify institutional affiliation and research credentials. This compound is not approved for human consumption, veterinary use, or any application outside of bona fide scientific research.\n\nFor questions regarding research applications, analytical specifications, or bulk procurement, our scientific support team is available Monday through Friday during business hours.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287506/NitazeneChemicals/products/bvf0wokldn0jxobvgmcd.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287507/NitazeneChemicals/products/berf24lrp6hlgsvqmsde.jpg"
+    ],
+    "name": "AMB-FUBINACA",
+    "numReviews": 300,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1715016-77-5"
+  },
+  {
+    "_id": "6ac39adac2511b7574c7fd65",
+    "slug": "mdmb-4en-pinaca",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 55,
+    "createdAt": "2026-10-05T12:40:56.896Z",
+    "description": "MDMB-4en-PINACA represents an innovative addition to the synthetic cannabinoid research landscape, featuring a distinctive unsaturated side chain that imparts unique pharmacological characteristics. The \"4en\" designation refers to the presence of an ene (alkene) functionality at the 4-position of the terminal carbon chain, creating subtle but significant alterations in receptor binding dynamics and metabolic pathways compared to saturated analogs.\n\nThis compound has rapidly gained recognition in the research community as an essential tool for investigating the nuanced relationships between molecular structure and biological activity within the cannabinoid receptor system. The strategic placement of the double bond creates conformational constraints that influence the molecule's interaction with the lipophilic binding pockets of CB1 and CB2 receptors.\n\nDetailed Molecular Profile:\n\nStructural Chemistry:\n• Complete IUPAC Name: Methyl (2S)-2-(1-(4-en-1-yl)-1H-indazole-3-carboxamido)-3,3-dimethylbutanoate\n• Alternative Designation: MDMB-PINACA-4en\n• Chemical Class: Unsaturated synthetic cannabinoid ester\n• Molecular Formula: C22H30N4O3\n• Exact Molecular Weight: 398.51 g/mol\n• Structural Features: Indazole core, unsaturated pentyl chain, methyl ester, dimethylbutanamide\n\nPhysical Properties:\n• Appearance: Fine white to pale yellow crystalline solid\n• Crystalline Form: Polymorph I (orthorhombic system)\n• Melting Range: 142-146°C\n• Optical Activity: Single enantiomer (S-configuration at stereocenter)\n• Specific Rotation: [α]D = -12.5° (c=1.0, CHCl3)\n• Solubility Profile:\n  - DMSO: >50 mg/mL\n  - Ethanol: 25-30 mg/mL\n  - Methanol: 30-35 mg/mL\n  - Acetonitrile: 20-25 mg/mL\n  - Water: <0.1 mg/mL (requires co-solvent)\n\nPurity and Quality Specifications:\n• Assay (HPLC): ≥99.6%\n• Related Substances: <0.2% total impurities\n• Residual Solvents: Meets ICH Q3C guidelines\n• Heavy Metals: <10 ppm (USP standard)\n• Water Content: <0.5% (Karl Fischer)\n• Residue on Ignition: <0.1%\n\nCutting-Edge Research Applications:\n\nReceptor Pharmacology Studies:\nMDMB-4en-PINACA enables sophisticated investigations of:\n• Stereoselective receptor binding and activation\n• Conformational requirements for CB1/CB2 engagement\n• Kinetic binding parameters (Kon/Koff rates)\n• Receptor dimerization and heteromer formation\n• Functional selectivity and biased signaling\n\nMetabolism and Disposition Research:\nThe unsaturated side chain provides unique metabolic handling:\n• Oxidative metabolism at the alkene position\n• Glucuronidation pathway characterization\n• Cytochrome P450 enzyme interaction studies\n• Species comparison in metabolic profiling\n• In vitro-in vivo extrapolation (IVIVE) modeling\n\nForensic and Analytical Science:\n• Liquid chromatography retention time standardization\n• Mass spectrometry library development\n• Isomeric differentiation methods\n• Stability testing in biological matrices\n• Cross-reactivity evaluation in screening assays\n\nStructural Biology Contributions:\n• Computational docking studies and molecular modeling\n• Structure-activity relationship refinement\n• Receptor binding site mapping\n• Allosteric modulation investigations\n• Thermodynamic binding parameter determination\n\nSynthesis and Manufacturing Excellence:\nOur multi-step synthesis employs sophisticated techniques:\n\nStep 1: Indazole Core Functionalization\n• Regioselective N-alkylation with unsaturated alkyl halide\n• Temperature-controlled reaction (-10°C to ambient)\n• High regioselectivity (>95:5 N1:N2 ratio)\n\nStep 2: Carboxylic Acid Activation\n• EDC/HOBt coupling protocol optimization\n• Minimal racemization at chiral center\n• Quantitative conversion efficiency\n\nStep 3: Amide Bond Formation\n• Stereoselective coupling with (S)-tert-leucine methyl ester\n• Protection/deprotection sequence as needed\n• Stereochemical purity maintained throughout\n\nStep 4: Purification and Isolation\n• Flash chromatography on silica gel\n• Recrystallization from appropriate solvent system\n• Final polishing via preparative scale HPLC\n\nComprehensive Analytical Verification:\n\nChromatographic Characterization:\n• UHPLC with photodiode array detection (multiple wavelengths)\n• Chiral HPLC for enantiomeric excess confirmation\n• Two-dimensional LC for complex mixture analysis\n• Ion mobility spectrometry for isomer separation\n\nMass Spectrometry Analysis:\n• High-resolution accurate mass (HRAM) determination\n• Collision-induced dissociation (CID) fragmentation\n• Multiple reaction monitoring (MRM) method development\n• Isotope pattern analysis for formula confirmation\n\nNMR Spectroscopy:\n• 1H NMR (600 MHz) with complete assignment\n• 13C NMR with DEPT and multiplicity editing\n• 2D NMR (COSY, HSQC, HMBC) for connectivity\n• NOESY for spatial relationship determination\n• 19F NMR when fluorinated analogs studied comparatively\n\nOther Analytical Techniques:\n• X-ray crystallography for absolute configuration\n• Circular dichroism spectroscopy for chirality confirmation\n• Differential scanning calorimetry (DSC)\n• Thermogravimetric analysis (TGA)\n• Dynamic light scattering for aggregation assessment\n\nDocumentation Package:\nWe provide comprehensive supporting documentation:\n\n• Executive Summary Certificate of Analysis\n• Complete Spectral Data Compilation (PDF and raw data formats)\n• Stability Study Protocol and Results (ICH conditions)\n• Forced Degradation Study Summary\n• Method Transfer Documentation\n• Regulatory Starting Material Certificates\n• Manufacturing Batch Record (available upon request)\n\nSafe Handling and Storage Guidelines:\n\nImmediate Handling Precautions:\n• Use in certified chemical fume hood\n• Static electricity control measures\n• Anti-dust mask for powder manipulation\n• Immediate cleanup of any spills\n\nLong-term Storage:\n• -20°C storage for maximum stability (>2 years)\n• 2-8°C acceptable for routine access (6-12 months)\n• Argon or nitrogen headspace for sensitive applications\n• Amber containers for light protection\n• Humidity indicator cards recommended\n\nDisposal Considerations:\n• Treat as hazardous chemical waste\n• Follow institutional chemical hygiene plan\n• Incineration preferred disposal method\n• No release to municipal wastewater\n\nResearch Collaboration and Support:\nOur commitment to advancing cannabinoid science includes:\n• Complimentary consultation with PhD-level scientists\n• Custom synthesis of labeled analogs (deuterated, 13C, 15N)\n• Method development assistance for analytical procedures\n• Collaborative publication opportunities\n• Conference sponsorship and presentation support\n• Graduate student and postdoc mentoring programs\n\nCustomer Service Excellence:\n• 24/7 online order tracking and account management\n• Dedicated account managers for institutional customers\n• Technical support hotline with rapid response commitment\n• Satisfaction guarantee with full replacement policy\n• Flexible payment terms for qualified organizations\n• Discreet, professional packaging and documentation\n\nResearch Integrity Commitment:\nWe strictly enforce research-use-only policies and maintain compliance with all international chemical control conventions. End-user declarations and institutional verification required for all shipments. We actively cooperate with law enforcement and regulatory agencies to prevent diversion to illicit markets.\n\nFor detailed inquiries regarding MDMB-4en-PINACA research applications, custom requirements, or bulk procurement options, please contact our scientific support department.",
+    "featured": false,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1777379881/novachem/products/rbqvjezwqrtmtifyawgw.jpg"
+    ],
+    "name": "MDMB-4en-PINACA",
+    "numReviews": 300,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "2504100-70-1"
+  },
+  {
+    "_id": "6ac39adac2511b7574c7fd64",
+    "slug": "ab-fubinaca",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 48,
+    "createdAt": "2026-10-05T12:40:56.435Z",
+    "description": "AB-FUBINACA represents a milestone compound in synthetic cannabinoid research, combining structural elements that have made it one of the most thoroughly characterized and widely studied compounds in the cannabinoid pharmacology field. The integration of the aminocarbonyl (AB) linker with the fluorobenzyl indazole core creates a molecule with distinctive binding characteristics that continue to yield valuable insights into cannabinoid receptor function.\n\nThis compound serves as a foundational reference material for researchers investigating the complex interplay between synthetic cannabinoid structure and biological activity. Its well-established pharmacological profile makes it an ideal training compound for new researchers and a reliable benchmark for comparative studies across the cannabinoid class.\n\nExtensive Chemical Characterization:\n\nMolecular Identity and Structure:\n• Systematic IUPAC Name: N-(1-amino-3,3-dimethyl-1-oxobutan-2-yl)-1-(4-fluorobenzyl)-1H-indazole-3-carboxamide\n• Common Synonyms: AB-FUBINACA, FUB-ABINACA (archival)\n• CAS Registry Number: Provided with Certificate of Analysis\n• Molecular Formula: C25H26FN5O2\n• Exact Mass: 447.2060 g/mol (monoisotopic)\n• Average Mass: 447.51 g/mol\n• Structural Class: Benzyl-indazole carboxamide\n\nStereochemical Considerations:\n• Chiral Center: Single stereocenter at the tert-leucine-derived carbon\n• Supplied Form: Racemic mixture (R/S, 50:50)\n• Enantiomeric Purity: Each enantiomer ≥99.5% when separated\n• Stereochemical Stability: Stable under normal storage; no racemization observed\n• Enantiomer Availability: Individual enantiomers available as custom synthesis\n\nPhysical and Chemical Properties:\n• Appearance: Brilliant white crystalline solid\n• Crystal Habit: Prismatic crystals from slow evaporation\n• Melting Point: 174-178°C (capillary method)\n• Bulk Density: 0.38-0.48 g/cm³ (tap density)\n• Particle Size Distribution: D50 = 15-25 μm\n• Hygroscopicity: Non-hygroscopic (<0.1% weight gain at 75% RH)\n• pH Stability: Stable pH 2-10; degradation below pH 1 or above pH 12\n\nSolubility Characteristics:\n• Dimethyl Sulfoxide (DMSO): Freely soluble (>100 mg/mL)\n• N,N-Dimethylformamide (DMF): Freely soluble (>100 mg/mL)\n• Acetonitrile: Soluble (50-75 mg/mL)\n• Ethanol: Moderately soluble (15-25 mg/mL)\n• Methanol: Moderately soluble (20-30 mg/mL)\n• Ethyl Acetate: Slightly soluble (5-10 mg/mL)\n• Water: Practically insoluble (<0.05 mg/mL)\n\nAdvanced Purity Specifications:\n• Chromatographic Purity: ≥99.8% area percent (HPLC-UV, 220 nm)\n• Peak Purity Index: >0.999 (spectral homogeneity)\n• Total Related Substances: <0.2%\n• Individual Impurity Limit: <0.1% each\n• Residual Solvents: Conform to ICH Q3C(R8) limits\n• Heavy Metals: <5 ppm each (Pb, As, Cd, Hg)\n• Residue on Ignition: <0.05%\n• Loss on Drying: <0.3% (105°C, 3 hours)\n\nDiverse Research Applications:\n\nFundamental Pharmacology:\nAB-FUBINACA enables investigation of:\n• Reversible vs. irreversible receptor binding kinetics\n• Competitive and non-competitive antagonism studies\n• Receptor reserve and spare receptor concepts\n• Desensitization and tolerance mechanism studies\n• Cross-tolerance with phytocannabinoids and other synthetics\n\nAnalytical and Forensic Chemistry:\n• Gold standard retention time marker for LC-MS methods\n• Fragmentation pattern reference for library searching\n• Certified reference material for quantitative calibration\n• Proficiency testing material for laboratory accreditation\n• Cross-validation standard between analytical platforms\n\nMedicinal Chemistry and Drug Design:\n• Scaffold for bioisosteric replacement studies\n• Template for prodrug and soft-drug development\n• Reference for in silico prediction model validation\n• Comparator for novel compound pharmacological screening\n• Starting point for hybrid molecule construction\n\nToxicological and Safety Research:\n• In vitro cytotoxicity assay standardization\n• Metabolite identification and toxicological relevance\n• Interaction studies with CYP450 enzyme systems\n• Cardiovascular safety pharmacology investigations\n• Neurotoxicity screening protocols\n\nNeuroscience and Behavioral Research:\n• Mechanistic studies of cannabinoid receptor signaling\n• Synaptic plasticity and memory research\n• Pain pathway modulation investigations\n• Reward and addiction neurobiology studies\n• Anxiety and stress response research\n\nManufacturing and Quality Assurance:\n\nSynthesis Protocol Highlights:\nOur validated manufacturing process includes:\n\n1. High-Purity Starting Materials:\n   - Pharmaceutical-grade 1H-indazole-3-carboxylic acid\n   - 4-Fluorobenzyl bromide of >99.5% purity\n   - HPLC-purified aminocarbonyl linker\n   - Chiral building blocks with defined stereochemistry\n\n2. Controlled Reaction Conditions:\n   - N-alkylation under anhydrous conditions with inert atmosphere\n   - Temperature monitoring and control (±0.5°C)\n   - Real-time reaction monitoring by in-line IR or HPLC\n   - Optimized workup procedures for impurity removal\n\n3. Purification Excellence:\n   - Multi-stage flash chromatography on high-performance silica\n   - Controlled crystallization for polymorph selection\n   - Final purification by preparative HPLC when required\n   - Drying under high vacuum with gentle heating\n\n4. Comprehensive Testing:\n   - In-process control testing at critical stages\n   - Release testing against 20+ specifications\n   - Stability indicating method validation\n   - Annual product quality review and trending\n\nAnalytical Method Portfolio:\n\nChromatographic Methods:\n• Validated HPLC assay method (ICH Q2(R1) compliant)\n• Impurity profiling by UHPLC-HRMS\n• Chiral separation method for enantiomer analysis\n• Gas chromatography for residual solvent screening\n• Size exclusion chromatography for aggregate detection\n\nSpectroscopic Methods:\n• Quantitative NMR (qNMR) for absolute purity determination\n• Solid-state NMR for polymorph characterization\n• FTIR with diamond ATR for rapid identity testing\n• Raman spectroscopy for non-destructive analysis\n• UV-Vis with chemometric analysis for assay\n\nPhysical Testing:\n• X-ray powder diffraction (XRPD) for crystallinity\n• Differential scanning calorimetry (DSC) for thermal properties\n• Thermogravimetric analysis (TGA) for volatile content\n• Dynamic vapor sorption (DVS) for moisture interaction\n• Laser diffraction for particle size analysis\n\nDocumentation and Regulatory Support:\n\nCertificate of Analysis Includes:\n• Batch number and manufacturing date\n• Expiration date and retest date\n• Complete analytical results with specifications\n• Representative chromatograms and spectra\n• Reference standard traceability information\n• Approved by quality assurance signature\n\nAdditional Documentation Available:\n• Material Safety Data Sheet (16-section GHS format)\n• Stability data summary (accelerated and long-term)\n• Forced degradation study report\n• Cleaning validation data (for equipment)\n• Regulatory starting material dossiers\n• Method validation documentation\n• Certificate of Origin (if required)\n\nHandling, Storage, and Safety:\n\nRecommended Personal Protective Equipment:\n• Respiratory: N95 or P100 respirator for powder handling\n• Eye/Face: Chemical safety goggles with side shields\n• Skin: Double-gloving with nitrile (inner) and neoprene (outer)\n• Body: Flame-resistant laboratory coat\n• Feet: Closed-toe shoes with slip-resistant soles\n\nEngineering Controls:\n• Class II biological safety cabinet or chemical fume hood\n• HEPA-filtered exhaust for powder operations\n• Secondary containment for spill prevention\n• Emergency shower and eyewash within 10 seconds travel\n• Fire suppression systems appropriate for chemical fires\n\nStorage Requirements:\n• Primary Container: Amber glass with PTFE-lined cap\n• Secondary Containment: Sealed plastic container\n• Storage Conditions: 2-8°C, protected from light\n• Humidity Control: Desiccant packet included\n• Inert Atmosphere: Nitrogen blanket for long-term storage\n• Inventory Management: First-in, first-out (FIFO) rotation\n\nDisposal and Environmental Considerations:\n• RCRA hazardous waste classification (consult local regulations)\n• Incineration in permitted hazardous waste facility\n• No discharge to sanitary sewer or storm drains\n• Spill cleanup using absorbent materials and HEPA vacuum\n• Deactivation procedures available upon request\n\nCustomer Support and Services:\n\nTechnical Assistance:\n• Direct phone and email access to PhD-level chemists\n• Method development and troubleshooting support\n• Literature search and reference provision\n• Data interpretation and spectral analysis help\n• Custom synthesis consultation\n\nLogistics and Ordering:\n• Same-day shipping for in-stock items (orders before 2 PM)\n• Temperature-controlled shipping with data loggers\n• International shipping with customs documentation\n• Discreet, unmarked packaging for sensitive applications\n• Order tracking and proactive delay notification\n\nInstitutional Services:\n• Blanket purchase order arrangements\n• Volume pricing tiers and contract pricing\n• Scheduled delivery programs for recurring needs\n• Vendor-managed inventory options\n• Technical training sessions for research groups\n\nResearch Ethics and Compliance:\nWe maintain strict adherence to international chemical control regulations including:\n• Single Convention on Narcotic Drugs (1961)\n• Convention on Psychotropic Substances (1971)\n• UN Convention Against Illicit Traffic (1988)\n• Controlled Substances Analogue Enforcement Act (USA)\n• EU Council Decision 2005/387/JHA\n• Similar legislation in customer jurisdictions\n\nEnd-user certification and institutional verification required. We reserve the right to refuse orders that do not meet our compliance standards. Active cooperation with regulatory and law enforcement agencies to prevent diversion.\n\nFor comprehensive information on AB-FUBINACA research applications, analytical data, or to discuss your specific research requirements, our scientific support team is available during business hours.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791288410/NitazeneChemicals/products/urqtckpxgxmepkw3q6cd.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791288411/NitazeneChemicals/products/g2a8gedmezblaszngnxl.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791288412/NitazeneChemicals/products/xshkt4yhlqnwttvy81zd.jpg"
+    ],
+    "name": "AB-FUBINACA",
+    "numReviews": 200,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1185282-01-2"
+  },
+  {
+    "_id": "6ac39adac2511b7574c7fd63",
+    "slug": "mdmb-chminaca",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 42,
+    "createdAt": "2026-10-05T12:40:55.980Z",
+    "description": "MDMB-CHMINACA stands as a distinctive member of the synthetic cannabinoid family, featuring the cyclohexylmethyl (CHM) substitution that significantly differentiates its pharmacological profile from straight-chain alkyl analogs. The cyclohexane ring introduces conformational rigidity and enhanced lipophilicity that profoundly affects receptor binding dynamics and metabolic stability.\n\nThis compound has emerged as a critical research tool for scientists investigating the three-dimensional steric and electronic requirements for optimal cannabinoid receptor engagement. The bulky, lipophilic cyclohexylmethyl group creates unique spatial interactions within the hydrophobic binding pocket of CB1 receptors, offering insights that simpler alkyl chains cannot provide.\n\nDetailed Chemical and Structural Profile:\n\nMolecular Composition and Identity:\n• IUPAC Name: Methyl (2S)-2-((1-(cyclohexylmethyl)-1H-indazole-3-carbonyl)amino)-3,3-dimethylbutanoate\n• Alternative Designations: MDMB-CHM-INACA, CHM-MDMB-INACA\n• Molecular Formula: C26H36N4O3\n• Exact Molecular Mass: 452.2791 g/mol (monoisotopic)\n• Average Molecular Weight: 452.60 g/mol\n• Structural Classification: Cycloalkyl-substituted indazole carboxamide\n\nStereochemical Attributes:\n• Stereocenter: Single chiral center at the α-carbon of the amino acid moiety\n• Configuration: Supplied as racemic mixture (R:S = 50:50)\n• Optical Rotation: [α]D = 0° (racemic)\n• Enantiomeric Excess: N/A (racemic), individual enantiomers >99% ee when prepared\n• Stereochemical Stability: No epimerization detected under standard conditions\n• Chiral Chromatography: Baseline separation achievable on Chiralpak AD-H\n\nPhysical Characteristics:\n• Macroscopic Appearance: White to off-white free-flowing powder\n• Crystal Form: Amorphous to microcrystalline (depending on preparation)\n• Melting Behavior: Amorphous glass transition ~85°C; crystalline forms 156-162°C\n• Bulk Density: 0.32-0.42 g/cm³ (highly dependent on particle size)\n• True Density: 1.18-1.22 g/cm³ (helium pycnometry)\n• Particle Morphology: Irregular to spherical agglomerates\n• Surface Area: 1.5-3.5 m²/g (BET nitrogen adsorption)\n• Flow Properties: Fair to good flow (Carr index 15-25)\n\nSolubility Profile:\n• Dimethyl Sulfoxide (DMSO): Highly soluble >75 mg/mL\n• N,N-Dimethylformamide (DMF): Highly soluble >75 mg/mL\n• Tetrahydrofuran (THF): Soluble 40-60 mg/mL\n• Acetonitrile: Soluble 35-50 mg/mL\n• Ethanol: Moderately soluble 10-18 mg/mL\n• Methanol: Moderately soluble 12-20 mg/mL\n• Isopropanol: Slightly soluble 3-8 mg/mL\n• Water: Practically insoluble <0.01 mg/mL\n• Buffered Solutions: Requires co-solvent (DMSO or ethanol)\n\nPurity and Quality Standards:\n• HPLC Purity (Area %): ≥99.5% at 254 nm\n• Peak Purity Index: >0.995 (photo diode array confirmation)\n• Total Impurities: <0.5% by HPLC\n• Individual Unknown Impurity: <0.1%\n• Known Related Substances: <0.2% each\n• Residual Solvents: Meets ICH Q3C(R7) Option 1 limits\n• Water Content: <0.5% w/w (Karl Fischer coulometric)\n• Sulfated Ash: <0.1% w/w (USP <281>)\n• Heavy Metals: <10 ppm total (USP <231>)\n\nAdvanced Research Applications:\n\nStructure-Activity Relationship (SAR) Investigations:\nMDMB-CHMINACA enables critical SAR studies focusing on:\n• Cycloalkyl vs. linear alkyl chain comparison\n• Ring size effects (cyclopentyl, cyclohexyl, cycloheptyl)\n• Substitution pattern influences on binding affinity\n• Stereochemical effects of ring conformation\n• Metabolic stability enhancement through cyclization\n\nReceptor Pharmacology Research:\n• Comparative CB1 vs. CB2 selectivity profiling\n• Binding kinetics: association and dissociation rates\n• Functional assays: cAMP, MAPK, calcium flux\n• Allosteric modulation potential\n• Receptor trafficking and internalization studies\n\nMetabolism and Disposition Studies:\n• Phase I metabolism: CYP450-mediated oxidation at cyclohexyl ring\n• Ring hydroxylation vs. side chain oxidation pathways\n• Phase II conjugation: glucuronidation and sulfation\n• Species differences in metabolic handling\n• In vitro-in vivo correlation (IVIVC) development\n\nForensic and Analytical Chemistry:\n• Unique mass spectrometry fragmentation signature\n• Retention time marker for cycloalkyl cannabinoids\n• Isomeric differentiation from straight-chain analogs\n• Post-mortem stability investigations\n• Cross-reactivity assessment in commercial immunoassays\n\nComputational and Structural Biology:\n• Molecular docking into CB1 receptor crystal structures\n• Molecular dynamics simulations of receptor-ligand complexes\n• Free energy perturbation calculations for binding affinity prediction\n• Pharmacophore model development and validation\n• Quantitative structure-activity relationship (QSAR) modeling\n\nNeuropharmacology and Systems Research:\n• Circuit-level effects on endocannabinoid signaling\n• Interactions with other neuromodulator systems\n• Developmental neurobiology studies\n• Neuroinflammation and neuroprotection research\n• Epilepsy and seizure model investigations\n\nManufacturing Excellence and Quality Control:\n\nSynthesis Strategy Overview:\nOur multi-step convergent synthesis features:\n\nStep 1: Advanced Intermediate Preparation\n• 1H-indazole-3-carboxylic acid activation and protection\n• High-yielding N-alkylation with (bromomethyl)cyclohexane\n• Regioselectivity >95% favoring N1 substitution\n• Chromatographic purification of regioisomers\n\nStep 2: Chiral Building Block Integration\n• Commercial (S)-tert-leucine methyl ester or custom synthesis\n• Boc or Cbz protection for orthogonal deprotection\n• Optical purity verification by chiral HPLC (>99% ee)\n\nStep 3: Amide Bond Formation\n• Mixed anhydride or active ester coupling methodology\n• Minimal racemization (<1%) at the stereocenter\n• High coupling efficiency (>90% isolated yield)\n• Inert atmosphere maintenance throughout\n\nStep 4: Global Deprotection and Isolation\n• Mild acid or hydrogenolysis for protecting group removal\n• pH-controlled aqueous workup\n• Organic extraction and solvent exchange\n• Controlled crystallization or spray drying\n\nComprehensive Analytical Characterization:\n\nChromatographic Analysis Suite:\n• HPLC with UV, CAD (charged aerosol), and MS detection\n• Two-dimensional LC×LC for complex mixture analysis\n• Supercritical fluid chromatography (SFC) for chiral separations\n• Hydrophilic interaction chromatography (HILIC) for polar impurities\n• Ion-exchange chromatography for ionic contaminants\n\nMass Spectrometry Characterization:\n• High-resolution accurate mass (HRAM) on Q-TOF or Orbitrap\n• Fragmentation pathway elucidation by MS/MS and MS³\n• Ion mobility spectrometry for gas-phase conformation\n• Hydrogen/deuterium exchange mass spectrometry (HDX-MS)\n• Native MS for non-covalent complex analysis\n\nNMR Spectroscopy:\n• 600 MHz or higher for 1H and 13C NMR\n• Complete assignment via COSY, TOCSY, HSQC, HMBC\n• NOESY/ROESY for spatial proximity determination\n• DOSY for diffusion coefficient measurement\n• Variable temperature NMR for conformational dynamics\n\nSolid-State and Materials Characterization:\n• X-ray powder diffraction (XRPD) for crystalline form\n• Polarized light microscopy for crystal habit\n• Differential scanning calorimetry (DSC) for thermal events\n• Thermogravimetric analysis (TGA) for volatile content\n• Dynamic vapor sorption (DVS) for moisture uptake\n• Inverse gas chromatography (IGC) for surface energy\n\nDocumentation and Scientific Support:\n\nCertificate of Analysis Components:\n• Executive summary with pass/fail status\n• Detailed analytical data tables with specifications\n• Representative chromatograms and spectra\n• Statistical analysis of replicate testing\n• Traceability to certified reference standards\n• Quality assurance approval signature and date\n\nAdditional Technical Documentation:\n• Material Safety Data Sheet (GHS-compliant, 16 sections)\n• Stability study protocol and data summary\n• Forced degradation study results (acid, base, peroxide, light, heat)\n• Cleaning validation data for manufacturing equipment\n• Method validation packages (accuracy, precision, LOD/LOQ, linearity)\n• Regulatory starting material certificates and audits\n\nSafety, Handling, and Storage Protocols:\n\nPersonal Protective Equipment Requirements:\n• Respiratory protection: NIOSH-approved N100 or P100 particulate respirator\n• Eye protection: Chemical splash goggles meeting ANSI Z87.1\n• Hand protection: Heavy-duty nitrile gloves (15+ mil thickness), doubled\n• Body protection: Disposable chemical-resistant lab coat or coveralls\n• Foot protection: Chemical-resistant safety shoes or boots\n\nEngineering Controls and Facility Requirements:\n• Chemical fume hood with face velocity 80-120 linear feet per minute\n• HEPA filtration on exhaust for powder containment\n• Secondary containment (trays or curbs) for spill prevention\n• Emergency safety shower and eye wash station within 10 seconds\n• Fire extinguisher rated for chemical fires (ABC or BC type)\n• Spill kits with neutralizing agents and absorbent materials\n\nStorage and Inventory Management:\n• Primary: Amber glass vials with PTFE-lined caps\n• Secondary: Sealed mylar bags or plastic containers\n• Temperature: 2-8°C for routine storage, -20°C for long-term\n• Humidity: <60% relative humidity, silica gel indicator\n• Light: Protected from all light sources (amber containers, cabinets)\n• Atmosphere: Nitrogen or argon headspace for sensitive applications\n• Organization: Alphabetical or CAS number system, segregated storage\n• Inventory: First-in-first-out (FIFO), regular reconciliation\n\nDisposal and Environmental Stewardship:\n• Characterize as hazardous chemical waste per EPA RCRA\n• Incineration at permitted TSDF (Treatment, Storage, Disposal Facility)\n• No discharge to sanitary sewer, stormwater, or regular trash\n• Manifest and track through cradle-to-grave documentation\n• Spill response: evacuate, ventilate, absorb, containerize, dispose\n• Deactivation chemistry available for high-concentration waste\n\nCustomer Services and Professional Support:\n\nScientific Consultation Services:\n• Direct access to PhD organic and medicinal chemists\n• Pharmacology consultation with receptor biology experts\n• Analytical method development and troubleshooting\n• Custom synthesis project evaluation and quotation\n• Literature review and research trend analysis\n• Data interpretation and spectral analysis assistance\n\nOrdering and Logistics Excellence:\n• Online ordering portal with 24/7 access\n• Real-time inventory visibility\n• Same-day processing for orders received before 2:00 PM\n• Temperature-monitored shipping with data logger documentation\n• International shipping expertise with customs documentation\n• Discreet, professional, unmarked packaging as standard\n• Comprehensive shipping insurance options\n\nInstitutional and Commercial Programs:\n• Net payment terms for qualified organizations (Net 30, Net 45)\n• Volume discount tiers: 5%, 10%, 15%, 20% at increasing quantities\n• Annual contract pricing with price protection clauses\n• Scheduled delivery programs for recurring requirements\n• Vendor-managed inventory (VMI) arrangements\n• Blanket purchase order acceptance\n• Dedicated account management for major customers\n\nTraining and Educational Resources:\n• Technical seminars on cannabinoid chemistry and pharmacology\n• Webinar series on analytical techniques and method development\n• White papers on regulatory compliance and research ethics\n• Video tutorials on product handling and safety procedures\n• Conference sponsorship and exhibition participation\n• Graduate student and postdoctoral fellowship programs\n\nResearch Ethics and Regulatory Compliance:\nWe maintain unwavering commitment to legal and ethical research use:\n• Verification of institutional affiliation and research purpose\n• Compliance with all applicable international chemical conventions\n• Active monitoring for suspicious ordering patterns\n• Cooperation with law enforcement on diversion investigations\n• Regular training on regulatory updates and compliance requirements\n• End-user declaration and material transfer agreement execution\n\nOur products are supplied exclusively for legitimate scientific research. We do not condone, support, or facilitate any misuse or illicit application of these compounds. Violation of research-use-only agreements results in permanent account termination and potential legal action.\n\nFor detailed inquiries regarding MDMB-CHMINACA research applications, custom synthesis requirements, or to discuss establishing an institutional purchasing agreement, please contact our scientific support team or your designated account manager.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287818/NitazeneChemicals/products/ypjtltiioywmlcnia1is.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287819/NitazeneChemicals/products/zmbfkp0nhqarnm52fin7.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287820/NitazeneChemicals/products/g5pp0gjds9jncpzeywtq.jpg"
+    ],
+    "name": "MDMB-CHMINACA",
+    "numReviews": 300,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1185888-32-7"
+  },
+  {
+    "_id": "6ac39ad9c2511b7574c7fd62",
+    "slug": "mdmb-fubinaca",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 38,
+    "createdAt": "2026-10-05T12:40:55.525Z",
+    "description": "MDMB-FUBINACA represents the pinnacle of precision synthetic cannabinoid engineering, combining the methyl ester functionality (MDMB) with the fluorobenzyl indazole core in a molecular architecture that has set the standard for high-affinity CB1 receptor ligands. This compound exemplifies how subtle structural modifications—the inclusion of a methyl ester on the tert-leucine-derived side chain and a fluorine atom on the benzyl ring—can dramatically enhance pharmacological potency and receptor selectivity.\n\nThe exceptional binding affinity of MDMB-FUBINACA at cannabinoid receptors has made it an indispensable reference compound for calibrating in vitro assays and for understanding the upper limits of ligand-receptor interaction strength within the indazole carboxamide class. Its well-characterized pharmacological properties provide a benchmark against which novel compounds are routinely compared.\n\nComprehensive Molecular and Physicochemical Profile:\n\nChemical Identity and Nomenclature:\n• IUPAC Name: Methyl (2S)-2-((1-(4-fluorobenzyl)-1H-indazole-3-carbonyl)amino)-3,3-dimethylbutanoate\n• Commonly Known As: MDMB-FUBINACA, MDMB-FUB, FUB-MDMB\n• Molecular Formula: C26H28FN5O3\n• Exact Monoisotopic Mass: 477.2176 g/mol\n• Average Molecular Weight: 477.54 g/mol\n• Structural Features: Fluorinated benzyl ring, methyl ester, dimethylbutanamide, indazole heterocycle\n\nStereochemical Considerations:\n• Number of Stereocenters: 1 (at the α-carbon of the amino acid-derived portion)\n• Stereochemical Configuration: Supplied as racemic mixture (1:1 R:S)\n• Individual Enantiomers: Available through custom chiral synthesis (>99.5% ee)\n• Stereochemical Stability: Stable for >24 months under recommended storage\n• Optical Rotation: [α]D = 0° (racemate), -18.5° (S-enantiomer, c=1, CHCl3)\n• Racemization Potential: Minimal under neutral to mildly acidic conditions\n\nPhysical Properties and Characteristics:\n• Appearance: Brilliant white, crystalline to microcrystalline powder\n• Crystal Habit: Prismatic needles or plate-like morphology\n• Melting Point: 148-153°C (sealed capillary, heating rate 2°C/min)\n• Glass Transition (amorphous): ~65°C (by modulated DSC)\n• True Density: 1.24-1.28 g/cm³ (X-ray crystallography or helium pycnometry)\n• Bulk/Tap Density: 0.35-0.50 g/cm³ (dependent on micronization)\n• Specific Surface Area: 0.8-2.5 m²/g (BET nitrogen adsorption method)\n• Particle Size Distribution (D50): 10-50 μm (standard), 1-5 μm (micronized)\n• Hygroscopicity: Slightly hygroscopic; 0.3-0.8% weight gain at 75% RH, 25°C\n• Flow Properties: Moderate flow (Hausner ratio 1.15-1.30)\n\nComprehensive Solubility Data:\n• Water: 0.008-0.015 mg/mL (pH 7.4, 25°C) - practically insoluble\n• 0.1N HCl: 0.02-0.04 mg/mL - very slightly soluble\n• pH 7.4 PBS: 0.01-0.02 mg/mL with sonication - practically insoluble\n• Methanol: 25-35 mg/mL - soluble\n• Ethanol (absolute): 18-25 mg/mL - moderately soluble\n• Ethanol (95%): 15-22 mg/mL - moderately soluble\n• Isopropanol: 5-10 mg/mL - slightly soluble\n• Acetonitrile: 40-55 mg/mL - soluble\n• Acetone: 15-25 mg/mL - moderately soluble\n• Ethyl Acetate: 8-15 mg/mL - slightly soluble\n• Dichloromethane: 60-80 mg/mL - freely soluble\n• Chloroform: 70-90 mg/mL - freely soluble\n• Tetrahydrofuran (THF): 50-70 mg/mL - freely soluble\n• Dimethyl Sulfoxide (DMSO): >100 mg/mL - freely soluble\n• N,N-Dimethylformamide (DMF): >100 mg/mL - freely soluble\n• Dimethyl Acetamide (DMAc): >100 mg/mL - freely soluble\n• 1-Methyl-2-pyrrolidinone (NMP): >100 mg/mL - freely soluble\n• Propylene Glycol: 2-5 mg/mL - very slightly soluble\n• Polyethylene Glycol 400: 10-18 mg/mL - slightly soluble\n• Castor Oil: 3-8 mg/mL - very slightly soluble\n• Suggested Stock Solution: 10-50 mM in DMSO, aliquot and store at -20°C\n\nPurity Specifications and Quality Control:\n• HPLC Purity (UV, 220 nm): ≥99.7%\n• HPLC Purity (UV, 254 nm): ≥99.5%\n• Peak Purity (PDA): >0.998 (homogeneity index)\n• Related Substances (Total): <0.5%\n• Any Single Unknown Impurity: <0.10%\n• Known Related Substances: <0.20% each\n• Residual Solvents: Conform to ICH Q3C(R6) standards\n• Water Content (Karl Fischer): <0.5%\n• Sulfated Ash: <0.1%\n• Heavy Metals: <10 ppm total, <2 ppm each (As, Cd, Pb, Hg)\n\nCutting-Edge Research Applications:\n\nHigh-Resolution Pharmacological Studies:\nMDMB-FUBINACA serves as the premier tool for:\n• Radioligand displacement binding assays (Ki determination with sub-nM precision)\n• [³H]CP-55,940 competition binding for CB1 affinity quantification\n• [³H]WIN-55,212-2 displacement for CB2 affinity assessment\n• Functional GTPγS binding assays for agonist efficacy measurement\n• cAMP accumulation assays for adenylyl cyclase modulation studies\n• β-arrestin recruitment assays for biased signaling investigations\n• Receptor internalization and trafficking visualization\n• Single-cell calcium imaging for real-time signaling dynamics\n\nAdvanced Analytical Chemistry Applications:\n• LC-MS/MS MRM method development and validation\n• Isotope dilution mass spectrometry for absolute quantification\n• High-resolution mass spectrometry for exact mass confirmation\n• Ion mobility spectrometry for isomeric differentiation\n• NMR reference standard for chemical shift calibration\n• IR spectroscopy reference for carbonyl and fluorine stretches\n• UV spectroscopy for extinction coefficient determination\n• Chromatographic retention index standardization\n\nForensic and Clinical Toxicology:\n• Postmortem toxicology confirmation standard\n• Workplace drug testing cross-reactivity evaluation\n• Driving under the influence (DUI) analysis reference\n• Sports doping control method validation\n• Emergency department toxicology screening calibration\n• Pharmacokinetic study internal standard\n• Metabolite identification and characterization reference\n\nMedicinal Chemistry and Drug Discovery:\n• Scaffold for lead optimization programs\n• Template for fragment-based drug design\n• Comparator for high-throughput screening hits\n• Tool for in silico prediction model training and validation\n• Reference for lipophilicity and permeability optimization\n• Standard for CNS penetration assessment (BBB permeability)\n• Model compound for formulation development studies\n\nMetabolism and Pharmacokinetic Research:\n• CYP450 inhibition and induction screening\n• Human liver microsome metabolic stability standard\n• Recombinant CYP enzyme substrate specificity\n• UGT enzyme phenotyping reference substrate\n• Drug-drug interaction potential assessment\n• Plasma protein binding displacement studies\n• Whole blood stability and matrix effect evaluation\n\nComputational Chemistry and Molecular Modeling:\n• CB1 receptor crystal structure docking benchmark\n• Molecular dynamics simulation convergence standard\n• Free energy perturbation calculation validation\n• QSAR model training set member\n• Pharmacophore feature mapping template\n• Homology model validation tool\n• Machine learning prediction accuracy assessment\n\nNeuroscience and Systems Biology Research:\n• Electrophysiological recording of cannabinoid effects\n• Patch-clamp studies of ion channel modulation\n• Optogenetics combined with pharmacology experiments\n• Fiber photometry of endocannabinoid signaling\n• In vivo microdialysis for neurotransmitter monitoring\n• Behavioral pharmacology dose-response calibration\n• Preclinical model compound for neurological disorders\n\nManufacturing Excellence and Process Control:\n\nSynthetic Route Overview:\nOur validated manufacturing synthesis comprises:\n\nStage 1: Heterocyclic Core Construction\n• Regioselective indazole functionalization\n• Fluorobenzyl bromide alkylation under phase-transfer conditions\n• >98% regioselectivity for N1-alkylation (vs. N2)\n• Purification by crystallization or flash chromatography\n• Intermediate characterization by NMR and MS\n\nStage 2: Chiral Moiety Introduction\n• Enantiomerically enriched or racemic tert-leucine derivative\n• Esterification under anhydrous acidic conditions\n• Chiral HPLC verification of optical purity\n• Protection strategies for orthogonal reactivity\n\nStage 3: Amide Bond Formation\n• EDC·HCl/HOBt coupling (preferred) or mixed anhydride\n• DIEA or TEA as base with controlled addition rate\n• Minimal racemization (<0.5% epimerization)\n• Reaction monitoring by HPLC for completion\n• Aqueous workup and organic extraction\n\nStage 4: Final Purification and Isolation\n• Normal-phase flash chromatography on high-purity silica\n• Recrystallization from binary solvent systems\n• Optional final polishing by preparative HPLC\n• Drying under high vacuum (<1 mbar) with gentle warming\n• Milling and micronization if specified particle size required\n• Packaging under inert atmosphere\n\nIn-Process Control Testing:\n• Reaction completion by TLC or HPLC\n• Identity confirmation by proton NMR at key stages\n• Chiral purity verification after stereocenter-forming steps\n• Residual solvent monitoring by GC-MS\n• Purity trending by in-process HPLC assays\n• Yield calculation and mass balance reconciliation\n\nComprehensive Analytical Characterization:\n\nChromatographic Methods:\n• Assay by HPLC-UV (validated, ICH Q2(R1) compliant)\n• Impurity profiling by UHPLC-PDA-MS\n• Chiral purity by SFC or chiral HPLC\n• Counterion analysis by ion chromatography\n• Residual solvents by headspace GC-MS\n• Extractables/leachables screening when applicable\n\nSpectroscopic Analysis:\n• 1H NMR (600 MHz or higher): complete assignment\n• 13C NMR with APT/DEPT for multiplicity\n• 19F NMR for fluorine environment characterization\n• 2D NMR (COSY, HSQC, HMBC, NOESY) for connectivity\n• FTIR with ATR for functional group verification\n• UV-Vis for chromophore characterization\n• Raman for complementary vibrational data\n• CD spectroscopy for chirality confirmation (enantiomers)\n\nMass Spectrometry:\n• High-resolution accurate mass (HRMS) on Q-TOF\n• Fragmentation pattern by MS/MS and MSn\n• Isotopic pattern matching for formula confirmation\n• Chemical ionization for molecular weight verification\n• Ion mobility for gas-phase structural analysis\n\nPhysical and Materials Characterization:\n• X-ray powder diffraction (XRPD) for polymorphism\n• Differential scanning calorimetry (DSC) for thermal events\n• Thermogravimetric analysis (TGA) for volatile content\n• Dynamic vapor sorption (DVS) for moisture interaction\n• Particle size by laser diffraction\n• Surface area by BET nitrogen adsorption\n• Density by helium pycnometry\n• Microscopy (PLM, SEM) for morphology\n\nDocumentation Package:\n\nCertificate of Analysis:\n• Batch number, manufacturing date, expiration/retest date\n• Complete analytical results with numerical specifications\n• Representative chromatograms, spectra, and data traces\n• Statistical analysis (mean, SD, RSD for replicates)\n• Reference standard traceability information\n• QA/QC approval signatures and dates\n• Storage and handling instructions\n\nMaterial Safety and Regulatory Documentation:\n• Safety Data Sheet (SDS/MSDS) in 16-section GHS format\n• Globally Harmonized System (GHS) hazard classification\n• Precautionary statements and pictograms\n• First aid, firefighting, and accidental release measures\n• Handling, storage, and disposal instructions\n• Exposure controls and personal protection\n• Physical and chemical properties, stability, reactivity\n• Toxicological and ecological information\n• Regulatory classification and transport information\n\nStability and Shelf Life Data:\n• Long-term stability (25°C/60% RH, real-time)\n• Accelerated stability (40°C/75% RH, 6 months)\n• Stress testing (thermal, photolytic, oxidative, hydrolytic)\n• Arrhenius modeling for shelf life prediction\n• In-use stability for opened containers\n• Shipping stability under various temperature conditions\n\nHandling, Storage, and Safety Protocols:\n\nPersonal Protective Equipment (Minimum Requirements):\n• Respiratory: NIOSH-approved N100 or P100 particulate respirator (powder handling)\n• Eye: Chemical splash goggles meeting ANSI Z87.1-2015 (indirect vent)\n• Face: Face shield when risk of splash or powder dispersion exists\n• Hands: Double-gloving: 8-mil nitrile inner, 15-mil neoprene or butyl outer\n• Body: Chemical-resistant laboratory coat (disposable Tyvek® or reusable)\n• Feet: Closed-toe shoes with slip-resistant soles (no sandals/open shoes)\n• Additional: Hair covering, sleeve covers for high-exposure operations\n\nEngineering Controls and Facility Requirements:\n• Fume hood: Class II biosafety cabinet or chemical fume hood with documented face velocity (80-120 lfpm)\n• Ventilation: 6-12 air changes per hour minimum, HEPA filtration on exhaust for powders\n• Containment: Secondary containment (tray, curb, or bin) for primary containers\n• Spill control: Universal spill kit with neutralizer, absorbent, PPE, disposal bags\n• Safety equipment: Emergency shower and eye wash within 10 seconds/55 feet\n• Fire safety: ABC or BC dry chemical, CO2, or halon fire extinguisher\n• Security: Locked storage appropriate for controlled research chemicals\n\nStorage Conditions and Shelf Life:\n• Short-term (routine access): 2-8°C, protected from light, 12 months\n• Long-term (archive): -20°C, sealed under nitrogen or argon, >36 months\n• Shipping: Ambient with cold packs (2-8°C), 5-7 days maximum\n• Container: Amber glass with PTFE-lined cap, sealed mylar outer bag\n• Humidity: <60% RH, desiccant packet included, checked quarterly\n• Light: Complete protection from UV and visible light (amber glass, foil wrap)\n• Inventory: First-in-first-out rotation, annual reconciliation\n• Segregation: Store separately from incompatible materials (strong acids, bases, oxidizers)\n\nDisposal and Environmental Considerations:\n• Waste characterization: EPA RCRA hazardous chemical waste (consult local regulations)\n• Treatment: Chemical deactivation if required by institutional policy\n• Disposal method: Incineration at permitted TSDF (Treatment, Storage, Disposal Facility)\n• Prohibited: No discharge to sanitary sewer, storm drains, regular trash\n• Documentation: Waste manifest from generation to final disposition (cradle-to-grave)\n• Spill response: Evacuate non-essential personnel, don PPE, absorb with inert material, containerize, label as hazardous waste\n• Environmental: Prevent release to environment; ecotoxicity data available upon request\n\nProfessional Support and Customer Services:\n\nScientific Consultation:\n• Direct phone and email access to PhD-level chemists and pharmacologists\n• Custom synthesis evaluation, quotation, and project management\n• Analytical method development, optimization, and troubleshooting\n• Literature review, reference provision, citation support\n• Data interpretation: spectral analysis, chromatographic troubleshooting\n• Research collaboration opportunities and joint publications\n• Grant application support (letters of support, budget justification)\n\nOrdering and Logistics:\n• Online portal: 24/7 access to account, order history, documents\n• Inventory: Real-time stock status, backorder notification, allocation\n• Processing: Same-day shipping for orders before 2:00 PM local time\n• Shipping: Temperature-controlled (2-8°C), data logger documentation, tracking\n• International: Customs documentation, export licensing, regulatory compliance\n• Packaging: Professional, discreet, tamper-evident, shock-resistant\n• Insurance: Full value coverage, claims support for damaged shipments\n• Returns: Replacement or refund for quality issues, customer satisfaction guarantee\n\nInstitutional Programs:\n• Payment terms: Net 30, Net 45 for qualified organizations (credit application)\n• Discounts: Volume tiers (5%, 10%, 15%, 20%, 25%+) based on annual spend\n• Contracts: Annual pricing agreements, price protection, most favored customer\n• Scheduled: Automatic replenishment programs, standing orders\n• VMI: Vendor-managed inventory for high-volume customers\n• Dedicated: Account manager assignment for major accounts\n• Technical: On-site training, seminars, method transfer assistance\n\nResearch Ethics and Compliance:\nWe maintain absolute commitment to legal and ethical use:\n• Verification: Institutional affiliation and legitimate research purpose confirmed\n• Documentation: End-user declaration and material transfer agreement required\n• Monitoring: Order pattern analysis for suspicious activity detection\n• Cooperation: Full collaboration with regulatory and law enforcement agencies\n• Compliance: Adherence to international drug control conventions (1961, 1971, 1988)\n• Training: Regular updates on regulatory changes and compliance requirements\n• Policy: Strict research-use-only; termination and legal action for violations\n\nOur products are supplied exclusively for legitimate scientific research to advance knowledge and understanding. We categorically reject any misuse or diversion for non-research purposes. Researchers are expected to maintain the highest ethical standards in their work with these compounds.\n\nFor comprehensive information on MDMB-FUBINACA research applications, to request custom synthesis services, or to discuss establishing an institutional partnership, please contact our scientific support department directly.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1777379544/novachem/products/tbzrldr3y9c4snvck0p4.jpg"
+    ],
+    "name": "MDMB-FUBINACA",
+    "numReviews": 500,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1971007-93-8"
+  },
+  {
+    "_id": "6ac39ad9c2511b7574c7fd61",
+    "slug": "5f-mdmb-2201",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 35,
+    "createdAt": "2026-10-05T12:40:55.063Z",
+    "description": "5F-MDMB-2201 represents a sophisticated convergence of two major structural innovations in synthetic cannabinoid chemistry: the fluorinated side chain (5F) and the methyl ester-terminated tert-leucine derivative (MDMB). This compound, also designated by the systematic identifier based on its structural features, has become a cornerstone reference material for researchers investigating the combined effects of fluorination and ester functionality on cannabinoid receptor pharmacology.\n\nThe strategic incorporation of fluorine at the terminal position of the alkyl chain introduces unique metabolic handling characteristics and alters the compound's lipophilicity profile in ways that significantly impact receptor binding and in vivo disposition. When combined with the MDMB ester moiety, these features create a molecule with exceptional research utility for pharmacokinetic and metabolic studies.\n\nDetailed Chemical Identity and Structure:\n\nNomenclature and Classification:\n• Systematic IUPAC Name: Methyl (2S)-2-(1-(5-fluoropentyl)-1H-indazole-3-carboxamido)-3,3-dimethylbutanoate\n• Common Research Designations: 5F-MDMB-2201, 5F-2201\n• Molecular Formula: C21H29FN4O3\n• Exact Monoisotopic Mass: 404.2223 g/mol\n• Average Molecular Weight: 404.48 g/mol\n• Structural Class: Fluorinated indazole-3-carboxamide with amino acid ester side chain\n\nKey Structural Features:\n• Indazole Core: 1H-indazole heterocycle providing the central scaffold\n• Fluorinated Side Chain: 5-fluoropentyl group at N1 position\n• Amide Linkage: Connecting indazole-3-carbonyl to amino acid\n• Chiral Center: Stereocenter at the α-carbon bearing the amide and ester\n• Ester Functionality: Methyl ester terminating the tert-leucine derivative\n• Branched Alkyl: Gem-dimethyl groups on the side chain\n\nStereochemical Attributes:\n• Stereocenter Count: 1 (at the α-carbon of the amino acid portion)\n• Stereochemistry: Racemic mixture (R- and S-enantiomers in 1:1 ratio)\n• Optical Activity: Optically inactive as supplied ([α]D = 0°)\n• Enantiomeric Purity (when separated): Each enantiomer ≥99.5% ee\n• Stereochemical Stability: Configuration stable under neutral/acidic conditions\n• Chiroptical Properties: [α]D = -15.2° for S-enantiomer (c=1.0, CHCl3)\n\nComprehensive Physical Properties:\n• Appearance: Fine white to pale cream crystalline powder\n• Crystal Form: Microcrystalline to amorphous depending on preparation\n• Melting Characteristics: 128-135°C (broad, exhibits some decomposition)\n• Bulk Density: 0.30-0.45 g/cm³ (highly dependent on particle size)\n• True Density: 1.22-1.26 g/cm³ (helium pycnometry)\n• Particle Size (D50): 15-40 μm (standard), 2-10 μm (micronized upon request)\n• Surface Area: 1.2-3.0 m²/g (BET method)\n• Hygroscopicity: Moderately hygroscopic (1.0-2.0% weight gain at 75% RH)\n• Flow Properties: Fair to moderate flow (Carr compressibility index 18-28)\n\nDetailed Solubility Profile:\n• Water: Practically insoluble (<0.02 mg/mL at 25°C)\n• pH 7.4 Phosphate Buffer: <0.02 mg/mL (requires co-solvent)\n• Methanol: 20-30 mg/mL - moderately soluble\n• Ethanol (absolute): 15-25 mg/mL - moderately soluble\n• Acetonitrile: 35-50 mg/mL - soluble\n• Acetone: 12-20 mg/mL - moderately soluble\n• Ethyl Acetate: 8-15 mg/mL - slightly soluble\n• Dichloromethane: 50-70 mg/mL - freely soluble\n• Chloroform: 60-80 mg/mL - freely soluble\n• Tetrahydrofuran (THF): 40-60 mg/mL - freely soluble\n• Dimethyl Sulfoxide (DMSO): >100 mg/mL - freely soluble\n• N,N-Dimethylformamide (DMF): >100 mg/mL - freely soluble\n• 1-Methyl-2-pyrrolidinone (NMP): >100 mg/mL - freely soluble\n• Propylene Glycol: 3-6 mg/mL - very slightly soluble\n• Polyethylene Glycol 400: 8-15 mg/mL - slightly soluble\n• Recommended Stock: 20-50 mM in DMSO, store aliquots at -20°C or -80°C\n\nPurity and Quality Specifications:\n• HPLC Purity (Area % at 220 nm): ≥99.5%\n• HPLC Purity (Area % at 254 nm): ≥99.3%\n• Peak Purity Index (PDA): >0.996\n• Total Related Substances: <0.7%\n• Any Single Unknown Impurity: <0.15%\n• Known Related Substances: <0.25% each\n• Residual Solvents: Compliant with ICH Q3C(R6) guidelines\n• Water Content (Karl Fischer): <0.8%\n• Sulfated Ash: <0.15%\n• Heavy Metals: <10 ppm total, <3 ppm each (As, Cd, Hg, Pb)\n\nExtensive Research Applications:\n\nPharmacological and Receptor Studies:\n5F-MDMB-2201 serves critical functions in:\n• CB1 and CB2 receptor binding affinity determination with sub-nanomolar precision\n• Radioligand competition assays using [³H]CP-55,940 or [³H]SR141716A\n• Functional GTPγS binding for agonist efficacy quantification\n• cAMP modulation assays measuring adenylyl cyclase inhibition\n• β-arrestin recruitment studies for signaling bias investigation\n• Receptor internalization kinetics and trafficking patterns\n• Calcium mobilization assays using fluorescent indicators\n• Electrophysiological effects on neuronal ion channels\n\nMetabolism and Pharmacokinetic Investigations:\nThe fluorinated side chain creates unique metabolic handling:\n• Defluorination pathway characterization (CYP450-mediated)\n• Alternative oxidation at non-fluorinated positions\n• Ester hydrolysis by carboxylesterases (plasma and tissue)\n• Phase II conjugation: glucuronidation of parent and metabolites\n• Species comparison: human, rat, mouse, dog metabolic profiles\n• In vitro-in vivo extrapolation (IVIVE) model development\n• Plasma protein binding displacement studies\n• Whole blood distribution and stability assessment\n• Hepatocyte clearance prediction and validation\n\nAdvanced Analytical Chemistry:\n• LC-MS/MS method development with characteristic fragmentation\n• MRM transition optimization for sensitive quantification\n• HRAM (high-resolution accurate mass) for identification\n• Ion mobility spectrometry for isomeric differentiation\n• Fluorine-specific NMR spectroscopy (19F NMR at 564 MHz or higher)\n• Fluorine effect on chromatographic retention behavior\n• Derivatization strategies for enhanced detection\n• Stability-indicating method development\n\nForensic and Clinical Toxicology:\n• Forensic case work confirmation standard\n• Postmortem toxicology reference material\n• Workplace drug testing method validation\n• Driving under the influence of drugs (DUID) analysis\n• Sports doping control screening\n• Clinical toxicology emergency department reference\n• Illicit product profiling and signature analysis\n• Metabolite identification in biological matrices\n\nMedicinal Chemistry and Drug Discovery:\n• Scaffold for structure-activity relationship expansion\n• Comparator for novel compound screening\n• Tool for lipophilicity optimization (LogP, LogD determination)\n• Reference for metabolic stability enhancement strategies\n• Template for prodrug and soft-drug design\n• Standard for blood-brain barrier permeability assessment\n• Model for formulation development and solubility enhancement\n• In silico prediction model training and validation\n\nComputational Chemistry and Molecular Modeling:\n• Docking studies into CB1 receptor crystal structures\n• Molecular dynamics simulations of ligand-receptor complexes\n• Free energy calculations for binding affinity prediction\n• QM/MM studies of fluorine electronic effects\n• Pharmacophore hypothesis generation and testing\n• QSAR model development for fluorinated cannabinoids\n• Homology model validation with experimental data\n• Machine learning algorithm training set inclusion\n\nNeuroscience and Behavioral Research:\n• In vivo electrophysiology and single-unit recording\n• Patch-clamp studies of ion channel effects\n• Optogenetics combined with pharmacological manipulation\n• Fiber photometry of neural circuit activity\n• In vivo microdialysis for neurotransmitter monitoring\n• Behavioral pharmacology dose-response studies\n• Preclinical models of pain, anxiety, and neurological disorders\n• Mechanistic studies of cannabinoid tolerance and dependence\n\nManufacturing Process Excellence:\n\nSynthetic Route Strategy:\nOur validated manufacturing approach includes:\n\nStage 1: Heterocyclic Core Preparation\n• 1H-indazole-3-carboxylic acid as starting material\n• Regioselective N-alkylation with 5-fluoropentyl halide\n• Phase-transfer catalysis or strong base-mediated alkylation\n• Temperature control critical for regioselectivity (>90% N1:N2)\n• Purification by crystallization or chromatography\n• Intermediate fully characterized by NMR and MS\n\nStage 2: Fluorinated Side Chain Installation\n• Anhydrous conditions with inert atmosphere (nitrogen/argon)\n• Monitoring by TLC and in situ IR spectroscopy\n• Workup with careful pH control to prevent hydrolysis\n• Organic extraction and solvent exchange\n• Purity verification before proceeding\n\nStage 3: Amide Bond Formation\n• Activation of indazole-3-carboxylic acid\n• EDC·HCl/HOBt, CDI, or acid chloride methodology\n• Coupling with amino acid ester component\n• Chiral center preservation (minimize racemization)\n• Reaction monitoring by analytical HPLC\n• Aqueous workup with pH adjustment\n\nStage 4: Final Purification\n• Flash chromatography on high-performance silica gel\n• Recrystallization from optimized solvent mixture\n• Optional preparative HPLC for highest purity grade\n• Drying under high vacuum with controlled temperature\n• Milling to specified particle size if required\n• Packaging under inert atmosphere\n\nQuality Control and Analytical Verification:\n\nComprehensive Analytical Testing:\nEach batch undergoes extensive characterization:\n\nChromatographic Methods:\n• HPLC assay with UV detection (220 nm primary, 254 nm secondary)\n• Impurity profiling by UHPLC-PDA-MS\n• Chiral HPLC for enantiomeric composition\n• Residual solvents by headspace GC-MS or GC-FID\n• Counterion analysis by ion chromatography\n• Extractables and leachables screening for container closure\n\nSpectroscopic Characterization:\n• 1H NMR (600 MHz or higher field strength)\n• 13C NMR with DEPT or APT for multiplicity editing\n• 19F NMR for fluorine environment characterization\n• 2D NMR (COSY, TOCSY, HSQC, HMBC, NOESY/ROESY)\n• FTIR with ATR for functional group verification\n• UV-Vis for chromophore assessment\n• CD spectroscopy for chirality (if enantiomers separated)\n\nMass Spectrometry:\n• High-resolution accurate mass (HRMS) on Q-TOF or Orbitrap\n• MS/MS fragmentation pathway elucidation\n• Chemical ionization for confirmation\n• Ion mobility spectrometry for structural isomers\n• Native MS for non-covalent complexes\n\nPhysical and Materials Testing:\n• X-ray powder diffraction (XRPD) for crystalline form\n• Differential scanning calorimetry (DSC) for thermal properties\n• Thermogravimetric analysis (TGA) for volatile content\n• Dynamic vapor sorption (DVS) for moisture interaction\n• Karl Fischer titration for water content\n• Particle size by laser diffraction or image analysis\n• Surface area by BET nitrogen adsorption\n• Density by helium pycnometry\n\nDocumentation and Support Materials:\n\nCertificate of Analysis Contents:\n• Batch identification number and manufacturing date\n• Retest date and recommended storage conditions\n• Complete analytical results with acceptance criteria\n• Representative chromatograms, spectra, and data traces\n• Statistical summary of replicate analyses\n• Reference standard traceability chain\n• Quality assurance approval with signature and date\n• Chain of custody documentation when required\n\nMaterial Safety and Regulatory Documentation:\n• Safety Data Sheet (SDS) in 16-section format\n• GHS hazard classification and labeling elements\n• Precautionary statements (P-phrases) and hazard statements (H-phrases)\n• First aid measures by route of exposure\n• Firefighting measures and suitable extinguishing media\n• Accidental release measures and containment procedures\n• Handling and storage recommendations\n• Exposure controls and personal protection requirements\n• Physical and chemical properties table\n• Stability and reactivity information\n• Toxicological information summary\n• Ecological information and environmental fate\n• Disposal considerations for waste management\n• Transport information and shipping classification\n• Regulatory information (TSCA, REACH, etc.)\n• Other information and revision history\n\nStability Documentation:\n• Long-term stability protocol (ICH Q1A compliant)\n• Accelerated stability data (40°C/75% RH)\n• Stress testing results (hydrolysis, oxidation, photolysis, thermal)\n• In-use stability for opened containers\n• Shipping stability under various conditions\n• Arrhenius kinetic modeling for shelf life prediction\n• Post-approval stability commitment summary\n\nSafety, Handling, and Storage Protocols:\n\nPersonal Protective Equipment:\n• Respiratory: NIOSH-approved N100 or P100 particulate respirator for powder handling\n• Eye: Chemical splash goggles meeting ANSI Z87.1 with side shields\n• Face: Face shield when risk of splash or aerosol generation\n• Hand: Double-gloving with nitrile (inner, 8-mil) and neoprene or butyl (outer, 15-mil)\n• Body: Disposable chemical-resistant lab coat (Tyvek® QC or equivalent)\n• Foot: Closed-toe chemical-resistant shoes or boots\n• Additional: Hair covering, sleeve covers, apron for high-exposure operations\n\nEngineering Controls:\n• Chemical fume hood with documented face velocity 80-120 linear feet per minute\n• HEPA filtration on exhaust for powder containment\n• Secondary containment (trays, curbs, or bins) for primary containers\n• Emergency safety shower and eye wash station within 10 seconds travel time\n• Fire extinguisher appropriate for chemical fires (ABC or BC classification)\n• Universal spill kit with absorbent, neutralizer, PPE, and disposal bags\n• Eyewash station tested weekly, safety shower tested monthly\n\nStorage Conditions:\n• Temperature: 2-8°C for routine access (12-18 months stability)\n• Long-term: -20°C sealed under inert atmosphere (>36 months stability)\n• Humidity: <60% RH, silica gel desiccant included, checked quarterly\n• Light: Complete protection from UV and visible light (amber glass, aluminum foil wrap)\n• Atmosphere: Nitrogen or argon headspace for long-term storage\n• Container: Amber glass vial with PTFE-lined cap, sealed mylar outer bag\n• Organization: First-in-first-out rotation, segregated from incompatible materials\n• Security: Locked storage appropriate for research chemical inventory\n\nDisposal and Environmental:\n• Waste characterization: EPA RCRA hazardous chemical waste (D001 ignitable characteristic possible)\n• Disposal method: Incineration at permitted TSDF (Treatment, Storage, Disposal Facility)\n• Prohibited: No discharge to sanitary sewer, storm drains, or regular trash\n• Spill response: Evacuate, don PPE, absorb with inert material, containerize, label as hazardous waste\n• Documentation: Waste manifest cradle-to-grave tracking\n• Deactivation: Chemical treatment available if required by institutional policy\n• Environmental: Prevent release to environment; ecotoxicity data available\n\nCustomer Support and Services:\n\nScientific Consultation:\n• Direct access to PhD-level chemists, pharmacologists, and toxicologists\n• Custom synthesis evaluation, quotation, and project management\n• Analytical method development, troubleshooting, and validation support\n• Literature review, reference provision, and citation assistance\n• Data interpretation: spectral analysis, chromatographic optimization\n• Research collaboration and joint publication opportunities\n• Grant application support (letters of support, budget preparation)\n\nOrdering and Logistics:\n• Online ordering portal with 24/7 access, real-time inventory visibility\n• Same-day processing for orders received before 2:00 PM\n• Temperature-controlled shipping (2-8°C) with data logger documentation\n• International shipping expertise with customs documentation and export licensing\n• Professional, discreet, tamper-evident packaging\n• Full value shipping insurance with claims support\n• Order tracking with proactive delay notifications\n• Return policy: replacement or refund for quality issues\n\nInstitutional Programs:\n• Payment terms: Net 30, Net 45 for qualified organizations\n• Volume discounts: Tiered pricing (5%, 10%, 15%, 20%, 25%+) based on annual volume\n• Contract pricing: Annual agreements with price protection clauses\n• Scheduled delivery: Automatic replenishment, standing orders\n• Vendor-managed inventory (VMI) for high-volume customers\n• Dedicated account management for major institutional accounts\n• On-site technical training and seminars\n\nResearch Ethics and Compliance:\nWe maintain strict commitment to legal and ethical research use:\n• End-user verification: Institutional affiliation and legitimate research purpose\n• Documentation: Material transfer agreement and research use declaration required\n• Order monitoring: Pattern analysis for suspicious activity detection\n• Regulatory cooperation: Full collaboration with law enforcement and regulatory agencies\n• Compliance: Adherence to international drug control conventions\n• Training: Regular regulatory updates and compliance education\n• Enforcement: Account termination and legal action for research-use violations\n\nOur products are supplied exclusively for advancing scientific knowledge through legitimate research. We reject any diversion to non-research applications and maintain active programs to prevent misuse.\n\nFor comprehensive information on 5F-MDMB-2201 research applications, custom synthesis services, or institutional partnership discussions, please contact our scientific support team directly.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287771/NitazeneChemicals/products/qzkvgnulktzmmiuuoqxr.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287772/NitazeneChemicals/products/ns9kaaxs9bf7dgx4o7lh.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791287773/NitazeneChemicals/products/uteq8tw0p3whhps5xxqo.jpg"
+    ],
+    "name": "5F-MDMB-2201",
+    "numReviews": 23,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1971007-88-1"
+  },
+  {
+    "_id": "6ac39ad8c2511b7574c7fd60",
+    "slug": "4f-adb-precursorkit",
+    "__v": 0,
+    "category": "cannabinoids",
+    "countInStock": 25,
+    "createdAt": "2026-10-05T12:40:52.078Z",
+    "description": "The 4F-ADB Precursor/Kit represents a comprehensive research package designed for advanced organic synthesis and cannabinoid chemistry research programs. This specialized kit provides high-purity starting materials, intermediates, and comprehensive documentation to enable researchers to explore the synthetic pathways, structural modifications, and structure-activity relationships within the indazole carboxamide class of compounds.\n\nUnlike finished research compounds, this kit focuses on the journey of chemical synthesis—the process by which complex molecules are constructed from simpler building blocks. It serves educational, methodological, and research purposes for institutions studying synthetic organic chemistry, medicinal chemistry, and chemical biology.\n\nComprehensive Kit Components and Contents:\n\nPrimary Building Blocks and Precursors:\n• 1-(4-Fluorobenzyl)-1H-indazole-3-carboxylic acid (Key Intermediate A)\n  - Quantity: 5 grams (scaled versions available)\n  - Purity: ≥98.5% (HPLC)\n  - Form: Off-white to pale yellow crystalline solid\n  - Use: Central scaffold for indazole carboxamide synthesis\n  - Documentation: Full synthetic history, analytical data package\n\n• (S)- or (Racemic)-tert-Leucine methyl ester hydrochloride (Building Block B)\n  - Quantity: 3 grams\n  - Purity: ≥99.0% (enantiomeric purity ≥98% when chiral)\n  - Form: White crystalline powder\n  - Use: Chiral amino acid-derived side chain component\n  - Documentation: Optical rotation, chiral HPLC data, synthesis route\n\n• Alternative Amino Acid Derivatives (Building Blocks C-F, optional)\n  - Various substituted amino acid esters for SAR exploration\n  - Quantities: 1-2 grams each\n  - Purity: ≥97% each\n  - Purpose: Structure-activity relationship investigation\n\nCoupling Reagents and Catalysts:\n• 1-Ethyl-3-(3-dimethylaminopropyl)carbodiimide (EDC·HCl)\n  - Quantity: 5 grams\n  - Grade: Reagent grade, ≥98%\n  - Use: Zero-length crosslinker for amide bond formation\n\n• 1-Hydroxybenzotriazole (HOBt) or HOBt hydrate\n  - Quantity: 3 grams\n  - Grade: Reagent grade, ≥97%\n  - Use: Racemization suppressor in peptide coupling\n\n• N,N-Diisopropylethylamine (DIEA, Hünig's Base)\n  - Quantity: 10 mL\n  - Grade: Anhydrous, ≥99%\n  - Packaging: Sure/Seal™ bottle under inert atmosphere\n  - Use: Non-nucleophilic base for coupling reactions\n\n• Alternative: N,N-Dimethylaminopyridine (DMAP)\n  - Quantity: 2 grams\n  - Grade: Reagent grade, ≥99%\n  - Use: Acylation catalyst for esterification reactions\n\nSolvents and Reaction Media:\n• N,N-Dimethylformamide (DMF), anhydrous\n  - Quantity: 100 mL\n  - Grade: Anhydrous, 99.8%, water <50 ppm\n  - Packaging: Sure/Seal™ with molecular sieves\n  - Use: Polar aprotic solvent for coupling reactions\n\n• Dichloromethane (DCM, Methylene chloride)\n  - Quantity: 250 mL\n  - Grade: Anhydrous, ≥99.8%\n  - Use: Extraction and reaction solvent\n\n• Methanol, HPLC grade\n  - Quantity: 100 mL\n  - Grade: ≥99.9%, filtered through 0.2 μm\n  - Use: Recrystallization and chromatography\n\n• Ethyl acetate, technical grade\n  - Quantity: 250 mL\n  - Use: Extraction and chromatography eluent\n\n• Hexanes/Heptanes mixture\n  - Quantity: 250 mL\n  - Use: Chromatography and crystallization\n\n• Diethyl ether, anhydrous\n  - Quantity: 100 mL\n  - Grade: Anhydrous with BHT inhibitor\n  - Use: Precipitation and washing\n\nWorkup and Purification Supplies:\n• Silica gel 60, 230-400 mesh\n  - Quantity: 500 grams\n  - Use: Flash chromatography stationary phase\n\n• Thin layer chromatography (TLC) plates\n  - Quantity: 50 plates (5×10 cm, silica gel 60 F254)\n  - Use: Reaction monitoring and compound identification\n\n• Syringe filters, PTFE, 0.22 μm\n  - Quantity: 25 filters\n  - Use: Final filtration before analysis\n\n• Desiccant packets (silica gel)\n  - Quantity: 10 packets\n  - Use: Product storage moisture control\n\n• Amber glass vials with PTFE-lined caps\n  - Quantity: 20 vials (various sizes: 5, 10, 20 mL)\n  - Use: Product storage and sample archiving\n\nAnalytical Reference Standards:\n• 4F-ADB reference standard (analytical grade, 100 mg)\n  - Certified purity ≥99.5%\n  - Use: Comparison standard for synthesized material\n  - Supplied with comprehensive Certificate of Analysis\n\n• Related compound standards (impurity markers)\n  - 5-6 common synthetic byproducts\n  - 25-50 mg each\n  - Use: Method development and impurity identification\n\nComprehensive Documentation Package:\n\nSynthetic Protocol Manual (50+ pages):\n• Step-by-step synthetic procedures with photographs\n• Reaction schemes and mechanistic rationale\n• Detailed experimental procedures including:\n  - Reagent quantities and stoichiometry\n  - Reaction conditions (temperature, time, atmosphere)\n  - Workup procedures with rationale\n  - Purification protocols\n  - Expected yields and troubleshooting tips\n• Safety considerations for each step\n• Alternative procedures for scale-up or modification\n• References to primary literature and patents\n\nAnalytical Methods Guide:\n• HPLC method for reaction monitoring and purity assessment\n  - Column recommendation\n  - Mobile phase composition\n  - Gradient or isocratic program\n  - Detection parameters\n  - Expected retention times\n• TLC analysis conditions and Rf values\n• NMR sample preparation and spectral interpretation guide\n• Mass spectrometry method parameters\n• Melting point determination protocol\n• Optical rotation measurement (if chiral synthesis)\n\nSafety Data Sheets:\n• Individual SDS for each chemical component\n• Summary hazard assessment for the complete kit\n• Recommended personal protective equipment\n• Emergency response procedures\n• Spill cleanup protocols\n• Disposal guidelines for waste materials\n\nEducational and Reference Materials:\n• Background on indazole carboxamide chemistry\n• Review of structure-activity relationships in the series\n• Discussion of stereochemical considerations\n• Mechanism of amide bond formation\n• Principles of flash chromatography\n• Crystallization theory and practice\n• Introduction to analytical method validation\n• Glossary of synthetic organic chemistry terms\n\nResearch Applications and Educational Value:\n\nSynthetic Organic Chemistry Training:\n• Amide bond formation methodology\n• Use of coupling reagents (EDC, HOBt)\n• Racemization suppression techniques\n• Reaction monitoring by TLC and HPLC\n• Workup techniques (extraction, washing, drying)\n• Flash chromatography for purification\n• Recrystallization for final polishing\n• Analytical characterization skills\n\nMedicinal Chemistry Education:\n• Structure-activity relationship exploration\n• Role of fluorine in pharmaceutical design\n• Importance of stereochemistry in biological activity\n• Bioisosteric replacement concepts\n• Lead optimization strategies\n• Drug-like property considerations\n• Intellectual property and patent landscape\n\nAdvanced Research Programs:\n• Analog synthesis for SAR expansion\n• Isotopically labeled compound preparation (for metabolism studies)\n• Novel derivative synthesis for patent applications\n• Alternative synthetic route evaluation\n• Green chemistry approach development\n• Process chemistry optimization studies\n• Continuous flow synthesis adaptation\n\nAnalytical Method Development:\n• HPLC method optimization training\n• Impurity profiling and identification\n• Chiral separation method development\n• Mass spectrometry fragmentation studies\n• NMR structure elucidation practice\n• Reference standard preparation and certification\n\nQuality Control and Specifications:\n\nComponent Quality Standards:\n• All building blocks: ≥97% purity (most ≥99%)\n• Solvents: Anhydrous or HPLC grade as specified\n• Reagents: Reagent grade or higher\n• Chromatography supplies: Professional grade\n• Containers: Pharmaceutical-grade amber glass\n• Documentation: Professionally prepared, peer-reviewed\n\nKit Assembly and Packaging:\n• Individual component packaging in chemically resistant containers\n• Secondary containment for spill prevention during shipping\n• Temperature-appropriate packaging (ambient with cold packs if needed)\n• Humidity control for moisture-sensitive components\n• Light protection for photosensitive materials\n• Shock-resistant outer packaging\n• Chemical-resistant labels with hazard information\n• Detailed packing list and component verification sheet\n\nSafety, Handling, and Storage:\n\nPersonal Protective Equipment Requirements:\n• Safety glasses or goggles (ANSI Z87.1 certified)\n• Chemical-resistant gloves (nitrile minimum, neoprene or butyl for extended contact)\n• Laboratory coat (cotton or flame-resistant)\n• Closed-toe shoes with slip-resistant soles\n• Fume hood usage mandatory for all operations\n• Face shield recommended for scale-up work\n\nChemical Storage Recommendations:\n• Organic building blocks: 2-8°C, protected from light, desiccated\n• Coupling reagents: -20°C for long-term, desiccated (moisture-sensitive)\n• Anhydrous solvents: Original containers tightly sealed, under inert atmosphere when opened\n• Chromatography supplies: Room temperature, dry conditions\n• Reference standards: -20°C, amber vials, minimal headspace\n• Segregate acids, bases, and reactive chemicals as appropriate\n\nWaste Management and Disposal:\n• Characterize all waste per institutional chemical hygiene plan\n• Organic solvent waste: Collect separately, recycle or incinerate\n• Aqueous waste: Neutralize if necessary, dispose via approved route\n• Solid waste: Containerize, label, dispose as chemical waste\n• No disposal to sanitary sewer without approval\n• Spill kits readily accessible\n• Emergency contact numbers posted\n\nEducational Institution and Research Use:\n\nTarget Users:\n• Graduate-level organic chemistry education\n• Medicinal chemistry training programs\n• Synthetic methodology research groups\n• Analytical chemistry method development\n• Pharmaceutical sciences education\n• Chemical biology research requiring custom synthesis\n• Forensic chemistry training (understanding synthesis)\n• Industrial process chemistry groups\n\nLearning Outcomes:\nUpon completing syntheses using this kit, researchers will demonstrate:\n• Proficiency in modern amide coupling techniques\n• Ability to monitor reactions by multiple analytical techniques\n• Skill in purification by flash chromatography\n• Competence in recrystallization techniques\n• Understanding of stereochemical control in synthesis\n• Capability to interpret NMR, MS, and IR data\n• Knowledge of safety protocols in synthetic chemistry\n• Appreciation for structure-activity relationships\n\nSupport and Documentation:\n\nTechnical Support:\n• Email and phone access to PhD organic chemists\n• Troubleshooting assistance for synthetic challenges\n• Analytical data interpretation support\n• Method development consultation\n• Scale-up guidance and process optimization\n• Safety protocol review and recommendations\n\nCustomization Options:\n• Alternative amino acid building blocks\n• Different fluorinated or non-fluorinated benzyl groups\n• Isotopically labeled precursors (deuterium, 13C, 15N)\n• Additional coupling reagent options\n• Larger scale kits for extended research programs\n• Simplified \"educator's kit\" for classroom demonstrations\n• Advanced \"professional kit\" with additional analytics\n\nRegulatory and Ethical Considerations:\n\nResearch Use Only Certification:\n• End-user declaration required confirming legitimate research/educational use\n• Institutional verification for academic and research organizations\n• Compliance with all applicable chemical control regulations\n• Acknowledgment of research-use-only restriction\n• Agreement not to divert materials to non-research applications\n• Understanding that synthesized products are for research characterization only\n\nEducational Purpose Emphasis:\nThis kit is designed specifically for:\n• Educational training in synthetic organic chemistry\n• Research method development and validation\n• Analytical chemistry technique training\n• Understanding of structure-activity relationships\n• Process chemistry optimization studies\n• Forensic analysis method development\n\nIt is NOT intended for:\n• Large-scale manufacturing\n• Distribution of finished compounds\n• Human or veterinary application\n• Any use outside of legitimate research and education\n\nCustomer Support and Ordering:\n\nOrdering Information:\n• Standard kit (as described): $120\n• Educational discount: Available for qualifying institutions (15-25% discount)\n• Bulk pricing: For multiple kits or departmental orders\n• Custom kit assembly: Mix and match components as needed\n• International shipping: Available with appropriate documentation\n• Delivery time: 5-10 business days (domestic), 10-20 days (international)\n\nTraining and Workshops:\n• Optional on-site training available for institutional purchasers\n• Webinar series on synthetic techniques (quarterly)\n• Video tutorials on kit procedures (online access)\n• Annual symposium for kit users (networking and best practices)\n• Publication support for educational research outcomes\n\nSatisfaction Guarantee:\n• Replacement of any component failing to meet specifications\n• Technical support until successful synthesis completion\n• Full refund if kit does not meet educational/research needs\n• Continuous improvement based on user feedback\n\nThe 4F-ADB Precursor/Kit is a comprehensive educational and research tool that provides hands-on experience in modern synthetic organic chemistry while contributing to the understanding of cannabinoid pharmacology and medicinal chemistry. It represents our commitment to advancing scientific knowledge through practical, high-quality research materials.\n\nFor additional information, custom kit configurations, or educational institution pricing, please contact our scientific support team.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1777378778/novachem/products/vikwgjmrjivqfilhxtii.jpg"
+    ],
+    "name": "4F-ADB Precursor/Kit",
+    "numReviews": 78,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "2365471-11-8"
+  }
+]

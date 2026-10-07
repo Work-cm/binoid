@@ -1,0 +1,513 @@
+[
+  {
+    "_id": "6ac3ca1ec2511b7574c8086a",
+    "slug": "ethyleneoxynitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 10,
+    "createdAt": "2026-10-05T16:02:36.589Z",
+    "description": "Research-grade ethyleneoxynitazene for analytical and pharmacological research.\n\nCyclic ether analogue within the benzimidazole opioid family, supplied at 99%+ purity, each batch independently verified by HPLC and mass spectrometry. Suitable for receptor profiling, method development and forensic reference work.\n\nCertificate of Analysis included with every order. For laboratory research only — not for human or veterinary use.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286436/NitazeneChemicals/products/qpuyywonefqm2hvfnn2e.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286437/NitazeneChemicals/products/s4dory5mtns3jazeqxoe.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286438/NitazeneChemicals/products/efksezydzy8su8xoxz3q.webp"
+    ],
+    "name": "Ethyleneoxynitazene",
+    "numReviews": 5,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T14:21:10.402Z"
+  },
+  {
+    "_id": "6ac3ca1dc2511b7574c80864",
+    "slug": "metodesnitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 18,
+    "createdAt": "2026-10-05T16:02:36.148Z",
+    "description": "High-purity metodesnitazene research compound for laboratory and forensic analysis.\n\nDesnitazene analogue of the benzimidazole series, supplied at 99%+ purity verified by independent HPLC and NMR testing. Used in structural characterization studies and as an analytical reference material.\n\nCertificate of Analysis included with every order. For laboratory research only — not for human or veterinary use.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286478/NitazeneChemicals/products/v9cjrpr68n3gxnwmreuo.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286479/NitazeneChemicals/products/gsxf9qumcsastso81hqr.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286480/NitazeneChemicals/products/sylaybon6s9gubgayrqu.jpg"
+    ],
+    "name": "Metodesnitazene",
+    "numReviews": 9,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "14030-77-4"
+  },
+  {
+    "_id": "6ac3ca1dc2511b7574c80863",
+    "slug": "flunitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 12,
+    "createdAt": "2026-10-05T16:02:35.682Z",
+    "description": "Research-grade flunitazene for analytical chemistry and pharmacological research applications.\n\nFluorinated benzimidazole derivative supplied at 99%+ purity, batch-tested via HPLC and mass spectrometry. Commonly used as a reference standard and in comparative opioid receptor studies.\n\nCertificate of Analysis included with every order. For laboratory research only — not for human or veterinary use.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286665/NitazeneChemicals/products/lztsbpgnt5vayqukqbgi.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286667/NitazeneChemicals/products/powumlmyxj5itxrviati.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286668/NitazeneChemicals/products/yujwly8aaxnjk4hmjzkm.jpg"
+    ],
+    "name": "Flunitazene",
+    "numReviews": 6,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "2249-36-7"
+  },
+  {
+    "_id": "6ac3ca1cc2511b7574c80862",
+    "slug": "clonitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 15,
+    "createdAt": "2026-10-05T16:02:32.692Z",
+    "description": "High-purity clonitazene research compound for pharmacological and analytical studies.\n\nA potent member of the benzimidazole opioid class, supplied at 99%+ purity verified by HPLC and NMR analysis. Suitable for receptor binding assays, chromatographic reference work and forensic research.\n\nCertificate of Analysis included with every order. For laboratory research only — not for human or veterinary use.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286616/NitazeneChemicals/products/x85zsvqy1qn7eacrlvpv.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286617/NitazeneChemicals/products/vbon73hcc31iakmd7z18.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286618/NitazeneChemicals/products/rkkbyen2n2hrvuvu9bsv.webp"
+    ],
+    "name": "Clonitazene",
+    "numReviews": 8,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "3861-76-5"
+  },
+  {
+    "_id": "6ac3a1f5c2511b7574c7fff0",
+    "slug": "isotonitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 25,
+    "createdAt": "2026-10-05T13:11:15.264Z",
+    "description": "Isotonitazene is a synthetic opioid compound belonging to the 2-benzylbenzimidazole (nitazene) class. The nitazene series was originally developed by researchers at CIBA Pharmaceutical Company in Switzerland during the 1950s and 1960s as part of a systematic investigation into novel non-morphine analgesic scaffolds. Isotonitazene is characterised by an isopropyl substituent at the benzimidazole nitrogen and an N,N-diethylaminoethyl side chain.\n\nIsotonitazene is a full agonist at mu-opioid receptors and has been the subject of extensive analytical characterisation since its appearance in forensic and pharmacological literature. Its receptor binding properties, metabolic profile, and physicochemical characteristics have been documented and are available in scientific reference databases. The compound's pharmacological potency within the nitazene series has been quantified in several peer-reviewed receptor binding studies, making it an important reference point for structure-activity relationship (SAR) research in the 2-benzylbenzimidazole opioid class.\n\nOur Isotonitazene is produced to 99%+ purity, confirmed by HPLC-MS and multinuclear NMR analysis. Each batch includes a full Certificate of Analysis with complete spectroscopic data. It is used in opioid receptor pharmacology, forensic reference standard development, analytical method validation, and comparative SAR studies of the benzimidazole opioid series.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776247018/novachem/products/th3ibbfzoli0ephojids.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776248540/novachem/products/tepfhy7itzdgu5z6535n.jpg"
+    ],
+    "name": "Isotonitazene",
+    "numReviews": 17,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "14188-81-9"
+  },
+  {
+    "_id": "6ac3a1f4c2511b7574c7ffef",
+    "slug": "metonitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 20,
+    "createdAt": "2026-10-05T13:11:14.825Z",
+    "description": "Metonitazene is a synthetic opioid of the 2-benzylbenzimidazole (nitazene) class, structurally distinguished by a methoxy substituent at the para position of the benzyl phenyl ring. Like other nitazene compounds, it originates from mid-20th century pharmaceutical research at CIBA Pharmaceutical Company in Switzerland.\n\nMetonitazene functions as a full mu-opioid receptor agonist. Within the nitazene structure-activity relationship (SAR) literature, the para-methoxy substitution at the benzyl phenyl ring has been identified as a key determinant of receptor binding affinity relative to unsubstituted analogues. In vitro metabolic studies using human liver microsomes have characterised its primary metabolic routes, including N-dealkylation and O-demethylation, providing data of value in pharmacokinetic and forensic research.\n\nOur Metonitazene is produced to 99%+ purity, confirmed by HPLC-MS, ¹H NMR, ¹³C NMR, and elemental analysis. Full spectroscopic documentation and a Certificate of Analysis are provided with every batch. Primary applications include opioid receptor pharmacology, benzimidazole SAR research, forensic reference material development, and analytical method validation.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776246306/novachem/products/h5oyfxihbgrepjwtm6fx.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776246307/novachem/products/tjdkluwcirjls6xrexux.jpg"
+    ],
+    "name": "Metonitazene",
+    "numReviews": 11,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "14680-51-4"
+  },
+  {
+    "_id": "6ac3a1f4c2511b7574c7ffee",
+    "slug": "protonitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 18,
+    "createdAt": "2026-10-05T13:11:14.399Z",
+    "description": "Protonitazene is a member of the 2-benzylbenzimidazole class of synthetic opioid compounds, characterised by a propyl substituent at the benzimidazole nitrogen atom. It belongs to the same series of nitazene compounds synthesised by CIBA researchers in Switzerland during the 1950s and forms part of a well-documented family of synthetic opioid reference compounds.\n\nAs a full mu-opioid receptor agonist, protonitazene provides a critical data point in structure-activity relationship (SAR) studies examining the effect of N-alkyl chain length on receptor binding affinity and selectivity within the nitazene series. The propyl chain distinguishes it from related analogues such as isotonitazene and butonitazene, enabling systematic comparison across the series. Its analytical fingerprint — including NMR chemical shifts, mass spectrometric fragmentation ions, and chromatographic retention data — is documented in forensic chemistry reference databases.\n\nOur Protonitazene is produced to 99%+ purity, confirmed by HPLC-MS and NMR spectroscopy. Comprehensive testing for related impurities and residual solvents is performed on every batch. A full Certificate of Analysis is supplied with each order. It is used in nitazene SAR research, mu-opioid receptor binding assays, and forensic reference standard libraries.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286559/NitazeneChemicals/products/bjmjo6xcztalqwdqhcbg.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286560/NitazeneChemicals/products/gc5tik2wqzh3a9iu7c9l.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286561/NitazeneChemicals/products/bbr5khpm0wlgols0imwm.webp"
+    ],
+    "name": "Protonitazene",
+    "numReviews": 8,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "95958-84-2"
+  },
+  {
+    "_id": "6ac3a1f4c2511b7574c7ffed",
+    "slug": "butonitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 22,
+    "createdAt": "2026-10-05T13:11:13.967Z",
+    "description": "Butonitazene is a synthetic opioid compound of the 2-benzylbenzimidazole (nitazene) class, characterised by a butyl substituent on the benzimidazole nitrogen atom. It is part of the nitazene series originally synthesised at CIBA Pharmaceutical Company in Switzerland during the 1950s, which sought to explore the structural determinants of opioid receptor activity within the benzimidazole scaffold.\n\nAs a full mu-opioid receptor agonist, butonitazene occupies a defined position in the SAR landscape of the nitazene series, enabling direct comparison of N-alkyl chain length effects on receptor affinity and pharmacokinetic properties relative to shorter-chain analogues (e.g. protonitazene) and longer-chain variants. This comparative SAR data is of fundamental value in understanding the molecular geometry of the opioid receptor binding site and in rationalising the development of novel opioid analgesic scaffolds.\n\nOur Butonitazene is produced to 99%+ purity, confirmed by reverse-phase HPLC-MS, multinuclear NMR spectroscopy, and elemental analysis. A full Certificate of Analysis is included with every batch. It is used in opioid SAR research, mu-opioid receptor binding assays, forensic reference standard libraries, and analytical method validation for the 2-benzylbenzimidazole compound class.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791288096/NitazeneChemicals/products/n9og5bpng8vmxkof8d8w.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791288097/NitazeneChemicals/products/xoiwdv8ssatedm0xg5ae.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791288098/NitazeneChemicals/products/jd4f4tz9zw9t1g9l8nt9.webp"
+    ],
+    "name": "Butonitazene",
+    "numReviews": 6,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "95810-54-1"
+  },
+  {
+    "_id": "6ac3a1f3c2511b7574c7ffec",
+    "slug": "etonitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 15,
+    "createdAt": "2026-10-05T13:11:13.542Z",
+    "description": "Etonitazene is one of the most historically significant compounds in synthetic opioid research. First synthesised in 1957 by researchers at CIBA Pharmaceutical Company in Basel, Switzerland, it was among the earliest 2-benzylbenzimidazole opioids to be pharmacologically characterised and has served as the foundational reference compound for the entire nitazene class for over six decades.\n\nEtonitazene is a full, high-efficacy mu-opioid receptor agonist and is documented as one of the most potent compounds in the nitazene series by receptor binding affinity. Its structural features — an ethoxy group at the para position of the phenyl ring and an N,N-diethylaminoethyl side chain — have been consistently identified in SAR studies as critical contributors to high receptor binding affinity within the benzimidazole scaffold. Its pharmacological profile has been documented across decades of published research, making it the most thoroughly characterised benchmark compound in the nitazene class.\n\nOur Etonitazene is produced to 99%+ purity, confirmed by HPLC-MS, ¹H and ¹³C NMR, infrared spectroscopy, and elemental analysis. It is an essential reference compound in opioid receptor pharmacology, radioligand competitive binding studies, structure-activity relationship research, and forensic reference standard development. A comprehensive Certificate of Analysis is included with every order.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776243148/novachem/products/qkaponrmsi7p472xus87.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776243149/novachem/products/vru6wi6zdhsfq2iraugl.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776243150/novachem/products/ypxngslbmmykyjakgvxw.jpg"
+    ],
+    "name": "Etonitazene",
+    "numReviews": 13,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "911-65-9"
+  },
+  {
+    "_id": "6ac3a1f3c2511b7574c7ffeb",
+    "slug": "etodesnitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 20,
+    "createdAt": "2026-10-05T13:11:13.096Z",
+    "description": "Etodesnitazene, also known as etazene, is a synthetic opioid of the 2-benzylbenzimidazole class. It is structurally related to etonitazene but lacks the nitro substituent at the 5-position of the benzimidazole ring — a defined structural modification that provides an important data point in the SAR analysis of the nitazene series.\n\nThe structural difference between etodesnitazene and etonitazene (absence of the 5-nitro group) makes etodesnitazene a valuable comparison compound for investigating the contribution of the nitro substituent to receptor binding affinity within the benzimidazole opioid scaffold. In vitro data indicates that etodesnitazene retains significant mu-opioid receptor agonist activity, demonstrating that high potency in this compound class is not exclusively dependent on the nitro group. Its metabolic pathway — involving N-deethylation and aromatic hydroxylation — has been characterised using hepatic microsome preparations and is documented in pharmacokinetic research literature.\n\nOur Etodesnitazene is produced to 99%+ purity, confirmed by HPLC-MS, NMR spectroscopy, and elemental analysis. A full Certificate of Analysis with complete spectral data is supplied with every batch. Applications include nitazene SAR research, forensic reference material libraries, mu-opioid receptor pharmacology, and comparative metabolism studies.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776243101/novachem/products/ynhz29knwlgzozlojx95.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776243102/novachem/products/tlnpkpbgtx7wxsxvfgqm.webp"
+    ],
+    "name": "Etodesnitazene",
+    "numReviews": 9,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "14030-76-3"
+  },
+  {
+    "_id": "6ac3a1f2c2511b7574c7ffea",
+    "slug": "n-pyrrolidino-etonitazene",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 15,
+    "createdAt": "2026-10-05T13:11:12.693Z",
+    "description": "N-Pyrrolidino Etonitazene is a structural analogue of etonitazene in which the N,N-diethylaminoethyl side chain is replaced by a pyrrolidine-containing moiety. This modification constitutes a significant structural variation within the etonitazene series and is of particular scientific interest in SAR research examining the role of the amine side chain on opioid receptor binding affinity and functional selectivity.\n\nThe incorporation of a pyrrolidine ring — a five-membered saturated nitrogen-containing heterocycle — introduces conformational constraints on the amine substituent that influence molecular interaction with the opioid receptor binding pocket. Comparative binding data from in vitro receptor studies provides insight into the steric and electronic requirements of the benzimidazole binding pharmacophore. N-Pyrrolidino etonitazene retains the core 2-benzylbenzimidazole scaffold and ethoxy substituent characteristic of the etonitazene series, allowing isolated assessment of the N-side chain's contribution to receptor engagement.\n\nOur N-Pyrrolidino Etonitazene is produced to 99%+ purity, confirmed by HPLC-MS, ¹H and ¹³C NMR, and elemental analysis. Full spectroscopic data and a Certificate of Analysis are provided with every order. Applications include advanced benzimidazole opioid SAR research, mu-opioid receptor pharmacology, forensic reference standard development, and studies examining cyclic versus linear amine side chain effects on opioid receptor binding.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776242777/novachem/products/tsimoibn8jsmtblkbbge.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776242778/novachem/products/hljo1pf6ms6kwhldhela.webp"
+    ],
+    "name": "N-Pyrrolidino Etonitazene",
+    "numReviews": 7,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "2785346-75-8"
+  },
+  {
+    "_id": "6ac3a1f2c2511b7574c7ffe9",
+    "slug": "bromazolam",
+    "__v": 0,
+    "category": "nitazenes",
+    "countInStock": 25,
+    "createdAt": "2026-10-05T13:11:10.168Z",
+    "description": "Bromazolam is a synthetic compound belonging to the triazolobenzodiazepine class — a structural group characterised by the fusion of a benzene ring, a seven-membered diazepine ring, and a 1,2,4-triazole ring. It is closely related to established benzodiazepine research compounds and shares their fundamental mechanism of action at GABA-A receptors.\n\nBromazolam acts as a positive allosteric modulator of the gamma-aminobutyric acid type A (GABA-A) receptor complex. It binds to the benzodiazepine recognition site located at the interface of alpha and gamma subunits, enhancing the inhibitory effects of GABA — the primary inhibitory neurotransmitter in the central nervous system — by increasing chloride ion conductance and thereby reducing neuronal excitability. The inclusion of the triazole ring in the triazolobenzodiazepine scaffold generally confers improved receptor binding affinity and metabolic resistance compared to classical benzodiazepines. The bromo substituent at the 8-position of the diazepine ring contributes to its distinct physicochemical profile. Primary metabolic routes include hydroxylation and glucuronidation, which have been characterised in analytical studies.\n\nOur Bromazolam is produced to 99%+ purity, confirmed by HPLC, NMR spectroscopy, and mass spectrometry. A comprehensive Certificate of Analysis is provided with every batch. It is used in GABA-A receptor pharmacology research, benzodiazepine binding studies, triazolobenzodiazepine SAR research, and forensic analytical reference standard development.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776242182/novachem/products/mkoo1kds898ptzobn0fr.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776242183/novachem/products/jy7jzcwoclceegrfwm17.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776242185/novachem/products/s4rnweludo7iqwld4vdd.jpg"
+    ],
+    "name": "Bromazolam",
+    "numReviews": 11,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac503d66fdb4a08bdb3ec29"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac503d66fdb4a08bdb3ec2a"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac503d66fdb4a08bdb3ec2b"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac503d66fdb4a08bdb3ec2c"
+      }
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-10-06T14:21:10.402Z",
+    "casNumber": "71368-80-4"
+  }
+]

@@ -35,7 +35,7 @@ export default function AboutPage() {
               We help researchers access the compounds they need reliably, discreetly, and fast.
             </h1>
             <p className="text-gray-900 text-lg leading-relaxed">
-              NitazeneChemicals is a specialist supplier of high purity research chemicals. We serve scientists, laboratory professionals and academic researchers across more than 50 countries, providing analytically verified compounds with a full Certificate of Analysis on every order.
+              CannabinoidSite is a specialist supplier of high purity research chemicals. We serve scientists, laboratory professionals and academic researchers across more than 50 countries, providing analytically verified compounds with a full Certificate of Analysis on every order.
             </p>
           </motion.div>
         </div>
@@ -68,7 +68,7 @@ export default function AboutPage() {
           <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight mb-6">Our story</h2>
           <div className="space-y-5 text-gray-900 leading-relaxed">
             <p>
-              NitazeneChemicals was founded on a simple premise: researchers shouldn't have to compromise on compound quality or spend weeks waiting for supply. We set out to build a service that pairs laboratory-grade chemicals with the speed and reliability that modern science demands.
+              CannabinoidSite was founded on a simple premise: researchers shouldn't have to compromise on compound quality or spend weeks waiting for supply. We set out to build a service that pairs laboratory-grade chemicals with the speed and reliability that modern science demands.
             </p>
             <p>
               Today our catalog spans <strong className="text-gray-900">synthetic cannabinoids, nitazenes</strong> and a growing range of novel research chemicals. Every item we stock undergoes independent analytical verification before it's listed, and every shipment leaves with a Certificate of Analysis attached.

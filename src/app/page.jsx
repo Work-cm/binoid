@@ -6,12 +6,12 @@ import { getOrganizationSchema, getWebsiteSchema } from '@/components/seo/SEOKey
 
 export const dynamic = 'force-dynamic';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://nitazenechemicals.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com';
 
 export const metadata = {
   metadataBase: new URL(BASE_URL),
-  title: 'Buy Research Chemicals Online | 5cl-adba, 5fadb, JWH-018 | NitazeneChemicals',
-  description: 'Buy premium research chemicals online at NitazeneChemicals. High-purity synthetic cannabinoids (5cl-adba, 5fadb, jwh-018, adb-butinaca), nitazenes and lab-grade compounds with discreet worldwide shipping.',
+  title: 'Buy Synthetic Cannabinoids Online | 5cl-adba, 5fadb, JWH-018 | CannabinoidSite',
+  description: 'Buy premium synthetic cannabinoids online at CannabinoidSite. High-purity 5cl-adba, 5fadb, jwh-018, adb-butinaca plus nitazenes, opioids and lab-grade research chemicals with discreet worldwide shipping.',
   keywords: [
     'buy research chemicals online',
     'research chemicals for sale',
@@ -25,7 +25,7 @@ export const metadata = {
     'isotonitazene', 'metonitazene', 'protonitazene', 'butonitazene',
     'ketamine', 'alpha-pvp', 'alpha-pihp', '3-cmc', '4-cmc', '3-mmc', '4-mmc',
     'laboratory chemicals', 'premium research chemicals', 'lab verified chemicals',
-    'NitazeneChemicals',
+    'CannabinoidSite',
   ],
   alternates: {
     canonical: BASE_URL,
@@ -34,21 +34,21 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: BASE_URL,
-    siteName: 'NitazeneChemicals',
-    title: 'Buy Research Chemicals Online | 5cl-adba, 5fadb, JWH-018 | NitazeneChemicals',
-    description: 'Premium synthetic cannabinoids, nitazenes and laboratory compounds. Worldwide discreet shipping. Shop NitazeneChemicals today.',
+    siteName: 'CannabinoidSite',
+    title: 'Buy Synthetic Cannabinoids Online | 5cl-adba, 5fadb, JWH-018 | CannabinoidSite',
+    description: 'Premium synthetic cannabinoids, nitazenes and laboratory compounds. Worldwide discreet shipping. Shop CannabinoidSite today.',
     images: [
       {
         url: `${BASE_URL}/images/logo.svg`,
         width: 1200,
         height: 630,
-        alt: 'NitazeneChemicals — Premium Research Chemicals',
+        alt: 'CannabinoidSite — Premium Cannabinoids & Research Chemicals',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Buy Research Chemicals Online | NitazeneChemicals',
+    title: 'Buy Synthetic Cannabinoids Online | CannabinoidSite',
     description: 'Premium synthetic cannabinoids, nitazenes and laboratory compounds. Worldwide discreet shipping.',
     images: [`${BASE_URL}/images/logo.svg`],
   },
@@ -57,12 +57,12 @@ export const metadata = {
 async function getFeaturedProducts() {
   await dbConnect();
   try {
-    // Nitazene products first, then fill remaining slots with other featured items
-    const [nitazenes, others] = await Promise.all([
-      Product.find({ featured: true, category: 'nitazenes' }).limit(12).select('-reviews').lean(),
-      Product.find({ featured: true, category: { $ne: 'nitazenes' } }).limit(12).select('-reviews').lean(),
+    // Cannabinoid products first, then fill remaining slots with other featured items
+    const [cannabinoids, others] = await Promise.all([
+      Product.find({ featured: true, category: 'cannabinoids' }).limit(12).select('-reviews').lean(),
+      Product.find({ featured: true, category: { $ne: 'cannabinoids' } }).limit(12).select('-reviews').lean(),
     ]);
-    const products = [...nitazenes, ...others].slice(0, 12);
+    const products = [...cannabinoids, ...others].slice(0, 12);
     return JSON.parse(JSON.stringify(products));
   } catch (error) {
     console.error('Error fetching featured products:', error);

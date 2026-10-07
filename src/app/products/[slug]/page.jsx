@@ -104,11 +104,11 @@ export default function ProductDetailPage() {
       <div className="container mx-auto px-6">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.25em] text-gray-400 mb-8 overflow-x-auto whitespace-nowrap scrollbar-hide" aria-label="Breadcrumb">
-          <Link href="/" className="hover:text-purple-600 transition-colors">Home</Link>
+          <Link href="/" className="hover:text-emerald-600 transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/products" className="hover:text-purple-600 transition-colors">Catalog</Link>
+          <Link href="/products" className="hover:text-emerald-600 transition-colors">Catalog</Link>
           <span>/</span>
-          <Link href={`/products?category=${product.category}`} className="hover:text-purple-600 transition-colors">{product.category}</Link>
+          <Link href={`/products?category=${product.category}`} className="hover:text-emerald-600 transition-colors">{product.category}</Link>
           <span>/</span>
           <span className="text-gray-900 truncate max-w-[220px]">{product.name}</span>
         </nav>
@@ -116,7 +116,7 @@ export default function ProductDetailPage() {
         <div className="grid lg:grid-cols-[1fr_1.1fr] gap-10 lg:gap-16 items-start">
           {/* ===== LEFT — sticky image column ===== */}
           <div className="lg:sticky lg:top-20 space-y-3">
-            <div className="relative aspect-square w-full rounded-[1.75rem] overflow-hidden bg-[#12081f]">
+            <div className="relative aspect-square w-full rounded-[1.75rem] overflow-hidden bg-[#06130d]">
               {product.images && product.images.length > 0 ? (
                 <ProtectedImage
                   src={product.images[selectedImage]}
@@ -143,7 +143,7 @@ export default function ProductDetailPage() {
                     key={index}
                     onClick={() => setSelectedImage(index)}
                     className={`relative h-16 w-16 rounded-xl overflow-hidden border-2 flex-shrink-0 transition-all ${
-                      selectedImage === index ? 'border-purple-600' : 'border-gray-200 hover:border-purple-300'
+                      selectedImage === index ? 'border-emerald-500' : 'border-gray-200 hover:border-emerald-300'
                     }`}
                   >
                     <ProtectedImage src={image} alt={`${product.name} ${index + 1}`} fill sizes="64px" className="object-cover" />
@@ -187,11 +187,11 @@ export default function ProductDetailPage() {
                       key={tier.quantity}
                       onClick={() => { setSelectedTier(tier); setSelectedGrams(tier.quantity); }}
                       className={`flex flex-col items-center py-3 rounded-2xl border transition-all ${
-                        active ? 'bg-[#12081f] border-[#12081f] text-white' : 'bg-white border-gray-200 text-gray-900 hover:border-purple-400'
+                        active ? 'bg-[#06130d] border-[#06130d] text-white' : 'bg-white border-gray-200 text-gray-900 hover:border-emerald-400'
                       }`}
                     >
                       <span className="font-display font-bold text-base leading-none">{tier.quantity}g</span>
-                      <span className={`font-mono text-[10px] mt-1.5 ${active ? 'text-fuchsia-200' : 'text-gray-400'}`}>€{tier.price}</span>
+                      <span className={`font-mono text-[10px] mt-1.5 ${active ? 'text-lime-300' : 'text-gray-400'}`}>€{tier.price}</span>
                     </button>
                   );
                 })}
@@ -231,7 +231,7 @@ export default function ProductDetailPage() {
                   disabled={product.countInStock <= 0}
                   className={`flex-1 h-12 px-6 rounded-full flex items-center justify-center gap-2.5 font-display font-bold text-sm transition-colors ${
                     product.countInStock > 0
-                      ? 'bg-[#12081f] hover:bg-violet-900 text-white'
+                      ? 'bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] shadow-lg shadow-emerald-500/25'
                       : 'bg-gray-100 border border-gray-200 text-gray-400 cursor-not-allowed'
                   }`}
                 >
@@ -243,8 +243,8 @@ export default function ProductDetailPage() {
 
             {/* Description */}
             <div className="mt-14">
-              <div className="flex items-center gap-4 mb-5 font-mono text-[11px] uppercase tracking-[0.3em] text-purple-600">
-                <span>Notes</span><span className="h-px w-10 bg-purple-300" /><span>Description</span>
+              <div className="flex items-center gap-4 mb-5 font-mono text-[11px] uppercase tracking-[0.3em] text-emerald-600">
+                <span>Notes</span><span className="h-px w-10 bg-emerald-300" /><span>Description</span>
               </div>
               <div className="text-gray-700 text-base leading-loose space-y-4">
                 {product.description.split('\n').map((paragraph, index) => (

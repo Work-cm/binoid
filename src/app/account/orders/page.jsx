@@ -89,27 +89,27 @@ export default function OrdersPage() {
         <h1 className="text-2xl font-extrabold text-gray-900 mb-8">My Orders</h1>
 
         {error ? (
-          <div className="bg-sky-500/10 border border-sky-500/20 text-sky-400 text-sm p-4 rounded-xl flex items-center gap-3">
+          <div className="bg-red-50 border border-red-200 text-red-600 text-sm p-4 rounded-xl flex items-center gap-3">
             <FaExclamationTriangle className="flex-shrink-0" />
             <p>{error}</p>
           </div>
         ) : orders.length === 0 ? (
-          <div className="bg-gray-50/60 border border-gray-700/50 rounded-2xl p-12 text-center">
+          <div className="bg-gray-50 border border-gray-200 rounded-2xl p-12 text-center">
             <div className="w-14 h-14 bg-gray-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
               <FaClipboardList className="text-gray-900 text-xl" />
             </div>
             <h2 className="text-lg font-semibold text-gray-900 mb-2">No Orders Yet</h2>
             <p className="text-gray-900 text-sm mb-6">You haven&apos;t placed any orders yet.</p>
             <Link href="/products"
-              className="bg-sky-500 hover:bg-sky-500 text-white text-sm font-semibold py-2.5 px-6 rounded-xl inline-block transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30">
+              className="bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] text-sm font-semibold py-2.5 px-6 rounded-xl inline-block transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25">
               Start Shopping
             </Link>
           </div>
         ) : (
           <div className="space-y-4">
             {orders.map(order => (
-              <div key={order._id} className="bg-gray-50/60 border border-gray-700/50 rounded-2xl overflow-hidden">
-                <div className="bg-gray-100/60 px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-b border-gray-700/50">
+              <div key={order._id} className="bg-gray-50 border border-gray-200 rounded-2xl overflow-hidden">
+                <div className="bg-white px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-b border-gray-200">
                   <div>
                     <p className="text-xs text-gray-900 mb-0.5">Order</p>
                     <p className="text-gray-900 font-mono font-semibold text-sm">{order.orderNumber}</p>
@@ -117,20 +117,20 @@ export default function OrdersPage() {
                   <div className="flex flex-wrap gap-5">
                     <div>
                       <p className="text-xs text-gray-900 mb-0.5">Date</p>
-                      <p className="text-white text-sm">{new Date(order.createdAt).toLocaleDateString()}</p>
+                      <p className="text-gray-900 text-sm">{new Date(order.createdAt).toLocaleDateString()}</p>
                     </div>
                     <div>
                       <p className="text-xs text-gray-900 mb-0.5">Total</p>
-                      <p className="text-white text-sm font-semibold">&euro;{order.totalPrice.toFixed(2)}</p>
+                      <p className="text-gray-900 text-sm font-semibold">&euro;{order.totalPrice.toFixed(2)}</p>
                     </div>
                     <div>
                       <p className="text-xs text-gray-900 mb-0.5">Status</p>
                       <p className={`text-sm font-semibold capitalize ${
-                        order.status === 'delivered' ? 'text-green-400' :
-                        order.status === 'shipped' ? 'text-blue-400' :
-                        order.status === 'processing' ? 'text-yellow-400' :
-                        order.status === 'cancelled' ? 'text-sky-400' :
-                        'text-sky-400'
+                        order.status === 'delivered' ? 'text-emerald-600' :
+                        order.status === 'shipped' ? 'text-blue-600' :
+                        order.status === 'processing' ? 'text-amber-600' :
+                        order.status === 'cancelled' ? 'text-red-500' :
+                        'text-emerald-600'
                       }`}>{order.status}</p>
                     </div>
                   </div>
@@ -146,19 +146,19 @@ export default function OrdersPage() {
                             <FaBox className="text-gray-900 text-xs" />
                           </div>
                           <div>
-                            <p className="text-white text-sm">{item.name}</p>
+                            <p className="text-gray-900 text-sm">{item.name}</p>
                             <p className="text-gray-900 text-xs">Qty: {item.quantity}</p>
                           </div>
                         </div>
-                        <p className="text-white text-sm">&euro;{(item.price * item.quantity).toFixed(2)}</p>
+                        <p className="text-gray-900 text-sm">&euro;{(item.price * item.quantity).toFixed(2)}</p>
                       </div>
                     ))}
                   </div>
                 </div>
 
-                <div className="px-5 py-3 border-t border-gray-700/50 flex justify-end">
+                <div className="px-5 py-3 border-t border-gray-200 flex justify-end">
                   <Link href={`/account/orders/${order._id}`}
-                    className="text-sky-400 hover:text-sky-300 text-sm font-medium transition-colors">
+                    className="text-emerald-600 hover:text-emerald-500 text-sm font-medium transition-colors">
                     View Details â†’
                   </Link>
                 </div>

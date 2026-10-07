@@ -11,7 +11,7 @@ export async function generateMetadata({ searchParams }) {
   const category = params?.category || '';
   
   // Always use /products as canonical to avoid duplicate content from query params
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://nitazenechemicals.com';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com';
   
   const categoryKeywords = category
     ? `${category.toLowerCase()}, ${category.toLowerCase()} for sale, buy ${category.toLowerCase()}`
@@ -20,21 +20,21 @@ export async function generateMetadata({ searchParams }) {
   return {
     metadataBase: new URL(baseUrl),
     title: category
-      ? `Buy ${category} Online | Research Chemicals | NitazeneChemicals`
-      : 'Research Chemicals for Sale | 5cl-adba, 5fadb, JWH-018 | NitazeneChemicals',
+      ? `Buy ${category} Online | Research Chemicals | CannabinoidSite`
+      : 'Research Chemicals for Sale | 5cl-adba, 5fadb, JWH-018 | CannabinoidSite',
     description: category
-      ? `Buy premium ${category.toLowerCase()} online at NitazeneChemicals. High-purity 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca and more — lab-verified with discreet worldwide shipping.`
+      ? `Buy premium ${category.toLowerCase()} online at CannabinoidSite. High-purity 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca and more — lab-verified with discreet worldwide shipping.`
       : 'Buy premium research chemicals online. Browse 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca, ab-pinaca, 5F-EDMB-PINACA, ADB-FUBINACA, 4FADB, AMB-FUBINACA, MDMB-4en-PINACA and other lab-grade synthetic cannabinoids and nitazenes.',
-    keywords: `${categoryKeywords}, 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca, ab-pinaca, 5F-EDMB-PINACA, ADB-FUBINACA, 4FADB, AMB-FUBINACA, MDMB-4en-PINACA, 6cl-adba, isotonitazene, ketamine, alpha-pvp, laboratory chemicals, high purity, NitazeneChemicals`,
+    keywords: `${categoryKeywords}, 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca, ab-pinaca, 5F-EDMB-PINACA, ADB-FUBINACA, 4FADB, AMB-FUBINACA, MDMB-4en-PINACA, 6cl-adba, isotonitazene, ketamine, alpha-pvp, laboratory chemicals, high purity, CannabinoidSite`,
     alternates: {
       canonical: '/products', // Always point to /products to avoid duplicate content from query params
     },
     openGraph: {
       title: category
-        ? `Buy ${category} Online | Research Chemicals | NitazeneChemicals`
-        : 'Research Chemicals for Sale | 5cl-adba, 5fadb, JWH-018 | NitazeneChemicals',
+        ? `Buy ${category} Online | Research Chemicals | CannabinoidSite`
+        : 'Research Chemicals for Sale | 5cl-adba, 5fadb, JWH-018 | CannabinoidSite',
       description: category
-        ? `Browse premium ${category.toLowerCase()} at NitazeneChemicals. Lab-verified compounds with discreet worldwide shipping.`
+        ? `Browse premium ${category.toLowerCase()} at CannabinoidSite. Lab-verified compounds with discreet worldwide shipping.`
         : 'Browse premium research chemicals: 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca and more. Lab-verified with discreet worldwide shipping.',
       url: '/products',
       type: 'website',
@@ -175,7 +175,7 @@ export default async function ProductsPage({ searchParams }) {
   const catInfo = categoryMeta[catKey] || null;
   const displayLabel = catInfo?.label || selectedCategory || 'All Products';
   const displayDesc = catInfo?.desc ||
-    'Browse our full catalog of high-purity research chemicals, cannabinoids and nitazenes — each compound verified for lab-grade quality.';
+    'Browse our full catalog of lab-verified synthetic cannabinoids, nitazenes, opioids and research chemicals — each compound shipped with its Certificate of Analysis.';
 
   return (
     <div className="min-h-screen bg-white">
@@ -183,7 +183,7 @@ export default async function ProductsPage({ searchParams }) {
       {/* Page header */}
       <div className="container mx-auto px-6 pt-24 lg:pt-20 pb-10">
         <nav className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.25em] text-gray-400 mb-8" aria-label="Breadcrumb">
-          <a href="/" className="hover:text-purple-600 transition-colors">Home</a>
+          <a href="/" className="hover:text-emerald-600 transition-colors">Home</a>
           <span>/</span>
           <span className={selectedCategory ? '' : 'text-gray-900'}>Catalog</span>
           {selectedCategory && (
@@ -199,6 +199,7 @@ export default async function ProductsPage({ searchParams }) {
             <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-extrabold text-gray-900 tracking-[-0.045em] leading-[0.9]">
               {displayLabel}
             </h1>
+            <span className="block mt-4 h-1.5 w-24 rounded-full bg-gradient-to-r from-emerald-500 to-lime-400" />
             <p className="text-gray-500 max-w-xl text-sm sm:text-base leading-relaxed mt-6">
               {displayDesc}
             </p>
@@ -218,13 +219,13 @@ export default async function ProductsPage({ searchParams }) {
                 <a
                   key={label}
                   href={href}
-                  className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold transition-all border ${
+                  className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
                     active
-                      ? 'bg-[#12081f] border-[#12081f] text-white'
-                      : 'bg-white border-gray-200 text-gray-700 hover:border-purple-400 hover:text-purple-700'
+                      ? 'bg-[#06130d] border-[#06130d] text-white'
+                      : 'bg-white border-gray-200 text-gray-700 hover:border-emerald-400 hover:text-emerald-700'
                   }`}
                 >
-                  {active && <span className="w-1.5 h-1.5 rounded-full bg-fuchsia-400" />}
+                  {active && <span className="w-1.5 h-1.5 rounded-full bg-lime-400" />}
                   {label}
                 </a>
               );

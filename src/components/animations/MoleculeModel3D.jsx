@@ -118,7 +118,7 @@ const Particles = ({ count = 20, radius = 8 }) => {
       {particles.current.map((data, i) => (
         <Sphere key={i} args={[1, 8, 8]} position={data.position}>
           <meshBasicMaterial 
-            color={i % 3 === 0 ? '#9333ea' : (i % 3 === 1 ? '#e11d48' : '#d946ef')} 
+            color={i % 3 === 0 ? '#059669' : (i % 3 === 1 ? '#e11d48' : '#84cc16')} 
             transparent 
             opacity={0.4} 
           />
@@ -143,30 +143,30 @@ const Molecule = ({ rotationSpeed = 0.003 }) => {
 
   // Define molecule structure - this is a simplified THC-like structure
   const atoms = [
-    { position: [0, 0, 0], color: "#9333ea", size: 0.8, pulseSpeed: 1.2 },        // Central carbon
-    { position: [2, 0, 0], color: "#9333ea", size: 0.8, pulseSpeed: 0.9 },        // Carbon
-    { position: [2.5, 1.5, 0], color: "#9333ea", size: 0.8, pulseSpeed: 1.1 },    // Carbon
-    { position: [1, 2, 0], color: "#9333ea", size: 0.8, pulseSpeed: 0.8 },        // Carbon
-    { position: [-0.5, 1.5, 0], color: "#9333ea", size: 0.8, pulseSpeed: 1.3 },   // Carbon
-    { position: [0, -2, 0], color: "#9333ea", size: 0.8, pulseSpeed: 1.0 },       // Carbon chain
-    { position: [1, -3, 1], color: "#9333ea", size: 0.8, pulseSpeed: 1.2 },       // Carbon chain
-    { position: [0, -4, 2], color: "#9333ea", size: 0.8, pulseSpeed: 0.9 },       // Carbon chain
+    { position: [0, 0, 0], color: "#059669", size: 0.8, pulseSpeed: 1.2 },        // Central carbon
+    { position: [2, 0, 0], color: "#059669", size: 0.8, pulseSpeed: 0.9 },        // Carbon
+    { position: [2.5, 1.5, 0], color: "#059669", size: 0.8, pulseSpeed: 1.1 },    // Carbon
+    { position: [1, 2, 0], color: "#059669", size: 0.8, pulseSpeed: 0.8 },        // Carbon
+    { position: [-0.5, 1.5, 0], color: "#059669", size: 0.8, pulseSpeed: 1.3 },   // Carbon
+    { position: [0, -2, 0], color: "#059669", size: 0.8, pulseSpeed: 1.0 },       // Carbon chain
+    { position: [1, -3, 1], color: "#059669", size: 0.8, pulseSpeed: 1.2 },       // Carbon chain
+    { position: [0, -4, 2], color: "#059669", size: 0.8, pulseSpeed: 0.9 },       // Carbon chain
     { position: [3, -1, 1], color: "#e11d48", size: 0.7, pulseSpeed: 1.4 },       // Oxygen
-    { position: [-1, -1, 1], color: "#d946ef", size: 0.7, pulseSpeed: 1.5 },      // Nitrogen
+    { position: [-1, -1, 1], color: "#84cc16", size: 0.7, pulseSpeed: 1.5 },      // Nitrogen
     { position: [3, 2, 1], color: "#e11d48", size: 0.7, pulseSpeed: 1.3 },        // Oxygen
   ];
 
   const bonds = [
-    { start: [0, 0, 0], end: [2, 0, 0], color: "#a855f7" },
-    { start: [2, 0, 0], end: [2.5, 1.5, 0], color: "#a855f7" },
-    { start: [2.5, 1.5, 0], end: [1, 2, 0], color: "#a855f7" },
-    { start: [1, 2, 0], end: [-0.5, 1.5, 0], color: "#a855f7" },
-    { start: [-0.5, 1.5, 0], end: [0, 0, 0], color: "#a855f7" },
-    { start: [0, 0, 0], end: [0, -2, 0], color: "#a855f7" },
-    { start: [0, -2, 0], end: [1, -3, 1], color: "#a855f7" },
-    { start: [1, -3, 1], end: [0, -4, 2], color: "#a855f7" },
+    { start: [0, 0, 0], end: [2, 0, 0], color: "#10b981" },
+    { start: [2, 0, 0], end: [2.5, 1.5, 0], color: "#10b981" },
+    { start: [2.5, 1.5, 0], end: [1, 2, 0], color: "#10b981" },
+    { start: [1, 2, 0], end: [-0.5, 1.5, 0], color: "#10b981" },
+    { start: [-0.5, 1.5, 0], end: [0, 0, 0], color: "#10b981" },
+    { start: [0, 0, 0], end: [0, -2, 0], color: "#10b981" },
+    { start: [0, -2, 0], end: [1, -3, 1], color: "#10b981" },
+    { start: [1, -3, 1], end: [0, -4, 2], color: "#10b981" },
     { start: [2, 0, 0], end: [3, -1, 1], color: "#ec4899" },
-    { start: [0, 0, 0], end: [-1, -1, 1], color: "#a855f7" },
+    { start: [0, 0, 0], end: [-1, -1, 1], color: "#10b981" },
     { start: [2.5, 1.5, 0], end: [3, 2, 1], color: "#ec4899" },
   ];
 
@@ -216,7 +216,7 @@ const Scene = () => {
       {/* Dynamic lighting */}
       <ambientLight intensity={0.3} />
       <pointLight position={[10, 10, 10]} intensity={1.5} color="#ffffff" />
-      <pointLight position={[-10, -10, -10]} intensity={0.8} color="#a855f7" />
+      <pointLight position={[-10, -10, -10]} intensity={0.8} color="#10b981" />
       <pointLight position={[8, -5, 0]} intensity={1} color="#e11d48" />
       
       {/* Fog for depth */}

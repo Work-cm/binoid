@@ -75,7 +75,7 @@ export default function FAQPage() {
     {
       category: 'shipping',
       question: 'Is packaging discreet?',
-      answer: 'Yes, absolutely. All orders are shipped in plain, unmarked packaging with no mention of NitazeneChemicals or product details. The sender name is generic for your privacy.'
+      answer: 'Yes, absolutely. All orders are shipped in plain, unmarked packaging with no mention of CannabinoidSite or product details. The sender name is generic for your privacy.'
     },
     {
       category: 'shipping',
@@ -226,7 +226,7 @@ export default function FAQPage() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 bg-sky-500/10 border border-sky-500/20 rounded-full px-4 py-1.5 text-sky-400 text-sm font-medium mb-4">
+          <div className="inline-flex items-center gap-2 bg-emerald-50 border border-emerald-200 rounded-full px-4 py-1.5 text-emerald-600 text-sm font-medium mb-4">
             <FaQuestionCircle className="text-xs" />
             Support Center
           </div>
@@ -239,13 +239,13 @@ export default function FAQPage() {
         {/* Search Bar */}
         <div className="mb-6">
           <div className="relative max-w-xl mx-auto">
-            <FaSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-900 text-xs" />
+            <FaSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 text-xs" />
             <input
               type="text"
               placeholder="Search questions..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-gray-50/60 border border-gray-700/50 text-gray-900 rounded-xl py-3 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-sky-500 placeholder-gray-600 text-sm"
+              className="w-full bg-gray-50 border border-gray-200 text-gray-900 rounded-xl py-3 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-emerald-500 placeholder-gray-400 text-sm"
             />
           </div>
         </div>
@@ -259,8 +259,8 @@ export default function FAQPage() {
                 onClick={() => setActiveCategory(category.id)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                   activeCategory === category.id
-                    ? 'bg-sky-500 text-gray-900 shadow-lg shadow-sky-800/30'
-                    : 'bg-gray-50/60 border border-gray-700/50 text-gray-900 hover:text-gray-900 hover:border-gray-600'
+                    ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d] shadow-lg shadow-emerald-500/25'
+                    : 'bg-gray-50 border border-gray-200 text-gray-900 hover:text-gray-900 hover:border-emerald-300'
                 }`}
               >
                 <span className="mr-1.5">{category.icon}</span>
@@ -276,8 +276,8 @@ export default function FAQPage() {
             filteredFAQs.map((faq, index) => (
               <div
                 key={index}
-                className={`bg-gray-50/60 border rounded-2xl overflow-hidden transition-all ${
-                  openIndex === index ? 'border-sky-500/40' : 'border-gray-700/50 hover:border-gray-600/50'
+                className={`bg-gray-50 border rounded-2xl overflow-hidden transition-all ${
+                  openIndex === index ? 'border-emerald-400' : 'border-gray-200 hover:border-emerald-300'
                 }`}
               >
                 <button
@@ -286,13 +286,13 @@ export default function FAQPage() {
                 >
                   <span className="text-gray-900 font-medium text-sm pr-4 leading-snug">{faq.question}</span>
                   {openIndex === index ? (
-                    <FaChevronUp className="text-sky-400 flex-shrink-0 text-xs" />
+                    <FaChevronUp className="text-emerald-600 flex-shrink-0 text-xs" />
                   ) : (
-                    <FaChevronDown className="text-gray-900 flex-shrink-0 text-xs" />
+                    <FaChevronDown className="text-gray-400 flex-shrink-0 text-xs" />
                   )}
                 </button>
                 {openIndex === index && (
-                  <div className="px-6 pb-5 border-t border-gray-700/40">
+                  <div className="px-6 pb-5 border-t border-gray-200">
                     <p className="text-gray-900 leading-relaxed text-sm pt-4">{faq.answer}</p>
                   </div>
                 )}
@@ -303,7 +303,7 @@ export default function FAQPage() {
               <p className="text-gray-900">No questions matched your search.</p>
               <button
                 onClick={() => { setSearchQuery(''); setActiveCategory('all'); }}
-                className="mt-3 text-sky-400 hover:text-sky-300 text-sm"
+                className="mt-3 text-emerald-600 hover:text-emerald-500 text-sm"
               >
                 Clear filters
               </button>
@@ -312,16 +312,16 @@ export default function FAQPage() {
         </div>
 
         {/* Still Have Questions CTA */}
-        <div className="mt-12 bg-gradient-to-br from-sky-800/30 to-gray-900/60 border border-sky-600/30 rounded-2xl p-8 text-center">
+        <div className="mt-12 bg-gradient-to-br from-emerald-50 to-lime-50 border border-emerald-200 rounded-2xl p-8 text-center">
           <h2 className="text-xl font-bold text-gray-900 mb-2">Still have questions?</h2>
           <p className="text-gray-900 text-sm mb-6">Our support team typically responds within 24 hours.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="https://wa.me/15125922145" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-sky-500 hover:bg-sky-500 text-gray-900 font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30 text-sm">
+              className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 text-sm">
               WhatsApp Support
             </a>
             <a href="https://t.me/cannachem" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-gray-100 hover:bg-gray-700 border border-gray-700 text-gray-900 font-semibold py-3 px-6 rounded-xl transition-colors text-sm">
+              className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-200 text-gray-900 font-semibold py-3 px-6 rounded-xl transition-colors text-sm">
               Telegram Us
             </a>
           </div>
@@ -336,7 +336,7 @@ export default function FAQPage() {
             { href: '/refund', label: 'Return & Refund' },
           ].map((link) => (
             <Link key={link.href} href={link.href}
-              className="bg-gray-50/60 border border-gray-700/50 hover:border-sky-500/40 rounded-xl p-3 text-center text-sm text-gray-900 hover:text-sky-400 transition-all">
+              className="bg-gray-50 border border-gray-200 hover:border-emerald-400 rounded-xl p-3 text-center text-sm text-gray-900 hover:text-emerald-600 transition-all">
               {link.label}
             </Link>
           ))}

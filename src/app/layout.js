@@ -1,4 +1,4 @@
-import { Syne, Manrope } from "next/font/google";
+import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
@@ -15,15 +15,15 @@ import TelegramButton from "@/components/common/TelegramButton";
 import AuthProvider from "@/components/auth/AuthProvider";
 import CartProvider from "@/components/cart/CartProvider";
 
-const syne = Syne({
+const displayFont = Space_Grotesk({
   subsets: ["latin"],
-  weight: ['400', '500', '600', '700', '800'],
+  weight: ['400', '500', '600', '700'],
   display: 'swap',
   preload: true,
   variable: '--font-display',
 });
 
-const manrope = Manrope({
+const bodyFont = Inter({
   subsets: ["latin"],
   weight: ['300', '400', '500', '600', '700', '800'],
   display: 'swap',
@@ -31,23 +31,23 @@ const manrope = Manrope({
   variable: '--font-body',
 });
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://nitazenechemicals.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com';
 
 export const metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'NitazeneChemicals | Premium Research Chemicals',
-    template: '%s | NitazeneChemicals',
+    default: 'CannabinoidSite | Premium Synthetic Cannabinoids & Research Chemicals',
+    template: '%s | CannabinoidSite',
   },
-  description: 'Buy premium research chemicals online. NitazeneChemicals supplies synthetic cannabinoids, nitazenes, opioids and laboratory-grade compounds with worldwide discreet shipping.',
+  description: 'Buy premium synthetic cannabinoids online. CannabinoidSite supplies lab-verified cannabinoids, nitazenes, opioids and laboratory-grade research chemicals with worldwide discreet shipping.',
   keywords: [
     'research chemicals', 'buy research chemicals online',
     'synthetic cannabinoids', 'nitazenes', 'opioids', 'laboratory chemicals',
     '5cl-adba', '5cladba', '5fadb', 'jwh-018', 'adb-butinaca', 'ab-pinaca',
     '5F-EDMB-PINACA', 'ADB-FUBINACA', '4FADB', 'AMB-FUBINACA', 'MDMB-4en-PINACA',
-    'NitazeneChemicals',
+    'CannabinoidSite',
   ],
-  other: { 'theme-color': '#7e22ce' },
+  other: { 'theme-color': '#047857' },
   robots: {
     index: true,
     follow: true,
@@ -63,21 +63,21 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: BASE_URL,
-    siteName: 'NitazeneChemicals',
-    title: 'NitazeneChemicals | Premium Research Chemicals',
+    siteName: 'CannabinoidSite',
+    title: 'CannabinoidSite | Premium Synthetic Cannabinoids & Research Chemicals',
     description: 'Premium synthetic cannabinoids, nitazenes, opioids and laboratory compounds. Worldwide discreet shipping.',
     images: [
       {
         url: `${BASE_URL}/images/logo.svg`,
         width: 1200,
         height: 630,
-        alt: 'NitazeneChemicals — Premium Research Chemicals',
+        alt: 'CannabinoidSite — Premium Cannabinoids & Research Chemicals',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NitazeneChemicals | Premium Research Chemicals',
+    title: 'CannabinoidSite | Premium Synthetic Cannabinoids & Research Chemicals',
     description: 'Premium synthetic cannabinoids, nitazenes, opioids and laboratory compounds. Worldwide discreet shipping.',
     images: [`${BASE_URL}/images/logo.svg`],
   },
@@ -111,7 +111,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body className={`${manrope.className} ${manrope.variable} ${syne.variable} font-sans min-h-screen flex flex-col`}>
+      <body className={`${bodyFont.className} ${bodyFont.variable} ${displayFont.variable} font-sans min-h-screen flex flex-col`}>
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-sky-500 focus:text-white focus:px-4 focus:py-2 focus:rounded"

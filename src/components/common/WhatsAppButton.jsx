@@ -22,7 +22,7 @@ export default function WhatsAppButton() {
         </a>
         
         {/* Tooltip - only appears on this button's hover */}
-        <span className="absolute left-full ml-3 top-1/2 -translate-y-1/2 bg-gray-50 text-white px-4 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+        <span className="absolute left-full ml-3 top-1/2 -translate-y-1/2 bg-[#06130d] text-white px-4 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
           Chat with us on WhatsApp
         </span>
       </div>

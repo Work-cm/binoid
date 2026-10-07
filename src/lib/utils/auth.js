@@ -30,7 +30,7 @@ export async function verifyAdmin(request) {
     }
 
     // Verify JWT token
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'NitazeneChemicals-secret-key');
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'CannabinoidSite-secret-key');
     console.log('Token decoded:', decoded);
 
     if (!decoded || !decoded.id) {
@@ -74,7 +74,7 @@ export async function verifyUser(request) {
     }
 
     // Verify JWT token
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'NitazeneChemicals-secret-key');
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'CannabinoidSite-secret-key');
 
     if (!decoded || !decoded.id) {
       return null;

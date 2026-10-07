@@ -64,18 +64,18 @@ export default function CheckoutForm({ orderDetails }) {
     }
   };
 
-  const inputClass = 'bg-gray-100/60 border border-gray-700 text-white rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent placeholder-gray-600 text-sm';
+  const inputClass = 'bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent placeholder-gray-400 text-sm';
   const labelClass = 'block text-xs font-medium text-gray-900 mb-1.5';
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
       {errorMessage && (
-        <div className="bg-sky-500/20 border border-sky-500/40 text-sky-400 px-4 py-3 rounded-xl text-sm">
+        <div className="bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded-xl text-sm">
           {errorMessage}
         </div>
       )}
 
-      <h3 className="text-white font-semibold text-sm">Billing Information</h3>
+      <h3 className="text-gray-900 font-semibold text-sm">Billing Information</h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
@@ -118,7 +118,7 @@ export default function CheckoutForm({ orderDetails }) {
       <button
         type="submit"
         disabled={processing}
-        className="w-full bg-sky-500 hover:bg-sky-500 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30 flex items-center justify-center disabled:opacity-70 disabled:cursor-not-allowed disabled:translate-y-0 mt-2"
+        className="w-full bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-bold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 flex items-center justify-center disabled:opacity-70 disabled:cursor-not-allowed disabled:translate-y-0 mt-2"
       >
         {processing ? (
           <>

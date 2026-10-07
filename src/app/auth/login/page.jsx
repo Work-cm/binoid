@@ -50,7 +50,7 @@ function LoginForm() {
           <p className="text-gray-900 text-sm mt-1">Sign in to your account</p>
         </div>
 
-        <div className="bg-gray-50/70 border border-gray-700/50 rounded-2xl p-8 shadow-xl">
+        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8 shadow-sm">
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-900 mb-2">
@@ -58,7 +58,7 @@ function LoginForm() {
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <FaEnvelope className="text-gray-900 text-xs" />
+                  <FaEnvelope className="text-gray-400 text-xs" />
                 </div>
                 <input
                   id="email"
@@ -66,7 +66,7 @@ function LoginForm() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="bg-gray-100/60 border border-gray-700 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent placeholder-gray-600"
+                  className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent placeholder-gray-400"
                   placeholder="your@email.com"
                 />
               </div>
@@ -78,7 +78,7 @@ function LoginForm() {
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <FaLock className="text-gray-900 text-xs" />
+                  <FaLock className="text-gray-400 text-xs" />
                 </div>
                 <input
                   id="password"
@@ -86,7 +86,7 @@ function LoginForm() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
-                  className="bg-gray-100/60 border border-gray-700 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent placeholder-gray-600"
+                  className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent placeholder-gray-400"
                   placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                 />
               </div>
@@ -95,7 +95,7 @@ function LoginForm() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-sky-500 hover:bg-sky-500 disabled:opacity-60 disabled:cursor-not-allowed text-gray-900 font-semibold py-3 px-4 rounded-xl flex items-center justify-center transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30 mt-2"
+              className="w-full bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 disabled:opacity-60 disabled:cursor-not-allowed text-[#06130d] font-bold py-3 px-4 rounded-xl flex items-center justify-center transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 mt-2"
             >
               {loading ? (
                 <div className="animate-spin rounded-full h-5 w-5 border-t-2 border-b-2 border-white" />
@@ -103,17 +103,17 @@ function LoginForm() {
             </button>
           </form>
 
-          <p className="text-gray-900 text-sm text-center mt-6">
+          <p className="text-gray-500 text-sm text-center mt-6">
             Don&apos;t have an account?{' '}
-            <Link href="/auth/register" className="text-sky-400 hover:text-sky-300 font-medium">
+            <Link href="/auth/register" className="text-emerald-600 hover:text-emerald-500 font-semibold">
               Create one
             </Link>
           </p>
         </div>
 
-        <p className="text-center text-xs text-gray-900 mt-6">
+        <p className="text-center text-xs text-gray-400 mt-6">
           By signing in you agree to our{' '}
-          <Link href="/terms" className="text-gray-900 hover:text-gray-900">Terms</Link> &amp; <Link href="/privacy" className="text-gray-900 hover:text-gray-900">Privacy Policy</Link>
+          <Link href="/terms" className="text-gray-500 hover:text-emerald-600">Terms</Link> &amp; <Link href="/privacy" className="text-gray-500 hover:text-emerald-600">Privacy Policy</Link>
         </p>
       </div>
     </div>
@@ -124,7 +124,7 @@ export default function LoginPage() {
   return (
     <Suspense fallback={
       <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-sky-500" />
+        <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-emerald-500" />
       </div>
     }>
       <LoginForm />

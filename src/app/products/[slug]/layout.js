@@ -1,7 +1,7 @@
 import dbConnect from '@/lib/utils/db';
 import Product from '@/models/Product';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://nitazenechemicals.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com';
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
 
     if (!product) {
       return {
-        title: 'Product Not Found | NitazeneChemicals',
+        title: 'Product Not Found | CannabinoidSite',
         description: 'The product you are looking for could not be found.',
       };
     }
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
 
     return {
       metadataBase: new URL(BASE_URL),
-      title: `Buy ${product.name} Online | Research Chemicals | NitazeneChemicals`,
+      title: `Buy ${product.name} Online | Research Chemicals | CannabinoidSite`,
       description: shortDesc,
       keywords: [
         product.name,
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
         'research chemicals',
         'synthetic cannabinoids',
               'nitazenes',
-        'NitazeneChemicals',
+        'CannabinoidSite',
         'high purity',
         'certificate of analysis',
         'lab verified',
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }) {
         canonical: `/products/${slug}`,
       },
       openGraph: {
-        title: `${product.name} | NitazeneChemicals`,
+        title: `${product.name} | CannabinoidSite`,
         description: shortDesc,
         url: `/products/${slug}`,
         type: 'website',
@@ -62,14 +62,14 @@ export async function generateMetadata({ params }) {
       },
       twitter: {
         card: 'summary_large_image',
-        title: `${product.name} | NitazeneChemicals`,
+        title: `${product.name} | CannabinoidSite`,
         description: shortDesc,
         images: [image],
       },
     };
   } catch {
     return {
-      title: 'NitazeneChemicals | Research Chemicals',
+      title: 'CannabinoidSite | Research Chemicals',
       description: 'Premium research chemicals — high purity, certificate of analysis, discreet shipping.',
     };
   }

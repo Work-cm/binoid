@@ -43,7 +43,7 @@ async function uploadToCloudinary(file) {
     return new Promise((resolve, reject) => {
       const uploadStream = cloudinary.uploader.upload_stream(
         {
-          folder: 'NitazeneChemicals/products',
+          folder: 'CannabinoidSite/products',
           resource_type: 'auto',
         },
         (error, result) => {

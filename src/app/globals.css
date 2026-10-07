@@ -7,7 +7,7 @@
 
 
 h1, h2, h3, h4, h5, h6, .font-display {
-  font-family: var(--font-display), 'Syne', system-ui, sans-serif;
+  font-family: var(--font-display), 'Space Grotesk', system-ui, sans-serif;
   letter-spacing: -0.02em;
 }
 
@@ -103,7 +103,7 @@ img, picture {
 
 
 
-/* Logo orbit — rotates the electron ring in the NitazeneChemicals logo */
+/* Logo orbit — rotates the electron ring in the CannabinoidSite logo */
 
 .logo-orbit {
 
@@ -133,15 +133,15 @@ img, picture {
 
     90deg,
 
-    #a855f7 0%,
+    #10b981 0%,
 
-    #d946ef 25%,
+    #84cc16 25%,
 
-    #f0abfc 50%,
+    #bef264 50%,
 
-    #d946ef 75%,
+    #84cc16 75%,
 
-    #a855f7 100%
+    #10b981 100%
 
   );
 
@@ -183,7 +183,7 @@ img, picture {
 
   margin-left: 2px;
 
-  background: #e879f9;
+  background: #a3e635;
 
   vertical-align: -0.1em;
 
@@ -224,7 +224,7 @@ img, picture {
 
 ::selection {
 
-  background: rgba(168, 85, 247, 0.35);
+  background: rgba(16, 185, 129, 0.35);
 
   color: inherit;
 
@@ -284,7 +284,7 @@ img, picture {
 
 *:focus-visible {
 
-  outline: 2px solid #a855f7;
+  outline: 2px solid #10b981;
 
   outline-offset: 2px;
 
@@ -302,7 +302,7 @@ textarea:focus-visible,
 
 select:focus-visible {
 
-  outline: 2px solid #a855f7;
+  outline: 2px solid #10b981;
 
   outline-offset: 2px;
 

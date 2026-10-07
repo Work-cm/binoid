@@ -19,7 +19,7 @@ function ProductRow({ product, index }) {
   return (
     <Link
       href={`/products/${product.slug || product._id}`}
-      className="group grid grid-cols-[auto_1fr_auto] sm:grid-cols-[auto_auto_1fr_auto_auto_auto] items-center gap-4 sm:gap-6 py-4 border-b border-gray-200 hover:bg-purple-50/40 -mx-4 px-4 rounded-xl transition-colors"
+      className="group grid grid-cols-[auto_1fr_auto] sm:grid-cols-[auto_auto_1fr_auto_auto_auto] items-center gap-4 sm:gap-6 py-4 border-b border-gray-200 hover:bg-emerald-50/40 -mx-4 px-4 rounded-xl transition-colors"
     >
       <span className="hidden sm:block font-mono text-xs text-gray-400 w-8">{String(index + 1).padStart(2, '0')}</span>
       <span className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden bg-gray-100 shrink-0">
@@ -30,7 +30,7 @@ function ProductRow({ product, index }) {
         )}
       </span>
       <span className="min-w-0">
-        <span className="block font-display font-bold text-gray-900 text-base sm:text-lg leading-tight truncate group-hover:text-purple-700 transition-colors">{product.name}</span>
+        <span className="block font-display font-bold text-gray-900 text-base sm:text-lg leading-tight truncate group-hover:text-emerald-700 transition-colors">{product.name}</span>
         <span className="block text-[11px] uppercase tracking-[0.18em] text-gray-400 mt-1">{product.category}</span>
         <span className="sm:hidden flex items-center gap-3 mt-1.5">
           <span className="font-mono text-sm text-gray-900">€{price.toFixed(2)}</span>
@@ -42,7 +42,7 @@ function ProductRow({ product, index }) {
         <span className="block font-mono text-base text-gray-900">€{price.toFixed(2)}</span>
         <span className={`block text-[10px] font-bold uppercase tracking-wider mt-0.5 ${inStock ? 'text-emerald-600' : 'text-red-500'}`}>{inStock ? 'In stock' : 'Sold out'}</span>
       </span>
-      <span className="w-9 h-9 rounded-full border border-gray-300 group-hover:border-purple-500 group-hover:bg-purple-600 group-hover:text-white flex items-center justify-center text-gray-500 transition-all group-hover:rotate-[-45deg]">
+      <span className="w-9 h-9 rounded-full border border-gray-300 group-hover:border-emerald-500 group-hover:bg-emerald-600 group-hover:text-white flex items-center justify-center text-gray-500 transition-all group-hover:rotate-[-45deg]">
         <FaArrowRight size={11} />
       </span>
     </Link>
@@ -238,7 +238,7 @@ export default function ProductList({ initialProducts, selectedCategory }) {
               placeholder="Filter by name, category..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-gray-50 border border-gray-200 text-gray-900 rounded-full pl-9 pr-9 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-400 placeholder-gray-400 transition-all"
+              className="w-full bg-gray-50 border border-gray-200 text-gray-900 rounded-full pl-9 pr-9 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-400 placeholder-gray-400 transition-all"
             />
             {searchQuery && (
               <button className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-900" onClick={() => setSearchQuery('')} aria-label="Clear search">
@@ -269,7 +269,7 @@ export default function ProductList({ initialProducts, selectedCategory }) {
             name="sortBy"
             value={filters.sortBy}
             onChange={handleFilterChange}
-            className="bg-gray-50 border border-gray-200 text-gray-700 rounded-full pl-3.5 pr-8 py-2 text-xs font-bold focus:outline-none focus:ring-2 focus:ring-purple-500 cursor-pointer"
+            className="bg-gray-50 border border-gray-200 text-gray-700 rounded-full pl-3.5 pr-8 py-2 text-xs font-bold focus:outline-none focus:ring-2 focus:ring-emerald-500 cursor-pointer"
           >
             <option value="newest">Newest</option>
             <option value="price-low-high">Price ↑</option>
@@ -279,12 +279,12 @@ export default function ProductList({ initialProducts, selectedCategory }) {
 
           {/* View toggle */}
           <div className="ml-auto flex items-center bg-gray-50 border border-gray-200 rounded-full p-1">
-            <button type="button" onClick={() => setView('list')} aria-label="List view" className={`w-8 h-7 rounded-full flex items-center justify-center transition-colors ${view === 'list' ? 'bg-[#12081f] text-white' : 'text-gray-500 hover:text-gray-900'}`}><FaList size={11} /></button>
-            <button type="button" onClick={() => setView('grid')} aria-label="Grid view" className={`w-8 h-7 rounded-full flex items-center justify-center transition-colors ${view === 'grid' ? 'bg-[#12081f] text-white' : 'text-gray-500 hover:text-gray-900'}`}><FaThLarge size={11} /></button>
+            <button type="button" onClick={() => setView('list')} aria-label="List view" className={`w-8 h-7 rounded-full flex items-center justify-center transition-colors ${view === 'list' ? 'bg-[#06130d] text-white' : 'text-gray-500 hover:text-gray-900'}`}><FaList size={11} /></button>
+            <button type="button" onClick={() => setView('grid')} aria-label="Grid view" className={`w-8 h-7 rounded-full flex items-center justify-center transition-colors ${view === 'grid' ? 'bg-[#06130d] text-white' : 'text-gray-500 hover:text-gray-900'}`}><FaThLarge size={11} /></button>
           </div>
 
           {hasActiveFilters && (
-            <button type="button" onClick={clearFilters} className="text-xs font-bold text-purple-600 hover:text-fuchsia-600 transition-colors">Reset</button>
+            <button type="button" onClick={clearFilters} className="text-xs font-bold text-emerald-600 hover:text-lime-600 transition-colors">Reset</button>
           )}
         </div>
       </div>
@@ -320,7 +320,7 @@ export default function ProductList({ initialProducts, selectedCategory }) {
         <div className="border border-dashed border-gray-300 rounded-[1.75rem] p-14 text-center">
           <p className="font-display text-2xl font-bold text-gray-900 mb-2">Nothing matches.</p>
           <p className="text-gray-500 text-sm mb-6">Try adjusting your filters or search term.</p>
-          <button onClick={clearFilters} className="bg-[#12081f] hover:bg-violet-900 text-white px-6 py-3 rounded-full text-sm font-bold transition-colors">
+          <button onClick={clearFilters} className="bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] px-6 py-3 rounded-full text-sm font-bold transition-all shadow-lg shadow-emerald-500/20">
             Reset filters
           </button>
         </div>

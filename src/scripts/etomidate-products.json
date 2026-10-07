@@ -1,0 +1,248 @@
+[
+  {
+    "_id": "6ac50ec5c2511b7574c879fa",
+    "slug": "spirochlorphine-r6890",
+    "__v": 0,
+    "casNumber": "3222-88-6",
+    "category": "etomidate",
+    "countInStock": 16,
+    "createdAt": "2026-10-06T15:07:46.527Z",
+    "description": "Spirochlorphine (research code R-6890), formally 8-[1-(4-chlorophenyl)ethyl]-1-phenyl-1,3,8-triazaspiro[4.5]decan-4-one (C21H24ClN3O, MW 369.9), is an orphine opioid analgesic of the spiropiperidine family, first described in the Janssen receptor-affinity literature in 1977 and since re-emerging as a designer drug. Its triazaspirodecanone core — a spiro-fused ring system that locks the pharmacophore into a defined three-dimensional conformation — relates it to brorphine and to the spiropiperidine ligands Ro64-6198 and Ro65-6570.\n\nSpirochlorphine acts as a mu-opioid receptor agonist, with the conformational rigidity imparted by its spiro structure producing receptor binding characteristics of particular interest in opioid SAR research. Constrained scaffolds of this type are studied for their ability to map the spatial requirements of the opioid binding pocket — information that flexible molecules like fentanyl cannot provide.\n\nFollowing its re-emergence in the NPS landscape, spirochlorphine's analytical profile is still being built out in forensic reference libraries. Its LC-MS/MS transition ions and fragmentation behaviour are documented in emerging-substance surveillance databases, and demand for certified reference material has grown alongside its detection frequency in seized material and toxicology casework.\n\nSpirochlorphine R6890 is employed in opioid receptor binding research, rigid-scaffold opioid SAR studies, forensic reference standard preparation, and novel psychoactive substance surveillance programmes. Its unusual structural class makes it a valuable addition to comprehensive opioid reference collections.\n\nOur spirochlorphine R6890 is produced to 98%+ purity, confirmed by HPLC-MS and NMR spectroscopy. A Certificate of Analysis with available spectral data accompanies every order.",
+    "featured": false,
+    "images": [
+      "/images/etomidate/spirochlorphine-r6890.jpg"
+    ],
+    "name": "Spirochlorphine R6890",
+    "numReviews": 6,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac512c64919e930947a2804"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac512c64919e930947a2805"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac512c64919e930947a2806"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac512c64919e930947a2807"
+      }
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-10-06T15:24:54.490Z"
+  },
+  {
+    "_id": "6ac50ec4c2511b7574c879f9",
+    "slug": "tiletamine-powder",
+    "__v": 0,
+    "casNumber": "14176-50-2",
+    "category": "etomidate",
+    "countInStock": 24,
+    "createdAt": "2026-10-06T15:07:45.895Z",
+    "description": "Tiletamine, formally 2-(ethylamino)-2-(2-thienyl)cyclohexanone, is a dissociative anaesthetic of the arylcyclohexylamine class — the same structural family as ketamine and phencyclidine — and one half of the veterinary anaesthetic combination Telazol/Zoletil (tiletamine + zolazepam). Its 2-thiophene substitution in place of ketamine's 2-chlorophenyl ring produces a distinct potency and duration profile that has made it a key compound in dissociative pharmacology research.\n\nTiletamine is a non-competitive NMDA receptor antagonist, binding at the phencyclidine site within the NMDA receptor ion channel to produce dissociative anaesthesia, catalepsy, and analgesia. It is approximately twice as potent as ketamine with a longer duration of action, and its N-ethylamino (rather than N-methylamino) substitution represents an important data point in arylcyclohexylamine structure-activity relationship mapping.\n\nThe compound's metabolism via N-deethylation produces nortiletamine and related metabolites, pathways documented in both veterinary pharmacology literature and forensic toxicology. Tiletamine's appearance in NPS markets — where it has been identified as a ketamine substitute — has expanded its relevance beyond veterinary anaesthesia into recreational-drug surveillance and post-mortem toxicology.\n\nTiletamine powder is employed in NMDA receptor pharmacology research, dissociative anaesthetic structure-activity studies, veterinary anaesthesia research, forensic reference standard development, and arylcyclohexylamine comparative assays alongside ketamine, PCP, and related analogues.\n\nOur tiletamine powder is produced to 99%+ purity as the hydrochloride salt, confirmed by HPLC-MS and multinuclear NMR spectroscopy. A full Certificate of Analysis with complete spectral data is provided with every order.",
+    "featured": false,
+    "images": [
+      "/images/etomidate/tiletamine-powder.jpg"
+    ],
+    "name": "Tiletamine Powder",
+    "numReviews": 13,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac512c64919e930947a27fb"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac512c64919e930947a27fc"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac512c64919e930947a27fd"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac512c64919e930947a27fe"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T15:24:54.094Z"
+  },
+  {
+    "_id": "6ac50ec4c2511b7574c879f8",
+    "slug": "medetomidine-powder",
+    "__v": 0,
+    "casNumber": "86347-14-0",
+    "category": "etomidate",
+    "countInStock": 28,
+    "createdAt": "2026-10-06T15:07:45.446Z",
+    "description": "Medetomidine, formally (±)-4-[1-(2,3-dimethylphenyl)ethyl]-1H-imidazole, is a potent and highly selective α2-adrenergic receptor agonist and the parent racemate of dexmedetomidine — the active S-enantiomer used clinically as a sedative and analgesic. Originally developed as a veterinary sedative-analgesic, medetomidine has become one of the most important α2-adrenoceptor probe compounds in pharmacology.\n\nMedetomidine exhibits among the highest α2:α1 adrenoceptor selectivity ratios of any characterised ligand, producing profound sedation, analgesia, and muscle relaxation through activation of presynaptic and postsynaptic α2-adrenoceptors in the CNS. Its binding affinity and receptor selectivity profile have made it the standard comparator in α2-adrenergic pharmacology, and its S-enantiomer dexmedetomidine is a benchmark in studies of stereoselective drug action.\n\nThe compound's emergence as an adulterant in illicit opioid supplies — where it is used to potentiate or mimic opioid effects — has driven intense forensic and clinical interest. Detection and quantification of medetomidine in seized material and biological matrices is now routine in toxicology laboratories tracking polysubstance adulteration trends.\n\nMedetomidine powder is employed in α2-adrenoceptor binding and functional assays, sedative-analgesic pharmacology research, veterinary anaesthesia studies, forensic reference standard preparation, and drug-adulteration surveillance programmes. Its imidazole scaffold also makes it relevant to etomidate-class structure comparisons.\n\nOur medetomidine powder is produced to 99%+ purity, confirmed by HPLC-MS and multinuclear NMR spectroscopy. A comprehensive Certificate of Analysis with complete spectral data accompanies every order.",
+    "featured": true,
+    "images": [
+      "/images/etomidate/medetomidine-powder.jpg"
+    ],
+    "name": "Medetomidine Powder",
+    "numReviews": 17,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac512c54919e930947a27f2"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac512c54919e930947a27f3"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac512c54919e930947a27f4"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac512c54919e930947a27f5"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T15:24:53.615Z"
+  },
+  {
+    "_id": "6ac50ec3c2511b7574c879f7",
+    "slug": "cychlorphine-hcl-powder",
+    "__v": 0,
+    "casNumber": "16145-71-4",
+    "category": "etomidate",
+    "countInStock": 18,
+    "createdAt": "2026-10-06T15:07:44.909Z",
+    "description": "Cychlorphine HCl is a novel synthetic opioid analgesic that emerged in the illicit drug supply in the mid-2020s, attracting immediate attention from forensic chemists and opioid pharmacologists. Also known as N-propionitrile chlorphine (3-[3-[1-[1-(4-chlorophenyl)ethyl]piperidin-4-yl]-2-oxobenzimidazol-1-yl]propanenitrile, C23H25ClN4O), it is a benzimidazolone opioid of the \"orphine\" class, structurally related to brorphine, chlorphine and spirochlorphine. Despite its name, it is not a structural analogue of morphine.\n\nCychlorphine functions as a potent mu-opioid receptor agonist, with preclinical and forensic potency estimates placing it substantially above morphine and within the range of concern that drives emergency scheduling responses. Its rapid appearance in seized material across multiple jurisdictions made it a priority compound for analytical method development, spectral library expansion, and opioid receptor binding characterisation.\n\nThe compound's hydrochloride salt form — the standard material encountered in both research supply and forensic seizures — offers good stability and solubility for analytical work. Its LC-MS/MS transition ions, GC retention indices, and EI fragmentation pattern have been documented in emerging-substances databases maintained by forensic and early-warning monitoring systems.\n\nCychlorphine HCl is employed in opioid receptor pharmacology research, novel opioid structure-activity relationship studies, forensic reference standard preparation, and post-mortem toxicology method development. As a structurally novel opioid, it is a critical reference material for laboratories tracking the evolution of the synthetic opioid landscape.\n\nOur cychlorphine HCl powder is produced to 98%+ purity, confirmed by HPLC-MS and NMR spectroscopy. A Certificate of Analysis with available spectral data accompanies every order.",
+    "featured": false,
+    "images": [
+      "/images/etomidate/cychlorphine-hcl-powder.jpg"
+    ],
+    "name": "Cychlorphine HCL Powder",
+    "numReviews": 8,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac512c54919e930947a27e9"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac512c54919e930947a27ea"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac512c54919e930947a27eb"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac512c54919e930947a27ec"
+      }
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-10-06T15:24:53.134Z"
+  },
+  {
+    "_id": "6ac50ec3c2511b7574c879f3",
+    "slug": "etomidate-crystal",
+    "__v": 0,
+    "casNumber": "33125-97-2",
+    "category": "etomidate",
+    "countInStock": 22,
+    "createdAt": "2026-10-06T15:07:44.493Z",
+    "description": "Etomidate crystal is the crystalline form of the imidazole-based intravenous anaesthetic etomidate — ethyl (R)-3-(2-phenylethyl)-4-oxo-4H-imidazole-5-carboxylate. Where the micronised powder favours rapid dissolution and formulation work, the crystalline grade offers superior long-term stability, defined solid-state structure, and suitability for X-ray crystallography, polymorph studies, and reference material preparation.\n\nThe crystalline lattice of etomidate has been fully characterised, and its defined melting point provides an orthogonal identity check alongside spectroscopic methods. Crystal-form reference material is preferred in regulatory and forensic settings where solid-state integrity, reproducible weighing, and minimal surface-area-driven degradation matter.\n\nPharmacologically, crystalline etomidate is identical to the powder form — a selective GABA-A receptor positive allosteric modulator acting at the β2/β3 subunit interface, producing rapid-onset hypnosis with exceptional cardiovascular stability. The compound's secondary pharmacology — potent inhibition of adrenal 11β-hydroxylase — remains a subject of intensive research into anaesthetic-mediated adrenal suppression.\n\nCrystalline etomidate is employed in solid-state chemistry research, analytical standard preparation, forensic reference libraries, and pharmaceutical polymorph screening. Its defined crystal habit also makes it suitable for dissolution-rate studies and formulation development work.\n\nOur etomidate crystal is produced to 99%+ purity, confirmed by HPLC-MS, melting-point determination, and multinuclear NMR spectroscopy. A full Certificate of Analysis with spectral and solid-state characterisation data accompanies every order.",
+    "featured": true,
+    "images": [
+      "/images/etomidate/etomidate-crystal.jpg"
+    ],
+    "name": "Etomidate Crystal",
+    "numReviews": 11,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac512c44919e930947a27e0"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac512c44919e930947a27e1"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac512c44919e930947a27e2"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac512c44919e930947a27e3"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T15:24:52.710Z"
+  },
+  {
+    "_id": "6ac50ec2c2511b7574c879f2",
+    "slug": "etomidate-powder-pure",
+    "__v": 0,
+    "casNumber": "33125-97-2",
+    "category": "etomidate",
+    "countInStock": 25,
+    "createdAt": "2026-10-06T15:07:42.054Z",
+    "description": "Etomidate, formally ethyl 3-(2-phenylethyl)-4-oxo-4H-imidazole-5-carboxylate (the pharmacologically active R-enantiomer), is an imidazole-based intravenous anaesthetic agent and one of the most pharmacologically distinctive compounds in general anaesthesia research. First synthesised by Janssen Pharmaceuticals in 1964 and introduced clinically in 1972, it remains the reference standard for rapid-onset, haemodynamically stable hypnotic agents.\n\nEtomidate produces its anaesthetic effect through selective positive allosteric modulation of the GABA-A receptor, binding at the β2/β3 subunit interface — the same site targeted by propofol and distinct from the benzodiazepine binding site. Its preferential affinity for β3-containing receptor subtypes produces rapid hypnosis with minimal cardiovascular depression, a property that has made it the benchmark compound in studies of GABA-A receptor subtype pharmacology and anaesthetic binding-site mapping.\n\nThe compound's most pharmacologically significant feature beyond hypnosis is its potent inhibition of adrenal steroidogenesis — etomidate inhibits 11β-hydroxylase and cholesterol side-chain cleavage enzyme at sub-anaesthetic concentrations, suppressing cortisol synthesis for up to 24 hours after a single dose. This dual pharmacology has made etomidate a central compound in neuroendocrinology research, adrenocortical function studies, and investigations into anaesthetic-related adrenal suppression.\n\nEtomidate is extensively employed as a reference standard in anaesthetic pharmacology, GABA-A receptor binding and electrophysiology assays, steroidogenesis pathway research, and forensic toxicology. Its characteristic metabolic profile — rapid hepatic and plasma esterase hydrolysis to the inactive metabolite etomidate carboxylic acid — makes it a well-documented compound in anaesthetic pharmacokinetic modelling and post-mortem toxicology interpretation.\n\nOur pure etomidate powder is produced to 99%+ purity, confirmed by HPLC-MS, ¹H and ¹³C NMR spectroscopy, and chiral analysis verifying the pharmacologically active R-enantiomer. A comprehensive Certificate of Analysis with complete spectral data is provided with every order.",
+    "featured": true,
+    "images": [
+      "/images/etomidate/etomidate-powder-pure.jpg"
+    ],
+    "name": "Etomidate Powder Pure",
+    "numReviews": 14,
+    "price": 9000,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 9000,
+        "_id": "6ac512c24919e930947a27d7"
+      },
+      {
+        "quantity": 250,
+        "price": 1600,
+        "_id": "6ac512c24919e930947a27d8"
+      },
+      {
+        "quantity": 500,
+        "price": 3000,
+        "_id": "6ac512c24919e930947a27d9"
+      },
+      {
+        "quantity": 1000,
+        "price": 5000,
+        "_id": "6ac512c24919e930947a27da"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T15:24:50.079Z"
+  }
+]

@@ -50,14 +50,14 @@ export const allKeywords = [...primaryKeywords, ...secondaryKeywords];
 // Schema.org structured data for better SEO
 export const getProductSchema = (product) => {
   const startingPrice = product.priceVariants?.[0]?.price ?? product.price;
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://nitazenechemicals.com';
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com';
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.name,
     description: product.description,
     image: product.images?.[0] || `${BASE_URL}/images/logo.svg`,
-    brand: { '@type': 'Brand', name: 'NitazeneChemicals' },
+    brand: { '@type': 'Brand', name: 'CannabinoidSite' },
     offers: {
       '@type': 'Offer',
       price: startingPrice ?? 0,
@@ -75,14 +75,14 @@ export const getProductSchema = (product) => {
 
 // Get base URL for schemas
 const getBaseUrl = () => {
-  return process.env.NEXT_PUBLIC_BASE_URL || 'https://nitazenechemicals.com';
+  return process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com';
 };
 
 // Organization schema
 export const getOrganizationSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'NitazeneChemicals',
+  name: 'CannabinoidSite',
   description: 'Premium research chemicals supplier — synthetic cannabinoids, nitazenes and laboratory-grade compounds for scientific research.',
   url: getBaseUrl(),
   logo: {
@@ -101,7 +101,7 @@ export const getOrganizationSchema = () => ({
 export const getWebsiteSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'NitazeneChemicals',
+  name: 'CannabinoidSite',
   description: 'Premium research chemicals — synthetic cannabinoids, nitazenes and laboratory compounds.',
   url: getBaseUrl(),
   potentialAction: {

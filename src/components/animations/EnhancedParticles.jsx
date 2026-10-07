@@ -49,7 +49,7 @@ export default function EnhancedParticles({ className = '' }) {
               }
             },
             color: {
-              value: ["#9333ea", "#a855f7", "#c084fc", "#e879f9", "#f0abfc", "#e11d48", "#d946ef"]
+              value: ["#059669", "#10b981", "#34d399", "#a3e635", "#bef264", "#e11d48", "#84cc16"]
             },
             shape: {
               type: ["circle", "triangle", "polygon", "star"],
@@ -83,13 +83,13 @@ export default function EnhancedParticles({ className = '' }) {
             line_linked: {
               enable: true,
               distance: 150,
-              color: "#a855f7",
+              color: "#10b981",
               opacity: 0.4,
               width: 1.5,
               triangles: {
                 enable: true,
                 opacity: 0.1,
-                color: "#c084fc"
+                color: "#34d399"
               }
             },
             move: {
@@ -109,7 +109,7 @@ export default function EnhancedParticles({ className = '' }) {
                 enable: true,
                 length: 10,
                 fill: {
-                  color: "#9333ea"
+                  color: "#059669"
                 }
               }
             },
@@ -130,7 +130,7 @@ export default function EnhancedParticles({ className = '' }) {
             },
             stroke: {
               width: 1,
-              color: "#a855f7"
+              color: "#10b981"
             }
           },
           interactivity: {
@@ -160,7 +160,7 @@ export default function EnhancedParticles({ className = '' }) {
                 opacity: 0.8,
                 speed: 3,
                 color: {
-                  value: ["#9333ea", "#e11d48", "#d946ef"]
+                  value: ["#059669", "#e11d48", "#84cc16"]
                 }
               },
               repulse: {
@@ -202,7 +202,7 @@ export default function EnhancedParticles({ className = '' }) {
               },
               particles: {
                 color: {
-                  value: ["#9333ea", "#e11d48", "#d946ef"]
+                  value: ["#059669", "#e11d48", "#84cc16"]
                 },
                 move: {
                   speed: 5

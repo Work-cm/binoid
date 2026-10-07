@@ -179,29 +179,29 @@ export default function ProfilePage() {
 
   if (loading || !isAuthenticated) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black pt-24 flex justify-center items-center">
+      <div className="min-h-screen bg-white pt-24 flex justify-center items-center">
         <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-sky-500"></div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black pt-24">
+    <div className="min-h-screen bg-white pt-24">
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-3xl font-bold text-white mb-8">My Account</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-8">My Account</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Sidebar */}
             <div className="md:col-span-1">
-              <div className="bg-gray-100 rounded-lg p-4">
+              <div className="bg-gray-50 border border-gray-200 rounded-2xl p-4">
                 <div className="flex flex-col space-y-2">
                   <button
                     onClick={() => setActiveTab('profile')}
                     className={`flex items-center p-3 rounded-lg transition-colors ${
                       activeTab === 'profile' 
-                        ? 'bg-sky-500 text-white' 
-                        : 'text-gray-900 hover:bg-gray-700'
+                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d]' 
+                        : 'text-gray-700 hover:bg-emerald-50'
                     }`}
                   >
                     <FaUser className="mr-3" /> Profile
@@ -211,8 +211,8 @@ export default function ProfilePage() {
                     onClick={() => setActiveTab('orders')}
                     className={`flex items-center p-3 rounded-lg transition-colors ${
                       activeTab === 'orders' 
-                        ? 'bg-sky-500 text-white' 
-                        : 'text-gray-900 hover:bg-gray-700'
+                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d]' 
+                        : 'text-gray-700 hover:bg-emerald-50'
                     }`}
                   >
                     <FaShoppingBag className="mr-3" /> Orders
@@ -222,8 +222,8 @@ export default function ProfilePage() {
                     onClick={() => setActiveTab('shipping')}
                     className={`flex items-center p-3 rounded-lg transition-colors ${
                       activeTab === 'shipping' 
-                        ? 'bg-sky-500 text-white' 
-                        : 'text-gray-900 hover:bg-gray-700'
+                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d]' 
+                        : 'text-gray-700 hover:bg-emerald-50'
                     }`}
                   >
                     <FaMapMarkerAlt className="mr-3" /> Shipping Address
@@ -233,8 +233,8 @@ export default function ProfilePage() {
                     onClick={() => setActiveTab('password')}
                     className={`flex items-center p-3 rounded-lg transition-colors ${
                       activeTab === 'password' 
-                        ? 'bg-sky-500 text-white' 
-                        : 'text-gray-900 hover:bg-gray-700'
+                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d]' 
+                        : 'text-gray-700 hover:bg-emerald-50'
                     }`}
                   >
                     <FaLock className="mr-3" /> Change Password
@@ -242,7 +242,7 @@ export default function ProfilePage() {
                   
                   <button
                     onClick={handleLogout}
-                    className="flex items-center p-3 rounded-lg text-gray-900 hover:bg-gray-700 transition-colors"
+                    className="flex items-center p-3 rounded-lg text-gray-700 hover:bg-emerald-50 transition-colors"
                   >
                     <FaSignOutAlt className="mr-3" /> Logout
                   </button>
@@ -252,15 +252,15 @@ export default function ProfilePage() {
             
             {/* Main Content */}
             <div className="md:col-span-3">
-              <div className="bg-gray-100 rounded-lg p-6">
+              <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6">
                 {/* Profile Tab */}
                 {activeTab === 'profile' && (
                   <div>
-                    <h2 className="text-xl font-semibold text-white mb-6">Profile Information</h2>
+                    <h2 className="text-xl font-semibold text-gray-900 mb-6">Profile Information</h2>
                     
                     <form onSubmit={handleProfileUpdate} className="space-y-6">
                       <div>
-                        <label htmlFor="name" className="block text-white mb-2">
+                        <label htmlFor="name" className="block text-gray-900 font-medium text-sm mb-2">
                           Full Name
                         </label>
                         <input
@@ -268,13 +268,13 @@ export default function ProfilePage() {
                           type="text"
                           value={profileData.name}
                           onChange={(e) => setProfileData({...profileData, name: e.target.value})}
-                          className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                          className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                           required
                         />
                       </div>
                       
                       <div>
-                        <label htmlFor="email" className="block text-white mb-2">
+                        <label htmlFor="email" className="block text-gray-900 font-medium text-sm mb-2">
                           Email Address
                         </label>
                         <input
@@ -282,7 +282,7 @@ export default function ProfilePage() {
                           type="email"
                           value={profileData.email}
                           onChange={(e) => setProfileData({...profileData, email: e.target.value})}
-                          className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                          className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                           required
                         />
                       </div>
@@ -292,7 +292,7 @@ export default function ProfilePage() {
                         whileTap={{ scale: 0.98 }}
                         type="submit"
                         disabled={updating}
-                        className={`bg-sky-500 hover:bg-sky-500 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30 ${
+                        className={`bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 ${
                           updating ? 'opacity-70 cursor-not-allowed translate-y-0' : ''
                         }`}
                       >
@@ -312,7 +312,7 @@ export default function ProfilePage() {
                 {/* Orders Tab */}
                 {activeTab === 'orders' && (
                   <div>
-                    <h2 className="text-xl font-semibold text-white mb-6">Order History</h2>
+                    <h2 className="text-xl font-semibold text-gray-900 mb-6">Order History</h2>
                     
                     {loadingOrders ? (
                       <div className="flex justify-center py-8">
@@ -321,19 +321,19 @@ export default function ProfilePage() {
                     ) : orders.length > 0 ? (
                       <div className="space-y-6">
                         {orders.map((order) => (
-                          <div key={order._id} className="bg-gray-700 rounded-lg p-4">
+                          <div key={order._id} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
                             <div className="flex flex-wrap justify-between items-center mb-4">
                               <div>
                                 <p className="text-gray-900 text-sm">Order ID</p>
-                                <p className="text-white font-mono">{order._id}</p>
+                                <p className="text-gray-900 font-mono">{order._id}</p>
                               </div>
                               <div>
                                 <p className="text-gray-900 text-sm">Date</p>
-                                <p className="text-white">{new Date(order.createdAt).toLocaleDateString()}</p>
+                                <p className="text-gray-900">{new Date(order.createdAt).toLocaleDateString()}</p>
                               </div>
                               <div>
                                 <p className="text-gray-900 text-sm">Total</p>
-                                <p className="text-white font-semibold">${order.totalPrice.toFixed(2)}</p>
+                                <p className="text-gray-900 font-semibold">${order.totalPrice.toFixed(2)}</p>
                               </div>
                               <div>
                                 <p className="text-gray-900 text-sm">Status</p>
@@ -353,14 +353,14 @@ export default function ProfilePage() {
                                 {order.orderItems.map((item) => (
                                   <div key={item._id} className="flex justify-between">
                                     <div className="flex items-center">
-                                      <span className="text-white">{item.name}</span>
+                                      <span className="text-gray-900">{item.name}</span>
                                       {item.variant && (
                                         <span className="text-gray-900 ml-2">({item.variant.quantity}g)</span>
                                       )}
                                       <span className="text-gray-900 mx-2">Ã—</span>
-                                      <span className="text-white">{item.quantity}</span>
+                                      <span className="text-gray-900">{item.quantity}</span>
                                     </div>
-                                    <span className="text-white">${(item.price * item.quantity).toFixed(2)}</span>
+                                    <span className="text-gray-900">${(item.price * item.quantity).toFixed(2)}</span>
                                   </div>
                                 ))}
                               </div>
@@ -369,7 +369,7 @@ export default function ProfilePage() {
                             <div className="mt-4">
                               <Link 
                                 href={`/orders/${order._id}`}
-                                className="text-sky-400 hover:text-sky-300 text-sm"
+                                className="text-emerald-600 hover:text-emerald-500 text-sm"
                               >
                                 View Order Details
                               </Link>
@@ -382,7 +382,7 @@ export default function ProfilePage() {
                         <p className="text-gray-900 mb-4">You haven't placed any orders yet.</p>
                         <Link 
                           href="/products" 
-                          className="bg-sky-500 hover:bg-sky-500 text-white font-semibold py-2 px-4 rounded-xl transition-colors"
+                          className="bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-gray-900 font-semibold py-2 px-4 rounded-xl transition-colors"
                         >
                           Browse Products
                         </Link>
@@ -394,11 +394,11 @@ export default function ProfilePage() {
                 {/* Shipping Address Tab */}
                 {activeTab === 'shipping' && (
                   <div>
-                    <h2 className="text-xl font-semibold text-white mb-6">Shipping Address</h2>
+                    <h2 className="text-xl font-semibold text-gray-900 mb-6">Shipping Address</h2>
                     
                     <form onSubmit={handleShippingUpdate} className="space-y-6">
                       <div>
-                        <label htmlFor="fullName" className="block text-white mb-2">
+                        <label htmlFor="fullName" className="block text-gray-900 font-medium text-sm mb-2">
                           Full Name
                         </label>
                         <input
@@ -406,13 +406,13 @@ export default function ProfilePage() {
                           type="text"
                           value={shippingData.fullName}
                           onChange={(e) => setShippingData({...shippingData, fullName: e.target.value})}
-                          className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                          className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                           required
                         />
                       </div>
                       
                       <div>
-                        <label htmlFor="address" className="block text-white mb-2">
+                        <label htmlFor="address" className="block text-gray-900 font-medium text-sm mb-2">
                           Street Address
                         </label>
                         <input
@@ -420,14 +420,14 @@ export default function ProfilePage() {
                           type="text"
                           value={shippingData.address}
                           onChange={(e) => setShippingData({...shippingData, address: e.target.value})}
-                          className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                          className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                           required
                         />
                       </div>
                       
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                          <label htmlFor="city" className="block text-white mb-2">
+                          <label htmlFor="city" className="block text-gray-900 font-medium text-sm mb-2">
                             City
                           </label>
                           <input
@@ -435,13 +435,13 @@ export default function ProfilePage() {
                             type="text"
                             value={shippingData.city}
                             onChange={(e) => setShippingData({...shippingData, city: e.target.value})}
-                            className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                            className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                             required
                           />
                         </div>
                         
                         <div>
-                          <label htmlFor="postalCode" className="block text-white mb-2">
+                          <label htmlFor="postalCode" className="block text-gray-900 font-medium text-sm mb-2">
                             Postal Code
                           </label>
                           <input
@@ -449,14 +449,14 @@ export default function ProfilePage() {
                             type="text"
                             value={shippingData.postalCode}
                             onChange={(e) => setShippingData({...shippingData, postalCode: e.target.value})}
-                            className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                            className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                             required
                           />
                         </div>
                       </div>
                       
                       <div>
-                        <label htmlFor="country" className="block text-white mb-2">
+                        <label htmlFor="country" className="block text-gray-900 font-medium text-sm mb-2">
                           Country
                         </label>
                         <input
@@ -464,7 +464,7 @@ export default function ProfilePage() {
                           type="text"
                           value={shippingData.country}
                           onChange={(e) => setShippingData({...shippingData, country: e.target.value})}
-                          className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                          className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                           required
                         />
                       </div>
@@ -474,7 +474,7 @@ export default function ProfilePage() {
                         whileTap={{ scale: 0.98 }}
                         type="submit"
                         disabled={updating}
-                        className={`bg-sky-500 hover:bg-sky-500 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30 ${
+                        className={`bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 ${
                           updating ? 'opacity-70 cursor-not-allowed translate-y-0' : ''
                         }`}
                       >
@@ -494,11 +494,11 @@ export default function ProfilePage() {
                 {/* Change Password Tab */}
                 {activeTab === 'password' && (
                   <div>
-                    <h2 className="text-xl font-semibold text-white mb-6">Change Password</h2>
+                    <h2 className="text-xl font-semibold text-gray-900 mb-6">Change Password</h2>
                     
                     <form onSubmit={handlePasswordUpdate} className="space-y-6">
                       <div>
-                        <label htmlFor="currentPassword" className="block text-white mb-2">
+                        <label htmlFor="currentPassword" className="block text-gray-900 font-medium text-sm mb-2">
                           Current Password
                         </label>
                         <input
@@ -506,13 +506,13 @@ export default function ProfilePage() {
                           type="password"
                           value={passwordData.currentPassword}
                           onChange={(e) => setPasswordData({...passwordData, currentPassword: e.target.value})}
-                          className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                          className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                           required
                         />
                       </div>
                       
                       <div>
-                        <label htmlFor="newPassword" className="block text-white mb-2">
+                        <label htmlFor="newPassword" className="block text-gray-900 font-medium text-sm mb-2">
                           New Password
                         </label>
                         <input
@@ -520,7 +520,7 @@ export default function ProfilePage() {
                           type="password"
                           value={passwordData.newPassword}
                           onChange={(e) => setPasswordData({...passwordData, newPassword: e.target.value})}
-                          className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                          className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                           required
                           minLength={6}
                         />
@@ -530,7 +530,7 @@ export default function ProfilePage() {
                       </div>
                       
                       <div>
-                        <label htmlFor="confirmPassword" className="block text-white mb-2">
+                        <label htmlFor="confirmPassword" className="block text-gray-900 font-medium text-sm mb-2">
                           Confirm New Password
                         </label>
                         <input
@@ -538,7 +538,7 @@ export default function ProfilePage() {
                           type="password"
                           value={passwordData.confirmPassword}
                           onChange={(e) => setPasswordData({...passwordData, confirmPassword: e.target.value})}
-                          className="bg-gray-700 text-white rounded-lg py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+                          className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500"
                           required
                         />
                       </div>
@@ -548,7 +548,7 @@ export default function ProfilePage() {
                         whileTap={{ scale: 0.98 }}
                         type="submit"
                         disabled={updating}
-                        className={`bg-sky-500 hover:bg-sky-500 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30 ${
+                        className={`bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 ${
                           updating ? 'opacity-70 cursor-not-allowed translate-y-0' : ''
                         }`}
                       >

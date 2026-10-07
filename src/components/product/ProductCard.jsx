@@ -25,7 +25,7 @@ export default function ProductCard({ product }) {
       whileHover={{ y: -4 }}
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
-      className="bg-white rounded-2xl border border-gray-200 overflow-hidden hover:border-sky-300 hover:shadow-lg hover:shadow-sky-50 transition-all duration-300 flex flex-col h-full"
+      className="bg-white rounded-2xl border border-gray-200 overflow-hidden hover:border-emerald-300 hover:shadow-lg hover:shadow-emerald-500/10 transition-all duration-300 flex flex-col h-full"
     >
       {/* Image */}
       <Link
@@ -57,8 +57,13 @@ export default function ProductCard({ product }) {
         )}
 
         {/* Category badge */}
-        <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-sky-600 text-[10px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-lg border border-sky-100 shadow-sm">
+        <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-emerald-700 text-[10px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-lg border border-emerald-100 shadow-sm">
           {product.category}
+        </span>
+
+        {/* COA badge */}
+        <span className="absolute top-3 right-3 bg-emerald-500/90 backdrop-blur-sm text-white text-[9px] font-bold uppercase tracking-wide px-2 py-1 rounded-md shadow-sm">
+          COA
         </span>
 
         {/* Out of stock */}
@@ -72,7 +77,7 @@ export default function ProductCard({ product }) {
       {/* Content */}
       <div className="p-4 flex flex-col flex-1">
         <Link href={`/products/${product.slug || product._id}`}>
-          <h3 className="text-gray-900 font-bold text-sm leading-snug hover:text-sky-500 transition-colors line-clamp-1 mb-1">
+          <h3 className="text-gray-900 font-bold text-sm leading-snug hover:text-emerald-600 transition-colors line-clamp-1 mb-1">
             {product.name || 'Unnamed Product'}
           </h3>
         </Link>
@@ -100,7 +105,7 @@ export default function ProductCard({ product }) {
           </div>
           <Link
             href={`/products/${product.slug || product._id}`}
-            className="bg-sky-500 hover:bg-sky-600 text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors flex items-center gap-1.5"
+            className="bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white text-xs font-bold px-4 py-2 rounded-xl transition-all flex items-center gap-1.5"
           >
             View <span className="text-[10px]">â†’</span>
           </Link>

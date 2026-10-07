@@ -59,19 +59,19 @@ export default function RegisterPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <h1 className="text-2xl font-extrabold text-gray-900 mt-3">Create an account</h1>
-          <p className="text-gray-900 text-sm mt-1">Join NitazeneChemicals for premium research chemicals</p>
+          <p className="text-gray-900 text-sm mt-1">Join CannabinoidSite for premium research chemicals</p>
         </div>
 
-        <div className="bg-gray-50/70 border border-gray-700/50 rounded-2xl p-8 shadow-xl">
+        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8 shadow-sm">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-900 mb-2">Full Name</label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <FaUser className="text-gray-900 text-xs" />
+                  <FaUser className="text-gray-400 text-xs" />
                 </div>
                 <input id="name" type="text" value={name} onChange={(e) => setName(e.target.value)} required
-                  className="bg-gray-100/60 border border-gray-700 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent placeholder-gray-600"
+                  className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent placeholder-gray-400"
                   placeholder="John Doe" />
               </div>
             </div>
@@ -80,10 +80,10 @@ export default function RegisterPage() {
               <label htmlFor="email" className="block text-sm font-medium text-gray-900 mb-2">Email Address</label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <FaEnvelope className="text-gray-900 text-xs" />
+                  <FaEnvelope className="text-gray-400 text-xs" />
                 </div>
                 <input id="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} required
-                  className="bg-gray-100/60 border border-gray-700 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent placeholder-gray-600"
+                  className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent placeholder-gray-400"
                   placeholder="your@email.com" />
               </div>
             </div>
@@ -92,10 +92,10 @@ export default function RegisterPage() {
               <label htmlFor="password" className="block text-sm font-medium text-gray-900 mb-2">Password</label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <FaLock className="text-gray-900 text-xs" />
+                  <FaLock className="text-gray-400 text-xs" />
                 </div>
                 <input id="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required
-                  className="bg-gray-100/60 border border-gray-700 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent placeholder-gray-600"
+                  className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent placeholder-gray-400"
                   placeholder="Min. 6 characters" />
               </div>
             </div>
@@ -104,29 +104,29 @@ export default function RegisterPage() {
               <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-900 mb-2">Confirm Password</label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <FaLock className="text-gray-900 text-xs" />
+                  <FaLock className="text-gray-400 text-xs" />
                 </div>
                 <input id="confirmPassword" type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} required
-                  className="bg-gray-100/60 border border-gray-700 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent placeholder-gray-600"
+                  className="bg-white border border-gray-200 text-gray-900 rounded-xl py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent placeholder-gray-400"
                   placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" />
               </div>
             </div>
 
             <button type="submit" disabled={loading}
-              className="w-full bg-sky-500 hover:bg-sky-500 disabled:opacity-60 disabled:cursor-not-allowed text-gray-900 font-semibold py-3 px-4 rounded-xl flex items-center justify-center transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30 mt-2">
+              className="w-full bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 disabled:opacity-60 disabled:cursor-not-allowed text-[#06130d] font-bold py-3 px-4 rounded-xl flex items-center justify-center transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 mt-2">
               {loading ? <div className="animate-spin rounded-full h-5 w-5 border-t-2 border-b-2 border-white" /> : 'Create Account'}
             </button>
           </form>
 
-          <p className="text-gray-900 text-sm text-center mt-6">
+          <p className="text-gray-500 text-sm text-center mt-6">
             Already have an account?{' '}
-            <Link href="/auth/login" className="text-sky-400 hover:text-sky-300 font-medium">Sign in</Link>
+            <Link href="/auth/login" className="text-emerald-600 hover:text-emerald-500 font-semibold">Sign in</Link>
           </p>
         </div>
 
-        <p className="text-center text-xs text-gray-900 mt-6">
+        <p className="text-center text-xs text-gray-400 mt-6">
           By registering you agree to our{' '}
-          <Link href="/terms" className="text-gray-900 hover:text-gray-900">Terms</Link> &amp; <Link href="/privacy" className="text-gray-900 hover:text-gray-900">Privacy Policy</Link>
+          <Link href="/terms" className="text-gray-500 hover:text-emerald-600">Terms</Link> &amp; <Link href="/privacy" className="text-gray-500 hover:text-emerald-600">Privacy Policy</Link>
         </p>
       </div>
     </div>

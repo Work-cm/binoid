@@ -1,0 +1,633 @@
+[
+  {
+    "_id": "6ac4ff54c2511b7574c873a3",
+    "slug": "crystal-meth",
+    "__v": 0,
+    "casNumber": "51-57-0",
+    "category": "research chemicals",
+    "countInStock": 20,
+    "createdAt": "2026-10-06T14:01:53.258Z",
+    "description": "Crystal meth, formally (S)-N-methyl-1-phenylpropan-2-amine hydrochloride, is the crystalline hydrochloride salt of methamphetamine — a potent substituted amphetamine and one of the most extensively characterised central nervous system stimulants in pharmaceutical and forensic science. Originally synthesised in 1893 from ephedrine, methamphetamine remains a benchmark compound in monoamine pharmacology and drug policy research.\n\nMethamphetamine acts as a potent dopamine-norepinephrine releasing agent, functioning as a substrate at DAT, NET, and the vesicular monoamine transporter VMAT2. Its reversal of transporter function — rather than mere reuptake blockade — produces monoamine efflux that distinguishes its mechanism from cocaine and places it at the centre of transporter-substrate pharmacology research. The compound's high lipophilicity produces rapid and extensive blood-brain barrier penetration.\n\nThe compound exists as two enantiomers with dramatically different pharmacology: d-methamphetamine is the potent CNS stimulant, while l-methamphetamine retains only peripheral sympathomimetic activity. This stereochemical dichotomy makes chiral analysis of methamphetamine a routine forensic requirement, and isotope-ratio mass spectrometry is used to determine synthetic route provenance in seizure analysis.\n\nCrystal meth serves as a primary reference standard in forensic drug identification, stimulant pharmacology research, neurotoxicity studies examining dopaminergic terminal damage, drug policy and epidemiology research, and the development of presumptive testing technologies including Raman and ion-mobility spectrometry.\n\nOur crystal meth is produced as the d-methamphetamine hydrochloride salt to 99%+ purity, confirmed by HPLC-MS, chiral chromatography, and multinuclear NMR spectroscopy. A comprehensive Certificate of Analysis with enantiomeric purity data is provided with every order.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791297743/NitazeneChemicals/products/dyf9px0rwcgyrnskynwm.webp"
+    ],
+    "name": "Crystal Meth",
+    "numReviews": 19,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T14:42:24.276Z"
+  },
+  {
+    "_id": "6ac4ff53c2511b7574c873a2",
+    "slug": "kratom-powder",
+    "__v": 0,
+    "casNumber": "4098-40-2",
+    "category": "research chemicals",
+    "countInStock": 60,
+    "createdAt": "2026-10-06T14:01:52.809Z",
+    "description": "Kratom powder is the finely milled leaf material of Mitragyna speciosa, a tropical evergreen tree of the coffee family (Rubiaceae) native to Southeast Asia. The powder contains a complex alkaloid profile dominated by mitragynine (CAS 4098-40-2) and 7-hydroxymitragynine — the two indole alkaloids responsible for the plant's unique dual stimulant-opioid pharmacology and the focus of an expanding body of pharmacological research.\n\nMitragynine, the most abundant alkaloid (~60–66% of total alkaloid content), acts as a partial agonist at mu-opioid receptors while also engaging adrenergic, serotonergic, and dopaminergic systems — a polypharmacological profile that distinguishes kratom from classical opioids. Crucially, preclinical evidence suggests mitragynine produces markedly less β-arrestin-2 recruitment than conventional opioids, a finding central to current research into its reduced respiratory depression profile.\n\n7-Hydroxymitragynine, present at roughly 2% of total alkaloid content but significantly more potent at mu-opioid receptors, is formed both in planta and via hepatic CYP3A4-mediated oxidation of mitragynine. The metabolic interconversion of these alkaloids makes kratom a uniquely valuable subject for pharmacokinetic, drug-metabolism, and opioid receptor functional selectivity research.\n\nKratom powder is employed in natural product chemistry, alkaloid isolation and quantification method development, ethnopharmacological studies, opioid receptor signalling research, and analytical standard preparation for mitragynine/7-OH-mitragynine assays. It is among the most frequently encountered botanical materials in forensic and clinical toxicology.\n\nOur kratom powder is produced from mature Mitragyna speciosa leaf, micronised to consistent particle size, and independently verified for mitragynine content by HPLC. A Certificate of Analysis with alkaloid quantification and microbial screening data accompanies every order.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791296665/NitazeneChemicals/products/hnbhamplcl3tjeugvr9a.jpg"
+    ],
+    "name": "Kratom Powder",
+    "numReviews": 38,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-10-06T14:24:27.110Z"
+  },
+  {
+    "_id": "6ac4ff53c2511b7574c873a1",
+    "slug": "u-47700",
+    "__v": 0,
+    "casNumber": "121348-98-9",
+    "category": "research chemicals",
+    "countInStock": 25,
+    "createdAt": "2026-10-06T14:01:52.406Z",
+    "description": "U-47700, formally 3,4-dichloro-N-[(1R,2R)-2-(dimethylamino)cyclohexyl]-N-methylbenzamide, is a synthetic opioid of the benzamide class originally developed by Upjohn in the 1970s as part of the AH-series analgesic programme. Never commercialised as a medicine, it emerged as a novel psychoactive substance around 2015 and became one of the most studied non-fentanyl synthetic opioids in forensic and pharmacological research.\n\nU-47700 is a selective mu-opioid receptor agonist with approximately 7.5 times the analgesic potency of morphine in preclinical models. Its trans-1,2-diaminocyclohexane scaffold — structurally unrelated to both the morphinan and anilidopiperidine opioid classes — makes it a fundamentally distinct pharmacophore, and it serves as the reference compound for the entire benzamide opioid family including U-48800, U-49900, and the isomeric U-51754.\n\nThe compound's metabolism via N-demethylation produces N-desmethyl-U-47700, the principal urinary metabolite used in forensic confirmation. Its appearance in drug seizure and post-mortem casework drove the rapid development of validated LC-MS/MS quantification methods, and U-47700 remains a mandatory inclusion in comprehensive opioid screening panels in accredited forensic laboratories.\n\nU-47700 is used in opioid receptor binding studies, benzamide-class SAR research, forensic reference standard development, and post-mortem toxicology method validation. Its scheduling history across jurisdictions has made it a case study in novel psychoactive substance legislative response.\n\nOur U-47700 is produced to 99%+ purity as the hydrochloride salt, confirmed by HPLC-MS, ¹H and ¹³C NMR spectroscopy, and elemental analysis. A full Certificate of Analysis with complete spectral data is provided with every order.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791296696/NitazeneChemicals/products/ddd3u36kyrgkupyg8kqd.jpg"
+    ],
+    "name": "U-47700",
+    "numReviews": 16,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T14:24:57.808Z"
+  },
+  {
+    "_id": "6ac4ff52c2511b7574c873a0",
+    "slug": "mdphp",
+    "__v": 0,
+    "casNumber": "776994-64-0",
+    "category": "research chemicals",
+    "countInStock": 22,
+    "createdAt": "2026-10-06T14:01:52.010Z",
+    "description": "MDPHP, formally 3',4'-methylenedioxy-α-pyrrolidinohexanophenone, is a synthetic cathinone of the pyrrolidinophenone subclass — commonly known as a \"monkey dust\" analogue — and one of the most pharmacologically potent cathinone derivatives identified in the novel psychoactive substances landscape. It emerged in European drug markets around 2016 and has since become a key compound in cathinone structure-activity relationship research.\n\nMDPHP functions as a potent norepinephrine-dopamine reuptake inhibitor (NDRI), with the 3,4-methylenedioxy ring conferring additional serotonergic activity absent in the parent α-PHP structure. Its six-carbon alkyl chain — longer than the butyl of MDPV or the pentyl of α-PVP — produces distinctive transporter binding kinetics, making it a critical data point in cathinone SAR mapping studies examining the relationship between side-chain length and monoamine transporter selectivity.\n\nThe compound's analytical characterisation has been driven by forensic demand: its EI-MS fragmentation pattern, GC retention indices, and LC-MS/MS transitions are documented in EUDA and UNODC reference libraries, and MDPHP frequently appears in seized material identification workflows alongside structurally related pyrrolidinophenones.\n\nMDPHP is employed in cathinone receptor pharmacology, forensic drug identification method development, NPS surveillance studies, and comparative potency assessments within the synthetic stimulant class. Its structural relationship to both MDPV and α-PHP makes it valuable in three-way SAR comparisons.\n\nOur MDPHP is produced to 99%+ purity as the hydrochloride salt, confirmed by HPLC-MS and multinuclear NMR spectroscopy. A complete Certificate of Analysis with spectral documentation accompanies every order.",
+    "featured": false,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791296737/NitazeneChemicals/products/xwnsa1wt2rq15rqid9ii.jpg"
+    ],
+    "name": "MDPHP",
+    "numReviews": 11,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-10-06T14:25:38.041Z"
+  },
+  {
+    "_id": "6ac4ff52c2511b7574c8739f",
+    "slug": "mdma",
+    "__v": 0,
+    "casNumber": "42542-10-9",
+    "category": "research chemicals",
+    "countInStock": 30,
+    "createdAt": "2026-10-06T14:01:49.569Z",
+    "description": "MDMA, formally (±)-3,4-methylenedioxy-N-methylamphetamine, is a substituted amphetamine of the phenethylamine class and one of the most extensively studied entactogenic compounds in modern pharmacology. First synthesised by Merck in 1912, it has become a cornerstone reference compound in serotonin transporter research, neurotoxicity studies, and clinical psychopharmacology.\n\nMDMA acts primarily as a serotonin-norepinephrine-dopamine releasing agent, functioning as a substrate at the serotonin transporter (SERT), norepinephrine transporter (NET), and to a lesser extent the dopamine transporter (DAT). Its preferential SERT affinity — roughly tenfold higher than for DAT — distinguishes it from classical amphetamines and produces its characteristic entactogenic pharmacological profile, making it the standard comparator in monoamine transporter selectivity studies.\n\nThe compound's metabolism is well characterised: hepatic CYP2D6-mediated O-demethylenation produces MDA (3,4-methylenedioxyamphetamine), itself an active metabolite, while alternative pathways via N-demethylation and catechol-O-methyltransferase produce a complex metabolite profile extensively documented in forensic and clinical toxicology literature.\n\nMDMA serves as the primary reference standard in entactogen pharmacology, illicit drug profiling, forensic seizure analysis, and the rapidly expanding field of MDMA-assisted psychotherapy research. Its enantiomeric composition — racemic in street material but stereochemically distinct in activity — makes chiral analysis of MDMA a standard forensic exercise.\n\nOur MDMA is supplied as the racemic hydrochloride salt, produced to 99%+ purity, confirmed by HPLC-MS, ¹H and ¹³C NMR spectroscopy, and chiral analysis. A full Certificate of Analysis with complete spectral data is provided with every order.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791296781/NitazeneChemicals/products/trnhztzy65khnj5uccgf.jpg"
+    ],
+    "name": "MDMA",
+    "numReviews": 22,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T14:26:22.994Z"
+  },
+  {
+    "_id": "6ac39d0ac2511b7574c7fecb",
+    "slug": "crystal-methamphetamine",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 40,
+    "createdAt": "2026-10-05T12:50:16.161Z",
+    "description": "Crystal Methamphetamine is the crystalline hydrochloride salt form of methamphetamine, a synthetic compound of the phenethylamine and amphetamine chemical class. First synthesised in 1893 by Nagai Nagayoshi from ephedrine and later produced in crystalline form by Akira Ogata in 1919, methamphetamine has been one of the most extensively studied psychostimulant compounds in neuroscience.\n\nAt the molecular level, methamphetamine interacts with the monoamine transporter proteins DAT (dopamine transporter), NET (norepinephrine transporter), and SERT (serotonin transporter), acting as a substrate-type releasing agent and reuptake inhibitor. It additionally disrupts vesicular monoamine transporter 2 (VMAT2) function and inhibits monoamine oxidase (MAO), resulting in elevated synaptic monoamine concentrations. These mechanisms make it a widely used pharmacological tool in studies examining dopaminergic neurotransmission, monoamine transporter biology, stimulant tolerance and dependence, and the neurobiology of addiction. The crystal form represents the recrystallised hydrochloride salt, offering high purity and structural characterisation by X-ray diffraction.\n\nOur Crystal Methamphetamine is produced to 99%+ purity, confirmed by GC-MS and HPLC analysis. A full Certificate of Analysis is provided with every batch. It is used in dopaminergic system research, monoamine transporter pharmacology, addiction neuroscience, and as a certified reference standard in forensic and analytical chemistry.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286858/NitazeneChemicals/products/xgz6m8ui5kq5vwj0eafg.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286859/NitazeneChemicals/products/klhj6q4nonhmc3v8kqoo.jpg"
+    ],
+    "name": "Crystal Methamphetamine",
+    "numReviews": 31,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "537-46-2"
+  },
+  {
+    "_id": "6ac39d09c2511b7574c7feca",
+    "slug": "3-cmc-3-chloromethcathinone",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 35,
+    "createdAt": "2026-10-05T12:50:15.750Z",
+    "description": "3-CMC (3-Chloromethcathinone) is a synthetic cathinone derivative belonging to the beta-keto amphetamine class of compounds. It is the meta-chloro-substituted analogue of methcathinone and is structurally related to cathinone, the principal active constituent of the khat plant (Catha edulis).\n\n3-CMC acts at the monoamine transporter proteins DAT, NET, and SERT, functioning as a substrate-type releasing agent at these transporters. The chloro substituent at the 3-position of the phenyl ring distinguishes its transporter selectivity profile from positional isomers such as 4-CMC, and this difference is documented in comparative in vitro pharmacology studies using radiolabelled substrates and synaptosomal preparations. Structure-activity relationship research within the synthetic cathinone series consistently demonstrates that both the position and nature of ring substituents significantly determine the DAT:SERT selectivity ratio, which is a key parameter in characterising compounds of this class.\n\nOur 3-CMC is produced to 99%+ purity, confirmed by HPLC-MS, NMR spectroscopy, and elemental analysis. A full Certificate of Analysis with spectral data is provided with every order. Applications include monoamine transporter pharmacology, synthetic cathinone SAR research, forensic reference standard development, and analytical method validation.",
+    "featured": false,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776241049/novachem/products/yhwnbjwkxaa0w87xdvf3.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776241050/novachem/products/h4e4wh1gjsm2rxurzf5w.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776241051/novachem/products/lyi0zcydbbql7lshifmz.jpg"
+    ],
+    "name": "3cmc",
+    "numReviews": 14,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1049677-59-9"
+  },
+  {
+    "_id": "6ac39d09c2511b7574c7fec9",
+    "slug": "4-cmc-4-chloromethcathinone",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 35,
+    "createdAt": "2026-10-05T12:50:15.245Z",
+    "description": "4-CMC (4-Chloromethcathinone), also known as Clephedrone, is a synthetic cathinone of the beta-keto amphetamine class. It is the para-chloro positional isomer of 3-CMC and belongs to the same structural series as other well-studied cathinone research compounds.\n\n4-CMC functions as a monoamine releasing agent and reuptake inhibitor at DAT, NET, and SERT. Comparative in vitro pharmacology studies have established that the para-chloro substitution in 4-CMC produces a distinct transporter selectivity profile relative to its 3-position isomer, reflecting the significance of substituent position in determining pharmacological activity within the cathinone series. Its physicochemical properties, analytical characteristics, and metabolic profile have been documented in the peer-reviewed forensic and pharmacological literature, including mass spectrometric fragmentation patterns and NMR spectral data.\n\nOur 4-CMC is manufactured to 99%+ purity, confirmed by HPLC, NMR, and mass spectrometry. A complete Certificate of Analysis with spectral data is provided with every order. It is used in monoamine transporter pharmacology, synthetic cathinone SAR research, forensic reference material libraries, and analytical method development.",
+    "featured": false,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240982/novachem/products/gugpnhmtgptbb1ndlwvf.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240983/novachem/products/iuzsrz7y9ldb8mkwcqck.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240984/novachem/products/lzg8dwh4c5k7e5bfarfh.jpg"
+    ],
+    "name": "4cmc",
+    "numReviews": 18,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.6,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1225843-86-6"
+  },
+  {
+    "_id": "6ac39d08c2511b7574c7fec8",
+    "slug": "3-mmc-3-methylmethcathinone",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 40,
+    "createdAt": "2026-10-05T12:50:14.767Z",
+    "description": "3-MMC (3-Methylmethcathinone) is a synthetic cathinone and a structural isomer of mephedrone (4-MMC), differing in the position of the methyl substituent on the phenyl ring meta (3-) versus para (4-). It belongs to the beta-keto amphetamine class and is among the synthetic cathinone compounds characterised in pharmacological and forensic research literature.\n\n3-MMC acts as a substrate-type releasing agent at DAT, NET, and SERT monoamine transporters. Comparative in vitro pharmacology data from synaptosomal superfusion experiments demonstrates that the meta-methyl substitution produces a measurably different transporter selectivity ratio compared to the para-methyl isomer (mephedrone), particularly with respect to the relative dopaminergic and serotoninergic components of activity. This SAR comparison provides insight into how minor structural modifications affect the pharmacological profile of substituted cathinones, data that is relevant to both receptor pharmacology and forensic identification.\n\nOur 3-MMC is produced to 99%+ purity, confirmed by HPLC and NMR spectroscopy. A full Certificate of Analysis is included with every batch. It is used in monoamine transporter assays, synthetic cathinone SAR studies, pharmacogenomics research, and as a forensic analytical reference standard.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240915/novachem/products/awahypxumfxyvwowja4f.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240916/novachem/products/fugwlz18kixnoawvvi8j.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240917/novachem/products/d2x9nfaqfysptoznom03.jpg"
+    ],
+    "name": "3MMC",
+    "numReviews": 22,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.7,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1246816-62-5"
+  },
+  {
+    "_id": "6ac39d08c2511b7574c7fec7",
+    "slug": "4-mmc-mephedrone",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 38,
+    "createdAt": "2026-10-05T12:50:14.339Z",
+    "description": "4-MMC, widely known as Mephedrone (4-methylmethcathinone), is a synthetic cathinone of the beta-keto amphetamine class. First synthesised in 1929 by Saem de Burnaga Sanchez, it became one of the most extensively studied synthetic cathinone compounds in the pharmacological and forensic literature following the significant growth of scientific interest in this compound class from 2009 onwards.\n\nMephedrone acts as a non-selective monoamine releasing agent with documented activity at DAT, NET, and SERT. Its distinctive feature within the synthetic cathinone series is a transporter selectivity profile that shows proportionally higher SERT activity compared to amphetamine, placing it closer to MDMA in its relative dopaminergic-to-serotoninergic activity ratio. This selectivity profile has made mephedrone one of the most important reference compounds for establishing transporter selectivity benchmarks in the cathinone class. Its pharmacokinetics — including N-demethylation, ring hydroxylation, and beta-keto reduction — have been thoroughly characterised in both human and animal metabolic studies, and its metabolites are documented as analytical reference materials.\n\nOur 4-MMC is produced to 99%+ purity, confirmed by HPLC-MS, ¹H and ¹³C NMR, and elemental analysis. A complete Certificate of Analysis with full spectral data is provided with every order. Applications include monoamine transporter pharmacology, synthetic cathinone SAR research, forensic toxicology reference standards, and metabolic pathway studies.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240871/novachem/products/rbw2cadbvk8ayt714yg2.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240873/novachem/products/usu5izqs2sc28szzd9xv.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240874/novachem/products/oxzxzkkda6a9fcc0vh17.jpg"
+    ],
+    "name": "4mmc/mephedrone",
+    "numReviews": 29,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.8,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "1189805-46-6"
+  },
+  {
+    "_id": "6ac39d07c2511b7574c7fec6",
+    "slug": "alpha-pihp",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 30,
+    "createdAt": "2026-10-05T12:50:13.777Z",
+    "description": "α-PiHP (Alpha-pyrrolidinoisohexiophenone) is a synthetic cathinone of the pyrrolidinophenone subclass. It is structurally characterised by a pyrrolidine ring at the alpha carbon and an isobutyl side chain, making it a branched-chain analogue of α-PHP and a close structural relative of α-PVP within the pyrrolidinophenone series.\n\nPyrrolidinophenone cathinones, including α-PiHP, are pharmacologically classified as catecholamine reuptake inhibitors rather than substrate-type releasing agents. They act at DAT and NET with minimal SERT involvement — a selectivity profile that distinguishes them mechanistically from substrate-type cathinones such as mephedrone. The branched isobutyl chain of α-PiHP introduces structural differences relative to its linear-chain analogues (α-PHP, α-PVP) that affect the compound's interaction with the DAT binding site, with consequences for binding affinity and inhibitory potency that have been studied in comparative in vitro DAT inhibition assays.\n\nOur α-PiHP is produced to 99%+ purity, verified by HPLC-MS and NMR spectroscopy. A full Certificate of Analysis with spectroscopic data is provided with every batch. It is used in monoamine transporter inhibition research, pyrrolidinophenone SAR studies, forensic reference standard development, and analytical method validation.",
+    "featured": false,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286785/NitazeneChemicals/products/rljbsc5o3l3za6tm8qin.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286786/NitazeneChemicals/products/yy7mpipysf9hmfmsgcbm.webp",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286787/NitazeneChemicals/products/vosp8vgrctdmdm3f3efz.jpg"
+    ],
+    "name": "α-PiHP",
+    "numReviews": 16,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "2181620-71-1"
+  },
+  {
+    "_id": "6ac39d07c2511b7574c7fec5",
+    "slug": "ketamine-crystal",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 35,
+    "createdAt": "2026-10-05T12:50:13.345Z",
+    "description": "Ketamine is a dissociative anaesthetic compound of the arylcyclohexylamine class, first synthesised in 1962 by Calvin Lee Stevens at Parke-Davis laboratories. It was introduced into clinical and research use in the 1970s and has since become one of the most scientifically significant and broadly studied pharmacological agents, with an extensive body of published research spanning multiple disciplines.\n\nKetamine's principal mechanism of action is as a non-competitive, open-channel blocker of N-methyl-D-aspartate (NMDA) receptors — ionotropic glutamate receptors that play central roles in synaptic plasticity, nociception, and the modulation of neural network activity. By blocking NMDA receptors in a use-dependent manner, ketamine produces defined alterations in glutamatergic neurotransmission that are the subject of active research in anaesthesiology, chronic pain pharmacology, and neuropsychiatric drug development. Beyond NMDA antagonism, ketamine has documented interactions with sigma receptors, opioid receptors, muscarinic acetylcholine receptors, and monoamine reuptake transporters — a multi-target profile that continues to attract significant research attention.\n\nThe crystal form represents the recrystallised hydrochloride salt, confirmed by X-ray powder diffraction. Our Ketamine Crystal is produced to 99%+ purity, confirmed by HPLC, NMR spectroscopy, and elemental analysis, supplied as the racemic mixture. A full Certificate of Analysis is provided with every order. It is used in NMDA receptor pharmacology, anaesthesia research, pain pharmacology, neuropsychiatric drug studies, and as a certified reference standard in analytical chemistry.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240717/novachem/products/tm94ceak1cuk2bmqkjuw.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1776240718/novachem/products/wwprrxwp1hix292kbhgk.jpg"
+    ],
+    "name": "Ketamine Crystal",
+    "numReviews": 38,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.9,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "6740-88-1"
+  },
+  {
+    "_id": "6ac39d06c2511b7574c7fec4",
+    "slug": "alpha-pvp",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 32,
+    "createdAt": "2026-10-05T12:50:12.899Z",
+    "description": "α-PVP (Alpha-pyrrolidinopentiophenone), designated O-2387 in the scientific literature, is a synthetic cathinone of the pyrrolidinophenone class. It was first synthesised in the 1960s and represents one of the most extensively pharmacologically characterised compounds in the pyrrolidinophenone series, serving as a key reference compound for this structural class.\n\nα-PVP acts as a potent and selective catecholamine reuptake inhibitor, blocking DAT and NET with high affinity while showing minimal SERT activity. This high DAT/NET selectivity with low SERT involvement distinguishes it pharmacologically from substrate-type cathinones and makes it a valuable tool for studying specific dopaminergic and noradrenergic neurotransmission independently of serotonergic involvement. In vitro DAT inhibition studies using radiolabelled substrates have quantified its binding affinity in the nanomolar range, with published data placing its potency comparable to cocaine in certain assay systems. Its slower DAT dissociation kinetics compared to cocaine are also documented, contributing to differences in the pharmacological time-course profile studied in comparative transporter kinetics research.\n\nOur α-PVP is produced to 99%+ purity, confirmed by HPLC-MS, NMR spectroscopy, and elemental analysis. A complete Certificate of Analysis with full spectral data is provided with every batch. Applications include dopamine and norepinephrine transporter pharmacology, pyrrolidinophenone SAR research, forensic reference standard development, and comparative transporter kinetics studies.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286736/NitazeneChemicals/products/cq849ynwmy6daet1hhza.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286737/NitazeneChemicals/products/c4kzpvhu1levamg24obj.webp"
+    ],
+    "name": "A-pvp/apvp",
+    "numReviews": 24,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "14530-33-7"
+  },
+  {
+    "_id": "6ac39d06c2511b7574c7fec3",
+    "slug": "2fdck",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 55,
+    "createdAt": "2026-10-05T12:50:12.459Z",
+    "description": "2FDCK (2-Fluorodeschloroketamine, also known as 2-FDCK) represents a fascinating research chemical within the arylcyclohexylamine class, closely related to the well-studied dissociative anesthetic ketamine. This fluorinated analog has emerged as a critical tool for researchers investigating structure-activity relationships, receptor pharmacology, and the mechanistic underpinnings of dissociative anesthetic agents. The strategic substitution of chlorine with fluorine at the 2-position of the phenyl ring creates subtle yet significant alterations in pharmacological properties, metabolic handling, and receptor interactions.\n\nOur 2FDCK is synthesized to exacting standards with purity exceeding 99.0% as confirmed by comprehensive analytical testing. Each batch undergoes rigorous quality control procedures including chromatographic analysis, spectroscopic characterization, and physical property verification to ensure product integrity and consistency for demanding research applications.\n\nDetailed Chemical Profile and Molecular Characteristics:\n\nNomenclature and Chemical Identity:\n• IUPAC Name: 2-(2-Fluorophenyl)-2-methylamino-cyclohexanone\n• Common Synonyms: 2-FDCK, 2-Fluorodeschloroketamine, 2-Fluoroketamine\n• Molecular Formula: C13H16FNO\n• Exact Molecular Weight: 221.27 g/mol\n• CAS Registry Number: Available with Certificate of Analysis\n• Chemical Class: Arylcyclohexylamine (fluorinated ketamine analog)\n• Structural Relationship: 2-fluoro analog of deschloroketamine (DCK)\n\nStereochemical Considerations:\n• Chiral Center: Single stereocenter at the 2-position of cyclohexanone ring\n• Stereoisomers: Racemic mixture (R- and S-enantiomers)\n• Enantiomeric Purity (when separated): >99% ee for individual enantiomers\n• Stereochemical Stability: Configuration stable under normal storage conditions\n• Optical Activity: [α]D = 0° for racemate; specific rotation available for enantiomers\n• Chiral Separation: Achievable by chiral HPLC or SFC methods\n\nPhysical and Chemical Properties:\n• Appearance: Fine white to off-white crystalline powder\n• Crystal Form: Crystalline solid, polymorph screening available\n• Melting Point: 175-185°C (varies by polymorph and enantiomeric composition)\n• pKa Values: Amino group approximately 7.5-8.5 (estimated)\n• Partition Coefficient (LogP): Moderate lipophilicity, estimated 2.5-3.5\n• pH-Dependent Properties: Salt formation possible with acid addition\n\nComprehensive Solubility Profile:\n• Water: Moderately soluble (5-15 mg/mL at 25°C)\n• 0.1N HCl: Soluble (salt formation enhances solubility)\n• pH 7.4 Phosphate Buffer: Limited solubility, may require co-solvent\n• Methanol: Freely soluble (>50 mg/mL)\n• Ethanol: Freely soluble (>50 mg/mL)\n• Acetonitrile: Freely soluble (>50 mg/mL)\n• Acetone: Soluble (20-40 mg/mL)\n• Dichloromethane: Soluble (15-30 mg/mL)\n• Dimethyl Sulfoxide (DMSO): Freely soluble (>100 mg/mL)\n• Recommended Stock Solution: 10-50 mM in DMSO or methanol\n\nStability and Storage Requirements:\n• Recommended Storage: -20°C for long-term stability\n• Short-term Storage: 2-8°C acceptable for routine access\n• Stability Duration: >24 months at -20°C, 12-18 months at 2-8°C\n• Light Sensitivity: Protect from direct light, UV radiation\n• Humidity: Store desiccated, <60% relative humidity\n• Chemical Stability: Stable as solid; solution stability varies by solvent\n• Incompatibility: Avoid strong oxidizing agents and acids\n• Degradation Pathways: Photodegradation, oxidative metabolism\n\nExtensive Research Applications and Scientific Investigations:\n\nNMDA Receptor Pharmacology Studies:\n2FDCK serves as an essential research tool for investigating:\n• N-Methyl-D-aspartate (NMDA) receptor antagonism\n• Non-competitive channel blocker mechanism research\n• Use-dependent and use-independent blocking characteristics\n• Receptor subtype selectivity (NR1/NR2A-D combinations)\n• Structure-activity relationship (SAR) within arylcyclohexylamines\n• Binding kinetics: association and dissociation rate constants\n• Channel pore binding site characterization\n• Allosteric modulation potential\n\nDissociative Anesthetic Mechanism Research:\n• Neurophysiological correlates of dissociative states\n• Thalamocortical circuit disruption investigations\n• Functional connectivity alteration studies\n• Consciousness and anesthesia depth research\n• Rapid antidepressant mechanism exploration\n• Synaptic plasticity and neuroplasticity studies\n• Default mode network modulation investigations\n• Psychedelic and dissociative effect modeling\n\nPharmacokinetic and Metabolic Research:\n• Comparative metabolism with ketamine and analogs\n• CYP450 enzyme-mediated N-demethylation pathways\n• Fluorine effect on metabolic stability\n• Hydroxylation and conjugation reactions\n• Species differences in metabolic handling\n• In vitro-in vivo extrapolation (IVIVE) modeling\n• Plasma protein binding characteristics\n• Blood-brain barrier permeability studies\n\nNeuropharmacology and Neuroscience Applications:\n• Glutamatergic neurotransmission modulation\n• Dopaminergic system interactions\n• Monoamine transporter effects\n• Sigma receptor binding investigations\n• Opioid receptor cross-interactions\n• Cholinergic system modulation studies\n• Neuroinflammatory response research\n• Neuroprotection and excitotoxicity studies\n\nBehavioral Pharmacology and Systems Research:\n• Locomotor activity and stereotypy studies\n• Analgesic and antinociceptive effect modeling\n• Discriminative stimulus properties research\n• Self-administration and reinforcement studies\n• Cognitive function and memory research\n• Anxiety and fear conditioning investigations\n• Social behavior and interaction studies\n• Circadian rhythm and sleep research\n\nForensic and Clinical Toxicology:\n• Forensic case confirmation standard\n• Postmortem toxicology reference material\n• Workplace drug testing method development\n• Driving under the influence analysis\n• Cross-reactivity with ketamine immunoassays\n• Metabolite identification and characterization\n• Stability in biological matrices\n• Quantitative method validation\n\nAnalytical Chemistry Applications:\n• LC-MS/MS method development with unique transitions\n• High-resolution accurate mass spectrometry\n• 19F NMR spectroscopy for definitive identification\n• Retention time marker for arylcyclohexylamines\n• Chiral separation method development\n• Isomeric differentiation from ketamine analogs\n• Derivatization strategies for enhanced detection\n• Reference standard for quantitative calibration\n\nQuality Control and Analytical Verification:\n\nComprehensive Testing Suite:\nEach production batch undergoes rigorous analytical characterization:\n\nChromatographic Methods:\n• HPLC assay with UV detection (220 nm, 254 nm)\n• Purity assessment by area percent normalization\n• Impurity profiling with diode array detection\n• Chiral HPLC for enantiomeric composition\n• Residual solvent screening by headspace GC-MS\n• Stability-indicating method validation\n\nSpectroscopic Characterization:\n• Proton NMR (600 MHz or higher field strength)\n• Carbon-13 NMR with DEPT/APT multiplicity editing\n• 19F NMR for fluorine environment characterization\n• 2D NMR (COSY, HSQC, HMBC, NOESY) for connectivity\n• High-resolution mass spectrometry (HRMS)\n• Tandem mass spectrometry (MS/MS) fragmentation\n• Infrared spectroscopy (FTIR with ATR)\n• UV-Vis spectroscopy for chromophore analysis\n\nPhysical and Materials Testing:\n• Melting point determination (capillary method)\n• Optical rotation (when enantiomers separated)\n• Particle size distribution analysis\n• Bulk and tapped density measurements\n• Hygroscopicity evaluation\n• Thermal analysis by DSC and TGA\n• X-ray powder diffraction (XRPD) for polymorphism\n• Karl Fischer titration for water content\n\nDocumentation and Regulatory Compliance:\n\nCertificate of Analysis Components:\n• Batch identification number and manufacturing date\n• Retest and recommended expiration dating\n• Complete analytical results with numerical specifications\n• Representative chromatograms, spectra, and data traces\n• Statistical analysis of replicate testing\n• Reference standard traceability documentation\n• Quality assurance approval with signature and date\n• Storage condition and handling recommendations\n\nSafety Data Sheet (SDS) Information:\n• GHS hazard classification and pictograms\n• Hazard and precautionary statements\n• Safety, health, and environmental hazards\n• First-aid measures specific to exposure routes\n• Firefighting measures and suitable extinguishing media\n• Accidental release measures and containment\n• Handling and storage best practices\n• Exposure controls and personal protective equipment\n• Detailed physical and chemical properties\n• Stability, reactivity, and incompatibility information\n• Toxicological summary and exposure effects\n• Ecological information and environmental fate\n• Disposal considerations and waste management\n• Transport regulations and shipping classification\n• Regulatory information and restrictions\n\nSafety, Handling, and Storage Protocols:\n\nPersonal Protective Equipment:\n• Respiratory: NIOSH-approved N100 or P100 respirator for powder\n• Eye: Chemical splash goggles meeting ANSI Z87.1 standards\n• Hand: Nitrile or neoprene chemical-resistant gloves (double-gloving recommended)\n• Body: Laboratory coat, disposable coveralls for extensive handling\n• Foot: Closed-toe chemical-resistant safety shoes\n• Face: Face shield for risk of splash or aerosol\n\nEngineering Controls and Facility Requirements:\n• Chemical fume hood with documented face velocity\n• HEPA filtration on exhaust systems\n• Secondary containment for spill prevention\n• Emergency safety shower and eyewash station\n• Spill kits with appropriate absorbents\n• Fire suppression equipment rated for chemical fires\n• Secure storage appropriate for research chemicals\n\nStorage Conditions and Shelf Life:\n• Temperature: -20°C for long-term, 2-8°C for routine\n• Duration: >24 months at -20°C, 12-18 months refrigerated\n• Humidity: <60% RH, desiccated environment\n• Light: Protect from UV and visible light\n• Container: Amber glass with PTFE-lined cap\n• Atmosphere: Inert gas headspace for sensitive storage\n• Segregation: Store away from incompatible materials\n• Inventory: FIFO rotation with regular reconciliation\n\nResearch Ethics and Legal Compliance:\n• Strictly for bona fide scientific research purposes\n• Not for human consumption or therapeutic application\n• End-user certification and institutional verification required\n• Compliance with applicable chemical control regulations\n• Active cooperation with regulatory and law enforcement agencies\n• Documentation of legitimate research purpose mandatory\n• Secure storage and access control required\n• Violation of research-use agreement results in termination\n\nProfessional Support and Customer Services:\n\nScientific Consultation:\n• PhD-level support from pharmacologists and medicinal chemists\n• Research protocol design and optimization assistance\n• Analytical method development and troubleshooting\n• Literature review and reference provision\n• Spectral data interpretation assistance\n• Custom synthesis consultation for analogs\n• Stability study design and execution support\n\nOrdering and Logistics:\n• Real-time online ordering with inventory visibility\n• Same-day processing for orders before cutoff time\n• Temperature-controlled shipping with documentation\n• International shipping with customs expertise\n• Professional, discreet, tamper-evident packaging\n• Comprehensive insurance and tracking\n• Return/replacement policy for quality issues\n\nInstitutional Programs:\n• Net payment terms for qualified organizations\n• Volume discount tiers based on annual purchases\n• Annual contract pricing with guarantees\n• Scheduled delivery programs\n• Vendor-managed inventory options\n• Dedicated account management\n• Technical training and educational seminars\n\n2FDCK represents an invaluable research chemical for investigators studying NMDA receptor pharmacology, dissociative anesthetic mechanisms, and neuropharmacological processes. Its unique fluorinated structure provides distinct research properties that complement and expand upon the knowledge base established with related compounds.\n\nFor detailed information on research applications, analytical specifications, or custom requirements, please contact our scientific support team.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1777381904/novachem/products/hw76shilnqkhbdbbblpj.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1777381907/novachem/products/m5xsbp3oyer1ysyxrbe6.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1791286902/NitazeneChemicals/products/ez4yqbgdq7vmlypdhtec.jpg"
+    ],
+    "name": "2FDCK",
+    "numReviews": 149,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "111982-50-4"
+  },
+  {
+    "_id": "6ac39d05c2511b7574c7fec2",
+    "slug": "amphetamine-powder",
+    "__v": 0,
+    "category": "research chemicals",
+    "countInStock": 75,
+    "createdAt": "2026-10-05T12:50:09.429Z",
+    "description": "Amphetamine Powder represents a fundamental research chemical within the phenethylamine class, serving as the prototypical compound for understanding psychostimulant pharmacology, monoamine neurotransmission, and the mechanisms underlying attention, arousal, and reward processing. As the parent compound of a vast family of substituted phenethylamines, amphetamine provides the essential reference point for structure-activity relationship studies and pharmacological investigations across neuroscience, medicinal chemistry, and behavioral research disciplines.\n\nOur Amphetamine Powder is manufactured to exceptional purity standards exceeding 99.0%, verified through comprehensive analytical testing including chromatographic analysis, spectroscopic characterization, and rigorous quality control procedures. Each production batch is fully documented with detailed analytical data to support the most demanding research applications.\n\nComprehensive Chemical Profile and Molecular Identity:\n\nNomenclature and Classification:\n• IUPAC Name: (2S)-1-phenylpropan-2-amine (for d-amphetamine); racemic mixture for dl-amphetamine\n• Common Names: Amphetamine, dl-Amphetamine, Racemic Amphetamine\n• Molecular Formula: C9H13N\n• Exact Molecular Weight: 135.21 g/mol (free base)\n• CAS Registry Number: 300-62-9 (sulfate), 51-63-8 (phosphate), 60-13-9 (d-form)\n• Chemical Class: Substituted phenethylamine, phenylisopropylamine\n• Salt Forms: Typically supplied as sulfate or phosphate salt for stability\n\nStereochemical Properties:\n• Chiral Center: Single stereocenter at the α-carbon (benzylic position)\n• Enantiomers: Dextroamphetamine (S-enantiomer, more CNS active)\n• Levoamphetamine (R-enantiomer, more peripheral effects)\n• Supplied Form: Racemic mixture (50:50 R:S) or individual enantiomers\n• Enantiomeric Purity: >99% ee when enantiomers separated\n• Optical Rotation: [α]D = 0° for racemate; +7.5° for S-enantiomer (c=1, H2O)\n• Stereochemical Stability: Configuration stable under normal conditions\n\nPhysical and Chemical Characteristics:\n• Free Base Appearance: Colorless to pale yellow oil (liquid at room temperature)\n• Salt Form Appearance: Fine white crystalline powder (sulfate or phosphate)\n• Melting Point (Sulfate): >300°C (decomposes)\n• Melting Point (Phosphate): >300°C (decomposes)\n• Boiling Point (Free Base): 203-205°C at 760 mmHg\n• pKa Value: Approximately 9.9 (conjugate acid)\n• Partition Coefficient (LogP): 1.8-2.0 (moderate lipophilicity)\n• pH-Dependent Properties: Basic compound, salt formation with acids\n\nDetailed Solubility Profile:\n• Water (Free Base): Slightly soluble (1-2 mg/mL)\n• Water (Sulfate Salt): Soluble (50-100 mg/mL)\n• Water (Phosphate Salt): Soluble (40-80 mg/mL)\n• 0.1N HCl: Highly soluble (salt formation)\n• Methanol: Soluble (free base and salts)\n• Ethanol: Soluble (free base and salts)\n• Chloroform: Soluble (free base)\n• Acetone: Moderately soluble\n• Diethyl Ether: Moderately soluble (free base)\n• Recommended Solution: Sulfate salt in water or buffer for aqueous applications\n\nStability and Storage Requirements:\n• Storage Temperature: 2-8°C (refrigerated) recommended\n• Long-term Storage: -20°C for maximum stability\n• Stability Duration: >24 months at -20°C, 18-24 months at 2-8°C\n• Light Sensitivity: Protect from direct light and UV radiation\n• Humidity: Store desiccated to prevent hydroscopic degradation\n• Chemical Stability: Stable as solid salt form\n• Free Base Considerations: Volatile, oxidizable; store under inert atmosphere\n• Degradation Pathways: Oxidative degradation, polymerization (free base)\n• Incompatibility: Avoid strong oxidizers, acids (for free base), reducing agents\n\nExtensive Research Applications and Scientific Investigations:\n\nMonoamine Neurotransmission Research:\nAmphetamine serves as the prototypical research tool for investigating:\n• Dopamine transporter (DAT) function and pharmacology\n• Norepinephrine transporter (NET) mechanisms\n• Serotonin transporter (SERT) interactions\n• Vesicular monoamine transporter 2 (VMAT2) effects\n• Dopamine, norepinephrine, and serotonin release mechanisms\n• Reverse transport (efflux) vs. reuptake inhibition\n• Monoamine oxidase (MAO) inhibition potential\n• Trace amine-associated receptor (TAAR1) agonism\n\nPsychostimulant Pharmacology Studies:\n• Structure-activity relationships in phenethylamines\n• Mechanism of action for attention and arousal\n• Reward pathway activation and reinforcement\n• Locomotor stimulation and stereotypy induction\n• Anorectic and thermogenic effects\n• Cardiovascular and sympathomimetic actions\n• Cognitive enhancement and memory effects\n• Sleep and circadian rhythm disruption\n\nNeuroscience and Behavioral Research:\n• Attention-deficit mechanisms and model development\n• Executive function and working memory studies\n• Impulsivity and decision-making research\n• Motivation and effort-related behavior\n• Social behavior and aggression studies\n• Sensory processing and gating investigations\n• Neuroplasticity and gene expression changes\n• Conditioned place preference and addiction models\n\nPharmacokinetic and Metabolic Investigations:\n• Gastrointestinal absorption and bioavailability\n• Blood-brain barrier penetration and CNS distribution\n• Hepatic metabolism by CYP450 enzymes (CYP2D6 prominent)\n• Hydroxylation and deamination pathways\n• Renal excretion and pH-dependent elimination\n• Species comparison in pharmacokinetic handling\n• Drug-drug interaction potential (CYP2D6 inhibition)\n• Population pharmacokinetic modeling\n\nMedicinal Chemistry and Drug Discovery:\n• Scaffold for ADHD medication development\n• Template for wakefulness-promoting agents\n• Lead compound for appetite suppressant research\n• Comparator for novel psychostimulant screening\n• Prodrug design and development studies\n• Abuse-deterrent formulation research\n• Delivery system optimization (transdermal, extended-release)\n• In silico prediction model training\n\nForensic and Clinical Toxicology:\n• Forensic toxicology reference standard\n• Workplace drug testing immunoassay calibration\n• Sports doping control analysis\n• Driving under the influence investigations\n• Clinical toxicology emergency department reference\n• Metabolite identification (amphetamine, p-hydroxyamphetamine)\n• Enantiomeric analysis for source determination\n• Quantitative method validation\n\nNeuropharmacology and Molecular Pharmacology:\n• Dopamine receptor (D1, D2, D3, D4, D5) interactions\n• Adrenergic receptor (α and β) effects\n• Serotonin receptor (5-HT1A, 5-HT2A, etc.) interactions\n• Glutamate and GABA system modulation\n• Acetylcholine system effects\n• Opioid peptide release studies\n• Neurotrophic factor expression changes\n• Epigenetic and transcriptional effects\n\nQuality Control and Analytical Verification:\n\nComprehensive Testing Protocols:\nEach batch undergoes extensive analytical characterization:\n\nChromatographic Analysis:\n• HPLC assay with UV detection (257 nm, 210 nm)\n• Purity assessment by area normalization\n• Related substances and impurity profiling\n• Chiral HPLC for enantiomeric composition (when applicable)\n• Residual solvent screening by GC-MS or GC-FID\n• Counterion analysis by ion chromatography\n• Stability-indicating method validation\n\nSpectroscopic Characterization:\n• Proton NMR (400 MHz or higher) for structural confirmation\n• Carbon-13 NMR with DEPT multiplicity editing\n• 2D NMR (COSY, HSQC, HMBC) for connectivity verification\n• High-resolution mass spectrometry (HRMS)\n• Tandem mass spectrometry (MS/MS) fragmentation\n• Infrared spectroscopy (FTIR with ATR)\n• UV-Vis spectroscopy for chromophore analysis\n• Optical rotation measurement (for enantiomers)\n\nPhysical and Materials Testing:\n• Melting point determination (capillary or DSC)\n• Optical rotation (when enantiomers available)\n• pH measurement (for solutions)\n• Particle size distribution analysis\n• Bulk and tapped density measurements\n• Hygroscopicity evaluation\n• Karl Fischer titration for water content\n• Thermal stability by TGA and DSC\n\nDocumentation and Regulatory Compliance:\n\nCertificate of Analysis Includes:\n• Batch number, manufacturing date, retest date\n• Complete analytical results with acceptance criteria\n• Representative chromatograms, spectra, data traces\n• Statistical summary of replicate analyses\n• Reference standard traceability information\n• Quality assurance approval signature and date\n• Storage conditions and handling recommendations\n• Salt form specification (sulfate, phosphate, or free base)\n\nMaterial Safety Data Sheet (SDS) Content:\n• GHS hazard classification (varies by jurisdiction)\n• Hazard pictograms and signal word\n• Hazard statements (H-phrases) and precautionary statements (P-phrases)\n• Safety, health, and environmental hazards\n• First-aid measures by route of exposure\n• Firefighting measures and suitable extinguishing media\n• Accidental release measures and containment procedures\n• Handling and storage best practices\n• Exposure controls and personal protective equipment\n• Detailed physical and chemical properties\n• Stability, reactivity, and incompatibility information\n• Toxicological information summary\n• Ecological information and environmental considerations\n• Disposal considerations and waste management\n• Transport information and regulatory classification\n• Legal status and controlled substance scheduling\n\nSafety, Handling, and Storage Protocols:\n\nPersonal Protective Equipment Requirements:\n• Respiratory: NIOSH-approved respirator for powder handling\n• Eye: Chemical safety goggles with side shields\n• Hand: Nitrile or neoprene chemical-resistant gloves\n• Body: Laboratory coat (flame-resistant material preferred)\n• Foot: Closed-toe safety shoes with slip-resistant soles\n• Face: Face shield when risk of splash or aerosol\n• Additional: Hair covering, sleeve covers for extensive handling\n\nEngineering Controls and Facility Requirements:\n• Chemical fume hood with adequate face velocity\n• HEPA filtration on exhaust systems\n• Secondary containment for spill prevention\n• Emergency safety shower and eyewash station\n• Fire suppression equipment appropriate for chemical fires\n• Spill kits with appropriate absorbents\n• Secure storage for controlled substances\n• Access control and inventory management systems\n\nStorage Conditions and Shelf Life:\n• Temperature: 2-8°C for routine storage\n• Long-term: -20°C for extended stability\n• Duration: 18-24 months at refrigerated conditions\n• Humidity: <60% RH, desiccated storage recommended\n• Light: Protect from direct light and UV radiation\n• Container: Amber glass with PTFE-lined cap\n• Atmosphere: Inert gas headspace for sensitive storage\n• Segregation: Store separately from incompatible chemicals\n• Security: Controlled substance storage requirements\n• Inventory: First-in-first-out rotation, regular reconciliation\n\nDisposal and Waste Management:\n• Waste characterization: Controlled substance waste\n• Disposal: Incineration at DEA-authorized facility (US) or equivalent\n• Documentation: DEA Form 222 or equivalent tracking\n• Prohibited: No discharge to sewer or regular trash\n• Spill response: Specialized procedures for controlled substances\n• Environmental: Prevent release to environment\n\nResearch Ethics and Legal Compliance:\n• Strictly for legitimate scientific research purposes only\n• Controlled substance regulations apply (Schedule II in US)\n• DEA registration or equivalent required for purchase\n• End-user certification and institutional verification mandatory\n• Secure storage and access control required\n• Inventory tracking and documentation mandatory\n• Active cooperation with regulatory agencies\n• Violation of controlled substance regulations carries severe penalties\n\nProfessional Support and Customer Services:\n\nScientific Consultation:\n• PhD-level support from neuropharmacologists and medicinal chemists\n• Research protocol design and optimization\n• Analytical method development and troubleshooting\n• Literature review and reference provision\n• Spectral data interpretation assistance\n• Stability study design and execution support\n\nOrdering and Logistics:\n• Controlled substance ordering procedures\n• DEA Form 222 or equivalent documentation\n• Secure shipping with signature required\n• Temperature-controlled transport when needed\n• Discreet, professional packaging\n• Comprehensive tracking and insurance\n\nInstitutional Programs:\n• Compliance with institutional review board requirements\n• Scheduled delivery programs for ongoing research\n• Volume pricing for qualified research institutions\n• Technical training and educational support\n• Regulatory compliance consultation\n\nAmphetamine Powder represents a foundational research chemical essential for investigators studying monoamine neurotransmission, psychostimulant pharmacology, and the neurobiological basis of attention, motivation, and reward. Its well-characterized pharmacological properties make it an indispensable reference compound for advancing scientific understanding in these critical areas.\n\nFor comprehensive information regarding research applications, regulatory requirements, analytical specifications, or to discuss custom requirements, please contact our scientific support department. Note that controlled substance regulations apply to this compound and proper documentation is required for purchase.",
+    "featured": true,
+    "images": [
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1777381960/novachem/products/kuacpmphbffvldmnlatu.jpg",
+      "https://res.cloudinary.com/dnxyxgc1m/image/upload/v1777381962/novachem/products/uxiyxi6r9zzebvansrma.jpg"
+    ],
+    "name": "Amphetamine Powder",
+    "numReviews": 60,
+    "price": 600,
+    "priceVariants": [
+      {
+        "quantity": 100,
+        "price": 600,
+        "_id": "6ac50345099868c161233732"
+      },
+      {
+        "quantity": 250,
+        "price": 850,
+        "_id": "6ac50345099868c161233733"
+      },
+      {
+        "quantity": 500,
+        "price": 1200,
+        "_id": "6ac50345099868c161233734"
+      },
+      {
+        "quantity": 1000,
+        "price": 2300,
+        "_id": "6ac50345099868c161233735"
+      }
+    ],
+    "rating": 4.5,
+    "updatedAt": "2026-10-06T14:18:45.185Z",
+    "casNumber": "300-62-9"
+  }
+]

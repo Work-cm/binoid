@@ -212,7 +212,7 @@ export default function OrderContactForm({ cart, orderDetails }) {
             type="checkbox"
             checked={confirmed}
             onChange={(e) => setConfirmed(e.target.checked)}
-            className="mt-0.5 h-3.5 w-3.5 rounded border-gray-300 text-sky-500 focus:ring-sky-500"
+            className="mt-0.5 h-3.5 w-3.5 rounded border-gray-300 text-emerald-500 focus:ring-emerald-500"
           />
           <span className="text-[11px] text-gray-600 leading-relaxed">
             I am a serious buyer. I understand this is a real order request and I am ready to receive
@@ -223,7 +223,7 @@ export default function OrderContactForm({ cart, orderDetails }) {
         <button
           type="submit"
           disabled={!isValid}
-          className="w-full bg-sky-500 hover:bg-sky-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-3.5 px-4 rounded-lg flex items-center justify-center gap-2 transition-all text-sm"
+          className="w-full bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 disabled:opacity-50 disabled:cursor-not-allowed text-[#06130d] font-bold py-3.5 px-4 rounded-lg flex items-center justify-center gap-2 transition-all text-sm shadow-lg shadow-emerald-500/25"
         >
           <>
             <FaPaperPlane className="text-xs" />

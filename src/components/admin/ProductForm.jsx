@@ -26,7 +26,7 @@ export default function ProductForm({ product = null }) {
   const [success, setSuccess] = useState('');
   
   // Categories available in the store
-  const categories = ['cannabinoids', 'nitazenes', 'opioids', 'research chemicals'];
+  const categories = ['cannabinoids', 'nitazenes', 'opioids', 'research chemicals', 'etomidate'];
   
   useEffect(() => {
     if (product) {

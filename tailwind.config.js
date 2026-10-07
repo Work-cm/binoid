@@ -8,48 +8,88 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Rebrand: previous `sky` usages now resolve to violet
+        // CannabinoidSite brand palette.
+        // Legacy class names (sky/cyan/violet/purple/fuchsia) are remapped so the
+        // whole site re-themes from one place.
         sky: {
-          50:  '#faf5ff',
-          100: '#f3e8ff',
-          200: '#e9d5ff',
-          300: '#d8b4fe',
-          400: '#c084fc',
-          500: '#a855f7',
-          600: '#9333ea',
-          700: '#7e22ce',
-          800: '#6b21a8',
-          900: '#581c87',
-          950: '#3b0764',
+          50:  '#ecfdf5',
+          100: '#d1fae5',
+          200: '#a7f3d0',
+          300: '#6ee7b7',
+          400: '#34d399',
+          500: '#10b981',
+          600: '#059669',
+          700: '#047857',
+          800: '#065f46',
+          900: '#064e3b',
+          950: '#022c22',
         },
-        // Rebrand: previous `cyan` usages now resolve to fuchsia
         cyan: {
-          50:  '#fdf4ff',
-          100: '#fae8ff',
-          200: '#f5d0fe',
-          300: '#f0abfc',
-          400: '#e879f9',
-          500: '#d946ef',
-          600: '#c026d3',
-          700: '#a21caf',
-          800: '#86198f',
-          900: '#701a75',
-          950: '#4a044e',
+          50:  '#f7fee7',
+          100: '#ecfccb',
+          200: '#d9f99d',
+          300: '#bef264',
+          400: '#a3e635',
+          500: '#84cc16',
+          600: '#65a30d',
+          700: '#4d7c0f',
+          800: '#3f6212',
+          900: '#365314',
+          950: '#1a2e05',
+        },
+        violet: {
+          50:  '#f0fdf4',
+          100: '#dcfce7',
+          200: '#bbf7d0',
+          300: '#86efac',
+          400: '#4ade80',
+          500: '#22c55e',
+          600: '#16a34a',
+          700: '#15803d',
+          800: '#166534',
+          900: '#14532d',
+          950: '#052e16',
+        },
+        purple: {
+          50:  '#ecfdf5',
+          100: '#d1fae5',
+          200: '#a7f3d0',
+          300: '#6ee7b7',
+          400: '#34d399',
+          500: '#10b981',
+          600: '#059669',
+          700: '#047857',
+          800: '#065f46',
+          900: '#064e3b',
+          950: '#022c22',
+        },
+        fuchsia: {
+          50:  '#f7fee7',
+          100: '#ecfccb',
+          200: '#d9f99d',
+          300: '#bef264',
+          400: '#a3e635',
+          500: '#84cc16',
+          600: '#65a30d',
+          700: '#4d7c0f',
+          800: '#3f6212',
+          900: '#365314',
+          950: '#1a2e05',
         },
         primary: {
-          DEFAULT: '#a855f7', // Purple-500
-          dark: '#9333ea',    // Purple-600
-          light: '#c084fc',   // Purple-400
+          DEFAULT: '#10b981', // Emerald-500
+          dark: '#059669',    // Emerald-600
+          light: '#34d399',   // Emerald-400
         },
         accent: {
-          DEFAULT: '#d946ef', // Fuchsia-500
-          dark: '#c026d3',    // Fuchsia-600
-          light: '#e879f9',   // Fuchsia-400
+          DEFAULT: '#84cc16', // Lime-500
+          dark: '#65a30d',    // Lime-600
+          light: '#a3e635',   // Lime-400
         },
         void: {
-          DEFAULT: '#12081f', // near-black violet — hero / footer bg
-          light: '#1a0b2e',
-          lighter: '#241040',
+          DEFAULT: '#06130d', // deep forest — hero / footer bg
+          light: '#0b1f16',
+          lighter: '#10291d',
         },
         dark: {
           DEFAULT: '#f3f4f6', // Gray-100
@@ -58,8 +98,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['var(--font-body)', 'Manrope', 'system-ui', 'sans-serif'],
-        display: ['var(--font-display)', 'Syne', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-body)', 'Inter', 'system-ui', 'sans-serif'],
+        display: ['var(--font-display)', 'Space Grotesk', 'system-ui', 'sans-serif'],
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',
@@ -84,8 +124,8 @@ module.exports = {
           '100%': { backgroundPosition: '200% center' },
         },
         glowPulse: {
-          '0%, 100%': { boxShadow: '0 0 10px rgba(168,85,247,0.3)' },
-          '50%': { boxShadow: '0 0 25px rgba(168,85,247,0.7), 0 0 50px rgba(217,70,239,0.35)' },
+          '0%, 100%': { boxShadow: '0 0 10px rgba(16,185,129,0.3)' },
+          '50%': { boxShadow: '0 0 25px rgba(16,185,129,0.7), 0 0 50px rgba(132,204,22,0.35)' },
         },
         orbit: {
           from: { transform: 'rotate(0deg)' },

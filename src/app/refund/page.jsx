@@ -2,12 +2,12 @@ import Link from 'next/link';
 import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://nitazenechemicals.com'),
-  title: 'Return & Refund Policy | NitazeneChemicals',
-  description: 'Read the NitazeneChemicals return and refund policy for research chemicals. Learn how to request returns for defective, damaged or incorrect products within 48 hours.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com'),
+  title: 'Return & Refund Policy | CannabinoidSite',
+  description: 'Read the CannabinoidSite return and refund policy for research chemicals. Learn how to request returns for defective, damaged or incorrect products within 48 hours.',
   keywords: [
     'return policy', 'refund policy', 'research chemicals returns',
-    'defective products', 'NitazeneChemicals refund',
+    'defective products', 'CannabinoidSite refund',
   ],
   alternates: { canonical: '/refund' },
 };

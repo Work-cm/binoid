@@ -30,13 +30,13 @@ export default function CartPage() {
       <div className="min-h-screen bg-white pt-24">
         <div className="container mx-auto px-4 py-20">
           <div className="max-w-sm mx-auto text-center">
-            <div className="w-20 h-20 rounded-full bg-gray-50/60 border border-gray-700/50 flex items-center justify-center mx-auto mb-6">
-              <FaShoppingCart className="text-3xl text-gray-900" />
+            <div className="w-20 h-20 rounded-3xl bg-emerald-50 border border-emerald-100 flex items-center justify-center mx-auto mb-6">
+              <FaShoppingCart className="text-3xl text-emerald-600" />
             </div>
             <h1 className="text-2xl font-bold text-gray-900 mb-3">Your cart is empty</h1>
             <p className="text-gray-900 mb-8 text-sm">Browse our catalogue and add research compounds to get started.</p>
             <Link href="/products"
-              className="inline-flex items-center gap-2 bg-sky-500 hover:bg-sky-500 text-gray-900 font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30">
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25">
               <FaArrowLeft className="text-xs" /> Browse Products
             </Link>
           </div>
@@ -74,7 +74,7 @@ export default function CartPage() {
 
             {cart.map((item, index) => (
               <div key={`${item._id || item.id || index}`}
-                className="bg-gray-50/60 border border-gray-700/50 rounded-2xl p-4">
+                className="bg-gray-50 border border-gray-200 rounded-2xl p-4">
                 <div className="grid grid-cols-12 gap-4 items-center">
                   <div className="col-span-12 md:col-span-6">
                     <div className="flex items-center gap-3">
@@ -86,7 +86,7 @@ export default function CartPage() {
                         )}
                       </div>
                       <div>
-                        <Link href={`/products/${item.slug || item.id}`} className="text-gray-900 hover:text-sky-400 font-semibold text-sm leading-snug">
+                        <Link href={`/products/${item.slug || item.id}`} className="text-gray-900 hover:text-emerald-600 font-semibold text-sm leading-snug">
                           {item.name}
                         </Link>
                         {item.variant && (
@@ -106,14 +106,14 @@ export default function CartPage() {
                     <div className="flex items-center justify-center gap-1">
                       <button onClick={() => updateQuantity(item.id, item.quantity - 1, item.variant?._id)}
                         disabled={item.quantity <= 1}
-                        className="w-7 h-7 rounded-lg bg-gray-100 border border-gray-700 text-gray-900 flex items-center justify-center disabled:opacity-40 hover:bg-gray-700 transition-colors text-sm">
-                        âˆ’
+                        className="w-7 h-7 rounded-lg bg-white border border-gray-200 text-gray-900 flex items-center justify-center disabled:opacity-40 hover:bg-gray-100 transition-colors text-sm">
+                        &minus;
                       </button>
                       <input type="number" min="1" value={item.quantity}
                         onChange={(e) => updateQuantity(item.id, parseInt(e.target.value) || 1, item.variant?._id)}
-                        className="w-10 bg-transparent text-white text-center text-sm border-0 focus:outline-none" />
+                        className="w-10 bg-transparent text-gray-900 text-center text-sm border-0 focus:outline-none" />
                       <button onClick={() => updateQuantity(item.id, item.quantity + 1, item.variant?._id)}
-                        className="w-7 h-7 rounded-lg bg-gray-100 border border-gray-700 text-gray-900 flex items-center justify-center hover:bg-gray-700 transition-colors text-sm">
+                        className="w-7 h-7 rounded-lg bg-white border border-gray-200 text-gray-900 flex items-center justify-center hover:bg-gray-100 transition-colors text-sm">
                         +
                       </button>
                     </div>
@@ -122,7 +122,7 @@ export default function CartPage() {
                   <div className="col-span-3 md:col-span-2 text-right flex items-center justify-end gap-3">
                     <span className="text-gray-900 font-semibold text-sm">&euro;{(Number(item.price ?? item.variant?.price ?? 0) * item.quantity).toFixed(2)}</span>
                     <button onClick={() => removeFromCart(item.id, item.variant?._id, item.variant?.grams)}
-                      className="text-gray-900 hover:text-sky-400 transition-colors">
+                      className="text-gray-400 hover:text-red-500 transition-colors">
                       <FaTrash className="text-xs" />
                     </button>
                   </div>
@@ -131,10 +131,10 @@ export default function CartPage() {
             ))}
 
             <div className="flex justify-between items-center pt-2">
-              <button onClick={clearCart} className="text-sm text-gray-900 hover:text-sky-400 transition-colors">
+              <button onClick={clearCart} className="text-sm text-gray-500 hover:text-red-500 transition-colors">
                 Clear all items
               </button>
-              <Link href="/products" className="inline-flex items-center gap-2 text-sm text-sky-400 hover:text-sky-300">
+              <Link href="/products" className="inline-flex items-center gap-2 text-sm text-emerald-600 hover:text-emerald-500">
                 <FaArrowLeft className="text-xs" /> Continue Shopping
               </Link>
             </div>
@@ -142,7 +142,7 @@ export default function CartPage() {
 
           {/* Order Summary */}
           <div className="lg:col-span-1">
-            <div className="bg-gray-50/60 border border-gray-700/50 rounded-2xl p-6 sticky top-28">
+            <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 sticky top-28">
               <h2 className="text-lg font-bold text-gray-900 mb-5">Order Summary</h2>
 
               <div className="space-y-3 mb-5 text-sm">
@@ -152,20 +152,20 @@ export default function CartPage() {
                 </div>
                 <div className="flex justify-between text-gray-900">
                   <span>Shipping</span>
-                  <span className="text-sky-400">-</span>
+                  <span className="text-emerald-600">-</span>
                 </div>
-                <div className="border-t border-gray-700/50 pt-3 flex justify-between">
+                <div className="border-t border-gray-200 pt-3 flex justify-between">
                   <span className="font-semibold text-gray-900">Estimated Total</span>
-                  <span className="font-bold text-white text-base">&euro;{Number(cartTotal).toFixed(2)}</span>
+                  <span className="font-bold text-gray-900 text-base">&euro;{Number(cartTotal).toFixed(2)}</span>
                 </div>
               </div>
 
               <button onClick={handleCheckout}
-                className="w-full bg-sky-500 hover:bg-sky-500 text-gray-900 font-semibold py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30">
+                className="w-full bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25">
                 <FaLock className="text-xs" /> Proceed Order
               </button>
 
-              <div className="mt-4 flex items-center justify-center gap-2 text-gray-900 text-xs">
+              <div className="mt-4 flex items-center justify-center gap-2 text-gray-400 text-xs">
                 <FaLock className="text-xs" />
                 <span>Secure &amp; encrypted checkout</span>
               </div>

@@ -2,12 +2,12 @@ import Link from 'next/link';
 import { FaShippingFast, FaGlobeAmericas, FaShieldAlt, FaCheckCircle } from 'react-icons/fa';
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://nitazenechemicals.com'),
-  title: 'Shipping & Delivery Policy | NitazeneChemicals',
-  description: 'Learn about NitazeneChemicals shipping methods, delivery times, discreet international shipping, order tracking and free shipping on orders over €100 for research chemicals.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com'),
+  title: 'Shipping & Delivery Policy | CannabinoidSite',
+  description: 'Learn about CannabinoidSite shipping methods, delivery times, discreet international shipping, order tracking and free shipping on orders over €100 for research chemicals.',
   keywords: [
     'research chemicals shipping', 'discreet shipping', 'international shipping',
-    'buy research chemicals online delivery', 'NitazeneChemicals shipping',
+    'buy research chemicals online delivery', 'CannabinoidSite shipping',
     'track order', '48h dispatch',
   ],
   alternates: { canonical: '/shipping' },
@@ -136,7 +136,7 @@ export default function ShippingPolicyPage() {
           <ul className="space-y-2 ml-1">
             {[
               ['Unmarked Packaging', 'Plain, neutral boxes or envelopes with no branding'],
-              ['Generic Sender Name', 'No mention of "NitazeneChemicals" on the package'],
+              ['Generic Sender Name', 'No mention of "CannabinoidSite" on the package'],
               ['Secure Sealing', 'Tamper-evident packaging to ensure product integrity'],
               ['Proper Cushioning', 'Products are carefully packed to prevent damage'],
               ['Confidential Labels', 'No product descriptions on shipping labels'],

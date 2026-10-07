@@ -54,7 +54,7 @@ function CheckoutSuccessContent() {
     <div className="min-h-screen bg-white pt-24 pb-20">
       <div className="container mx-auto px-4 max-w-2xl">
         {/* Success card */}
-        <div className="bg-gray-50/60 border border-gray-700/50 rounded-2xl overflow-hidden shadow-xl">
+        <div className="bg-gray-50 border border-gray-200 rounded-2xl overflow-hidden shadow-sm">
           {/* Green banner */}
           <div className="bg-gradient-to-r from-sky-600 to-sky-500 px-8 py-10 text-center">
             <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -68,7 +68,7 @@ function CheckoutSuccessContent() {
             {/* Order details */}
             <div>
               <h2 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-3">Order Details</h2>
-              <div className="bg-gray-100/60 border border-gray-700/50 rounded-xl p-4 grid grid-cols-2 gap-4">
+              <div className="bg-white border border-gray-200 rounded-xl p-4 grid grid-cols-2 gap-4">
                 <div>
                   <p className="text-xs text-gray-900 mb-0.5">Order Number</p>
                   <p className="text-gray-900 font-semibold text-sm">{order.orderNumber}</p>
@@ -83,7 +83,7 @@ function CheckoutSuccessContent() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-900 mb-0.5">Status</p>
-                  <p className="text-sky-400 font-semibold text-sm capitalize">{order.status}</p>
+                  <p className="text-emerald-600 font-semibold text-sm capitalize">{order.status}</p>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ function CheckoutSuccessContent() {
                     <FaBox className="text-sky-400 text-xs" />
                   </div>
                   <div>
-                    <p className="text-white text-sm font-medium">Order Processing</p>
+                    <p className="text-gray-900 text-sm font-medium">Order Processing</p>
                     <p className="text-gray-900 text-xs mt-0.5">Your order is being reviewed and will be dispatched shortly.</p>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ function CheckoutSuccessContent() {
                     <FaClipboardList className="text-sky-400 text-xs" />
                   </div>
                   <div>
-                    <p className="text-white text-sm font-medium">Email Updates</p>
+                    <p className="text-gray-900 text-sm font-medium">Email Updates</p>
                     <p className="text-gray-900 text-xs mt-0.5">You will receive status updates via email as your order progresses.</p>
                   </div>
                 </div>
@@ -116,11 +116,11 @@ function CheckoutSuccessContent() {
             {/* Actions */}
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
               <Link href="/"
-                className="flex-1 flex items-center justify-center gap-2 bg-gray-100 hover:bg-gray-700 border border-gray-700 text-gray-900 font-semibold py-3 px-5 rounded-xl transition-colors text-sm">
+                className="flex-1 flex items-center justify-center gap-2 bg-white hover:bg-gray-100 border border-gray-200 text-gray-900 font-semibold py-3 px-5 rounded-xl transition-colors text-sm">
                 <FaHome className="text-xs" /> Continue Shopping
               </Link>
               <Link href="/account/orders"
-                className="flex-1 flex items-center justify-center gap-2 bg-sky-500 hover:bg-sky-500 text-gray-900 font-semibold py-3 px-5 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-sky-800/30 text-sm">
+                className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-5 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 text-sm">
                 <FaClipboardList className="text-xs" /> View My Orders
               </Link>
             </div>

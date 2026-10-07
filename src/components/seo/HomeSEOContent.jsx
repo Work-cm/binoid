@@ -3,10 +3,10 @@ export default function HomeSEOContent() {
     <section className="bg-gray-50 border-y border-gray-200 py-20">
       <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight mb-6 text-center">
-          Premium Research Chemicals for Laboratory Use
+          Premium Synthetic Cannabinoids &amp; Research Chemicals for Laboratory Use
         </h2>
         <p className="text-gray-900 text-sm leading-relaxed mb-6 text-center max-w-2xl mx-auto">
-          NitazeneChemicals supplies a wide range of analytically verified research chemicals, synthetic cannabinoids, nitazenes and opioids to laboratories and qualified researchers worldwide.
+          CannabinoidSite specialises in analytically verified synthetic cannabinoids, alongside nitazenes, opioids and laboratory research chemicals, supplied to laboratories and qualified researchers worldwide.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mt-10">

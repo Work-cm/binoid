@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://nitazenechemicals.com'),
-  title: 'Privacy Policy | NitazeneChemicals',
-  description: 'Read the NitazeneChemicals Privacy Policy. Learn how we collect, use and protect your personal information when buying research chemicals online.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com'),
+  title: 'Privacy Policy | CannabinoidSite',
+  description: 'Read the CannabinoidSite Privacy Policy. Learn how we collect, use and protect your personal information when buying research chemicals online.',
   keywords: [
-    'privacy policy', 'NitazeneChemicals privacy', 'research chemicals privacy',
+    'privacy policy', 'CannabinoidSite privacy', 'research chemicals privacy',
     'personal information', 'data protection',
   ],
   alternates: { canonical: '/privacy' },
@@ -40,8 +40,8 @@ export default function PrivacyPolicyPage() {
 
         <section>
           <h2 className="text-2xl font-black tracking-tight mb-4">1. Introduction</h2>
-          <p className="mb-4">Welcome to NitazeneChemicals. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.</p>
-          <p>By accessing or using NitazeneChemicals, you agree to the terms of this Privacy Policy. If you do not agree, please do not use our services.</p>
+          <p className="mb-4">Welcome to CannabinoidSite. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.</p>
+          <p>By accessing or using CannabinoidSite, you agree to the terms of this Privacy Policy. If you do not agree, please do not use our services.</p>
         </section>
 
         <section>
@@ -158,7 +158,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="bg-gray-50 border border-gray-100 rounded-xl p-6 text-sm">
           <h2 className="text-lg font-black mb-3">Your Consent</h2>
-          <p>By using NitazeneChemicals, you consent to our Privacy Policy and agree to its terms. If you do not agree, please discontinue use of our services immediately.</p>
+          <p>By using CannabinoidSite, you consent to our Privacy Policy and agree to its terms. If you do not agree, please discontinue use of our services immediately.</p>
         </section>
       </article>
 
