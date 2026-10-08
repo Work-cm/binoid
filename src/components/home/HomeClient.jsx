@@ -198,8 +198,8 @@ function BentoTile({ product, size, addedId, onAdd }) {
 
 function BentoProducts({ products = [] }) {
   const { addedId, handle } = useAddToCart();
-  const sizes = ['lg', 'sm', 'sm', 'md', 'sm', 'sm'];
-  const list = products.slice(0, 6);
+  const sizes = ['lg', 'sm', 'sm', 'md', 'sm', 'sm', 'sm', 'sm'];
+  const list = products.slice(0, 8);
 
   return (
     <section className="py-20 sm:py-28 bg-white">
@@ -373,11 +373,11 @@ function CTAPanel() {
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#06130d]/50 to-transparent" />
                 <span className="absolute bottom-3 left-4 font-mono text-[10px] uppercase tracking-[0.25em] text-white/90">Verified in-house lab</span>
               </div>
-              <a href="https://wa.me/15125922145" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center justify-between gap-6 bg-emerald-500 hover:bg-emerald-400 text-white font-display font-bold px-7 py-5 rounded-full transition-colors min-w-[260px]">
+              <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center justify-between gap-6 bg-emerald-500 hover:bg-emerald-400 text-white font-display font-bold px-7 py-5 rounded-full transition-colors min-w-[260px]">
                 <span className="flex items-center gap-3"><FaWhatsapp size={18} /> WhatsApp</span>
                 <FaArrowRight size={12} className="transition-transform group-hover:translate-x-1" />
               </a>
-              <a href="https://t.me/cannachem" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center justify-between gap-6 bg-[#06130d] hover:bg-emerald-900 text-white font-display font-bold px-7 py-5 rounded-full transition-colors min-w-[260px]">
+              <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center justify-between gap-6 bg-[#06130d] hover:bg-emerald-900 text-white font-display font-bold px-7 py-5 rounded-full transition-colors min-w-[260px]">
                 <span className="flex items-center gap-3"><FaTelegramPlane size={17} /> Telegram</span>
                 <FaArrowRight size={12} className="transition-transform group-hover:translate-x-1" />
               </a>

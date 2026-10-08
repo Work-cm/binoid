@@ -1,7 +1,7 @@
 import { FaTelegramPlane } from 'react-icons/fa';
 
 export default function TelegramButton() {
-  const telegramUrl = 'https://t.me/cannachem';
+  const telegramUrl = 'https://t.me/Zhong5cla';
 
   return (
     <div className="fixed right-6 bottom-6 z-50 flex flex-col gap-4 items-end">

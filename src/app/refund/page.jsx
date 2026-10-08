@@ -265,7 +265,7 @@ export default function RefundPolicyPage() {
                 <li key={item} className="flex gap-2"><span className="w-1 h-1 rounded-full bg-amber-500 shrink-0 mt-2" />{item}</li>
               ))}
             </ul>
-            <p className="font-bold">Please contact us first on <a href="https://wa.me/15125922145" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/cannachem" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
+            <p className="font-bold">Please contact us first on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
           </div>
         </section>
 
@@ -274,10 +274,10 @@ export default function RefundPolicyPage() {
           <h2 className="text-2xl font-black text-gray-900 tracking-tight mb-4">8. Contact Us for Returns</h2>
           <p className="mb-5">Have questions or need to start a return?</p>
           <div className="border border-gray-200 rounded-xl p-5 space-y-2 text-sm mb-6">
-            <p><strong>WhatsApp:</strong> <a href="https://wa.me/15125922145" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Message us on WhatsApp</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Message us on WhatsApp</a></p>
             <p><strong>Message:</strong> Return Request - Order #[Your Order Number]</p>
             <p><strong>Response Time:</strong> Within 24 hours</p>
-            <p><strong>Telegram:</strong> <a href="https://t.me/cannachem" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@cannachem</a></p>
+            <p><strong>Telegram:</strong> <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@Zhong5cla</a></p>
           </div>
           <div className="bg-gray-50 border border-gray-100 rounded-xl p-5 text-sm">
             <p className="font-bold mb-2">Include in Your Message:</p>

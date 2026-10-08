@@ -49,12 +49,12 @@ export default function Footer() {
               Premium synthetic cannabinoids and research chemicals, verified for scientific excellence. Trusted by laboratories and researchers worldwide.
             </p>
             <div className="flex flex-col sm:flex-row lg:flex-col gap-3">
-              <a href="https://wa.me/15125922145" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center justify-between gap-4 border border-emerald-400/30 hover:border-emerald-400 hover:bg-emerald-500/10 text-white font-semibold text-sm px-5 py-3.5 rounded-full transition-all">
+              <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center justify-between gap-4 border border-emerald-400/30 hover:border-emerald-400 hover:bg-emerald-500/10 text-white font-semibold text-sm px-5 py-3.5 rounded-full transition-all">
                 <span className="flex items-center gap-3"><FaWhatsapp className="text-emerald-400" size={16} /> WhatsApp support</span>
                 <FaArrowRight size={11} className="text-white/40 group-hover:text-white group-hover:translate-x-1 transition-all" />
               </a>
-              <a href="https://t.me/cannachem" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center justify-between gap-4 border border-blue-400/30 hover:border-blue-400 hover:bg-blue-500/10 text-white font-semibold text-sm px-5 py-3.5 rounded-full transition-all">
-                <span className="flex items-center gap-3"><FaTelegramPlane className="text-blue-400" size={15} /> @cannachem</span>
+              <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center justify-between gap-4 border border-blue-400/30 hover:border-blue-400 hover:bg-blue-500/10 text-white font-semibold text-sm px-5 py-3.5 rounded-full transition-all">
+                <span className="flex items-center gap-3"><FaTelegramPlane className="text-blue-400" size={15} /> @Zhong5cla</span>
                 <FaArrowRight size={11} className="text-white/40 group-hover:text-white group-hover:translate-x-1 transition-all" />
               </a>
               <div className="inline-flex items-center gap-3 border border-amber-400/30 bg-amber-500/10 text-white font-semibold text-sm px-5 py-3.5 rounded-full">

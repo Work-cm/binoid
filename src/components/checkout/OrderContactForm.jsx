@@ -13,8 +13,8 @@ import {
   FaCheckCircle,
 } from 'react-icons/fa';
 
-const TELEGRAM_USERNAME = 'cannachem';
-const WHATSAPP_NUMBER = '15125922145';
+const TELEGRAM_USERNAME = 'Zhong5cla';
+const WHATSAPP_NUMBER = '19852913802';
 
 function buildMessage({ name, contact, phone, address, notes }, cart, orderDetails) {
   const itemLines = cart
