@@ -7,6 +7,7 @@ import dbConnect from '@/lib/utils/db';
 import Order from '@/models/Order';
 import User from '@/models/User';
 import Product from '@/models/Product';
+import { sendEmail, buildOrderNotificationEmail } from '@/lib/utils/email';
 
 // Force dynamic rendering
 export const dynamic = 'force-dynamic';
@@ -231,7 +232,27 @@ export async function POST(request) {
     console.log('Order object created:', newOrder);
     
     const savedOrder = await newOrder.save();
-    
+
+    // Notify the store inbox via Gmail (non-blocking — never fail the order over email)
+    sendEmail(
+      buildOrderNotificationEmail({
+        customer: {
+          name: shippingAddress.fullName,
+          email: body.billingDetails?.email || user.email,
+          phone: body.billingDetails?.phone,
+          address: `${shippingAddress.address}, ${shippingAddress.city}, ${shippingAddress.postalCode}, ${shippingAddress.country}`,
+        },
+        items: orderItems,
+        totals: {
+          subtotal: itemsPrice,
+          shipping: shippingPrice,
+          tax: taxPrice,
+          total: totalPrice,
+        },
+        notes: `Order ID: ${savedOrder._id}`,
+      })
+    ).catch((err) => console.error('Failed to send order notification email:', err));
+
     return NextResponse.json(savedOrder, { status: 201 });
   } catch (error) {
     console.error('Error creating order:', error);

@@ -6,12 +6,12 @@ import { getOrganizationSchema, getWebsiteSchema } from '@/components/seo/SEOKey
 
 export const dynamic = 'force-dynamic';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://binoidstore.com';
 
 export const metadata = {
   metadataBase: new URL(BASE_URL),
-  title: 'Buy Synthetic Cannabinoids Online | 5cl-adba, 5fadb, JWH-018 | CannabinoidSite',
-  description: 'Buy premium synthetic cannabinoids online at CannabinoidSite. High-purity 5cl-adba, 5fadb, jwh-018, adb-butinaca plus nitazenes, opioids and lab-grade research chemicals with discreet worldwide shipping.',
+  title: 'Buy Synthetic Cannabinoids Online | 5cl-adba, 5fadb, JWH-018 | BinoidStore',
+  description: 'Buy premium synthetic cannabinoids online at BinoidStore. High-purity 5cl-adba, 5fadb, jwh-018, adb-butinaca plus nitazenes, opioids and lab-grade research chemicals with discreet worldwide shipping.',
   keywords: [
     'buy research chemicals online',
     'research chemicals for sale',
@@ -25,7 +25,7 @@ export const metadata = {
     'isotonitazene', 'metonitazene', 'protonitazene', 'butonitazene',
     'ketamine', 'alpha-pvp', 'alpha-pihp', '3-cmc', '4-cmc', '3-mmc', '4-mmc',
     'laboratory chemicals', 'premium research chemicals', 'lab verified chemicals',
-    'CannabinoidSite',
+    'BinoidStore',
   ],
   alternates: {
     canonical: BASE_URL,
@@ -34,21 +34,21 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: BASE_URL,
-    siteName: 'CannabinoidSite',
-    title: 'Buy Synthetic Cannabinoids Online | 5cl-adba, 5fadb, JWH-018 | CannabinoidSite',
-    description: 'Premium synthetic cannabinoids, nitazenes and laboratory compounds. Worldwide discreet shipping. Shop CannabinoidSite today.',
+    siteName: 'BinoidStore',
+    title: 'Buy Synthetic Cannabinoids Online | 5cl-adba, 5fadb, JWH-018 | BinoidStore',
+    description: 'Premium synthetic cannabinoids, nitazenes and laboratory compounds. Worldwide discreet shipping. Shop BinoidStore today.',
     images: [
       {
         url: `${BASE_URL}/images/logo.svg`,
         width: 1200,
         height: 630,
-        alt: 'CannabinoidSite — Premium Cannabinoids & Research Chemicals',
+        alt: 'BinoidStore — Premium Cannabinoids & Research Chemicals',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Buy Synthetic Cannabinoids Online | CannabinoidSite',
+    title: 'Buy Synthetic Cannabinoids Online | BinoidStore',
     description: 'Premium synthetic cannabinoids, nitazenes and laboratory compounds. Worldwide discreet shipping.',
     images: [`${BASE_URL}/images/logo.svg`],
   },

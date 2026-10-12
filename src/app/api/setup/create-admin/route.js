@@ -11,7 +11,7 @@ export async function GET(request) {
     await dbConnect();
     
     // Check if admin already exists
-    const existingAdmin = await User.findOne({ email: 'admin@cannabinoidsite.com' });
+    const existingAdmin = await User.findOne({ email: 'admin@binoidstore.com' });
     
     if (existingAdmin) {
       return NextResponse.json({ 
@@ -27,7 +27,7 @@ export async function GET(request) {
     // Create admin user
     const adminUser = new User({
       name: 'Admin User',
-      email: 'admin@cannabinoidsite.com',
+      email: 'admin@binoidstore.com',
       password: hashedPassword,
       role: 'admin',
     });
@@ -36,7 +36,7 @@ export async function GET(request) {
     
     return NextResponse.json({ 
       message: 'Admin user created successfully',
-      email: 'admin@cannabinoidsite.com',
+      email: 'admin@binoidstore.com',
       password: 'admin123' // Only showing this for development purposes
     });
     

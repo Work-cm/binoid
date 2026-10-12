@@ -11,7 +11,7 @@ export default function Shell({ children }) {
   }
 
   return (
-    <div className="flex flex-col flex-grow lg:pl-[88px] pb-16 lg:pb-0">
+    <div className="flex flex-col flex-grow">
       {children}
     </div>
   );

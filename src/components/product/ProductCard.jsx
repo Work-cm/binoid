@@ -4,113 +4,116 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaStar, FaShoppingCart, FaEye } from 'react-icons/fa';
+import { FaStar, FaShoppingCart, FaCheck, FaFlask } from 'react-icons/fa';
+import { useCart } from '@/components/cart/CartProvider';
+
+export function lowestPrice(p) {
+  if (p?.priceVariants?.length) return p.priceVariants.reduce((m, v) => (v.price < m ? v.price : m), p.priceVariants[0].price);
+  if (p?.price && p.price > 0) return p.price;
+  return 0;
+}
 
 export default function ProductCard({ product }) {
-  const [isHovered, setIsHovered] = useState(false);
-  
-  if (!product) {
-    console.error('ProductCard received undefined product');
-    return null;
-  }
-  
-  const displayPrice = product.priceVariants && product.priceVariants.length > 0
-    ? product.priceVariants.reduce((min, v) => v.price < min ? v.price : min, product.priceVariants[0]?.price || 0)
-    : product.price && product.price > 0
-      ? product.price
-      : 0;
+  const { addToCart } = useCart();
+  const [added, setAdded] = useState(false);
+
+  if (!product) return null;
+
+  const price = lowestPrice(product);
+  const inStock = product.countInStock > 0;
+  const hasVariants = product.priceVariants && product.priceVariants.length > 1;
+  const href = `/products/${product.slug || product._id}`;
+
+  const handleAdd = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!inStock) return;
+    if (hasVariants) {
+      window.location.href = href;
+      return;
+    }
+    addToCart(product, 1);
+    setAdded(true);
+    setTimeout(() => setAdded(false), 1600);
+
+    const cartIcon = document.querySelector('.cart-icon');
+    if (cartIcon) {
+      const br = e.currentTarget.getBoundingClientRect();
+      const cr = cartIcon.getBoundingClientRect();
+      const dot = document.createElement('div');
+      dot.style.cssText = `position:fixed;z-index:9999;width:12px;height:12px;border-radius:50%;background:#ff6b4a;pointer-events:none;transition:transform 0.6s cubic-bezier(0.4,0,1,1),opacity 0.6s ease;top:${br.top + br.height / 2}px;left:${br.left + br.width / 2}px;`;
+      document.body.appendChild(dot);
+      requestAnimationFrame(() => { dot.style.transform = `translate(${cr.left - br.left}px,${cr.top - br.top}px) scale(0.3)`; dot.style.opacity = '0'; });
+      setTimeout(() => { dot.remove(); cartIcon.animate([{ transform: 'scale(1)' }, { transform: 'scale(1.2)' }, { transform: 'scale(1)' }], { duration: 300 }); }, 620);
+    }
+  };
 
   return (
-    <motion.div
-      whileHover={{ y: -4 }}
-      onHoverStart={() => setIsHovered(true)}
-      onHoverEnd={() => setIsHovered(false)}
-      className="bg-white rounded-2xl border border-gray-200 overflow-hidden hover:border-emerald-300 hover:shadow-lg hover:shadow-emerald-500/10 transition-all duration-300 flex flex-col h-full"
+    <motion.article
+      whileHover={{ y: -3 }}
+      transition={{ duration: 0.2 }}
+      className="group bg-white rounded-xl border border-gray-200 hover:border-indigo-300 hover:shadow-lg hover:shadow-indigo-950/5 transition-all flex flex-col h-full overflow-hidden"
     >
       {/* Image */}
-      <Link
-        href={`/products/${product.slug || product._id}`}
-        className="relative h-52 w-full overflow-hidden block bg-gray-50"
-        aria-label={`View ${product.name}`}
-      >
-        {product.images && product.images.length > 0 ? (
-          <motion.div
-            animate={{ scale: isHovered ? 1.05 : 1 }}
-            transition={{ duration: 0.4 }}
-            className="h-full w-full"
-          >
-            <Image
-              src={product.images[0]}
-              alt={product.name || 'Product image'}
-              fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              className="object-cover"
-              loading="lazy"
-              quality={85}
-              onError={(e) => { e.target.onerror = null; e.target.src = '/images/Laboratory-Science.jpg'; }}
-            />
-          </motion.div>
+      <Link href={href} className="relative block aspect-square bg-gray-50 overflow-hidden" aria-label={`View ${product.name}`}>
+        {product.images?.[0] ? (
+          <Image
+            src={product.images[0]}
+            alt={product.name || 'Product image'}
+            fill
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, (max-width: 1536px) 25vw, 20vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
+            quality={85}
+          />
         ) : (
-          <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-            <span className="text-gray-900 text-sm">No image</span>
-          </div>
+          <div className="absolute inset-0 flex items-center justify-center text-gray-300"><FaFlask size={36} /></div>
         )}
 
-        {/* Category badge */}
-        <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-emerald-700 text-[10px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-lg border border-emerald-100 shadow-sm">
-          {product.category}
-        </span>
+        <div className="absolute top-2 left-2 flex flex-col gap-1">
+          <span className="bg-white/95 backdrop-blur text-gray-700 text-[9px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-md shadow-sm">{product.category}</span>
+          {product.featured && <span className="bg-coral-500 text-white text-[9px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-md shadow-sm">Popular</span>}
+        </div>
+        <span className="absolute top-2 right-2 bg-indigo-600 text-white text-[9px] font-bold px-1.5 py-0.5 rounded-md shadow-sm">COA</span>
 
-        {/* COA badge */}
-        <span className="absolute top-3 right-3 bg-emerald-500/90 backdrop-blur-sm text-white text-[9px] font-bold uppercase tracking-wide px-2 py-1 rounded-md shadow-sm">
-          COA
-        </span>
-
-        {/* Out of stock */}
-        {product.countInStock <= 0 && (
-          <div className="absolute inset-0 bg-white/70 backdrop-blur-[2px] flex items-center justify-center">
-            <span className="bg-gray-900 text-white text-xs font-bold px-4 py-1.5 rounded-full">Sold Out</span>
+        {!inStock && (
+          <div className="absolute inset-0 bg-white/70 backdrop-blur-[1px] flex items-center justify-center">
+            <span className="bg-gray-900 text-white text-xs font-bold px-3 py-1.5 rounded-full">Sold out</span>
           </div>
         )}
       </Link>
 
-      {/* Content */}
-      <div className="p-4 flex flex-col flex-1">
-        <Link href={`/products/${product.slug || product._id}`}>
-          <h3 className="text-gray-900 font-bold text-sm leading-snug hover:text-emerald-600 transition-colors line-clamp-1 mb-1">
-            {product.name || 'Unnamed Product'}
-          </h3>
+      {/* Body */}
+      <div className="p-3 flex flex-col flex-1">
+        <Link href={href} className="block">
+          <h3 className="text-gray-900 font-semibold text-[13px] leading-snug line-clamp-2 min-h-[2.3rem] group-hover:text-indigo-700 transition-colors">{product.name || 'Unnamed product'}</h3>
         </Link>
 
-        {/* Rating */}
-        <div className="flex items-center gap-1.5 mb-3">
+        <div className="flex items-center gap-1.5 mt-1.5">
           <div className="flex">
             {[...Array(5)].map((_, i) => (
-              <FaStar
-                key={i}
-                className={`w-3 h-3 ${i < Math.round(product.rating) ? 'text-amber-400' : 'text-gray-200'}`}
-              />
+              <FaStar key={i} className={`w-3 h-3 ${i < Math.round(product.rating || 0) ? 'text-amber-400' : 'text-gray-200'}`} />
             ))}
           </div>
-          <span className="text-gray-900 text-xs">({product.numReviews})</span>
+          <span className="text-gray-500 text-xs">({product.numReviews || 0})</span>
+          {product.purity && <span className="ml-auto text-[11px] font-semibold text-indigo-700 bg-indigo-50 px-1.5 py-0.5 rounded">{product.purity}</span>}
         </div>
 
-        {/* Price + button */}
-        <div className="flex items-center justify-between mt-auto pt-3 border-t border-gray-100">
+        <div className="mt-auto pt-2 flex items-end justify-between gap-2">
           <div>
-            <span className="text-gray-900 font-black text-lg">&euro;{displayPrice.toFixed(2)}</span>
-            {product.priceVariants && product.priceVariants.length > 1 && (
-              <span className="text-gray-900 text-xs ml-1">+</span>
-            )}
+            {hasVariants && <span className="block text-[10px] text-gray-500 uppercase tracking-wide">From</span>}
+            <span className="text-coral-600 font-extrabold text-lg leading-none">&euro;{price.toFixed(2)}</span>
           </div>
-          <Link
-            href={`/products/${product.slug || product._id}`}
-            className="bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white text-xs font-bold px-4 py-2 rounded-xl transition-all flex items-center gap-1.5"
+          <button
+            onClick={handleAdd}
+            disabled={!inStock}
+            aria-label={hasVariants ? `Choose options for ${product.name}` : `Add ${product.name} to cart`}
+            className={`h-9 px-3 rounded-lg text-[11px] font-bold flex items-center gap-1.5 transition-all disabled:opacity-40 disabled:cursor-not-allowed ${added ? 'bg-green-500 text-white' : 'bg-indigo-600 hover:bg-indigo-700 text-white'}`}
           >
-            View <span className="text-[10px]">â†’</span>
-          </Link>
+            {added ? <><FaCheck size={10} /> Added</> : <><FaShoppingCart size={11} /> {hasVariants ? 'Options' : 'Add'}</>}
+          </button>
         </div>
       </div>
-    </motion.div>
+    </motion.article>
   );
 }

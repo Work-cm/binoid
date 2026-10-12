@@ -11,7 +11,7 @@ export async function generateMetadata({ searchParams }) {
   const category = params?.category || '';
   
   // Always use /products as canonical to avoid duplicate content from query params
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://binoidstore.com';
   
   const categoryKeywords = category
     ? `${category.toLowerCase()}, ${category.toLowerCase()} for sale, buy ${category.toLowerCase()}`
@@ -20,21 +20,21 @@ export async function generateMetadata({ searchParams }) {
   return {
     metadataBase: new URL(baseUrl),
     title: category
-      ? `Buy ${category} Online | Research Chemicals | CannabinoidSite`
-      : 'Research Chemicals for Sale | 5cl-adba, 5fadb, JWH-018 | CannabinoidSite',
+      ? `Buy ${category} Online | Research Chemicals | BinoidStore`
+      : 'Research Chemicals for Sale | 5cl-adba, 5fadb, JWH-018 | BinoidStore',
     description: category
-      ? `Buy premium ${category.toLowerCase()} online at CannabinoidSite. High-purity 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca and more — lab-verified with discreet worldwide shipping.`
+      ? `Buy premium ${category.toLowerCase()} online at BinoidStore. High-purity 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca and more — lab-verified with discreet worldwide shipping.`
       : 'Buy premium research chemicals online. Browse 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca, ab-pinaca, 5F-EDMB-PINACA, ADB-FUBINACA, 4FADB, AMB-FUBINACA, MDMB-4en-PINACA and other lab-grade synthetic cannabinoids and nitazenes.',
-    keywords: `${categoryKeywords}, 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca, ab-pinaca, 5F-EDMB-PINACA, ADB-FUBINACA, 4FADB, AMB-FUBINACA, MDMB-4en-PINACA, 6cl-adba, isotonitazene, ketamine, alpha-pvp, laboratory chemicals, high purity, CannabinoidSite`,
+    keywords: `${categoryKeywords}, 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca, ab-pinaca, 5F-EDMB-PINACA, ADB-FUBINACA, 4FADB, AMB-FUBINACA, MDMB-4en-PINACA, 6cl-adba, isotonitazene, ketamine, alpha-pvp, laboratory chemicals, high purity, BinoidStore`,
     alternates: {
       canonical: '/products', // Always point to /products to avoid duplicate content from query params
     },
     openGraph: {
       title: category
-        ? `Buy ${category} Online | Research Chemicals | CannabinoidSite`
-        : 'Research Chemicals for Sale | 5cl-adba, 5fadb, JWH-018 | CannabinoidSite',
+        ? `Buy ${category} Online | Research Chemicals | BinoidStore`
+        : 'Research Chemicals for Sale | 5cl-adba, 5fadb, JWH-018 | BinoidStore',
       description: category
-        ? `Browse premium ${category.toLowerCase()} at CannabinoidSite. Lab-verified compounds with discreet worldwide shipping.`
+        ? `Browse premium ${category.toLowerCase()} at BinoidStore. Lab-verified compounds with discreet worldwide shipping.`
         : 'Browse premium research chemicals: 5cl-adba, 5cladba, 5fadb, jwh-018, adb-butinaca and more. Lab-verified with discreet worldwide shipping.',
       url: '/products',
       type: 'website',
@@ -178,64 +178,64 @@ export default async function ProductsPage({ searchParams }) {
     'Browse our full catalog of lab-verified synthetic cannabinoids, nitazenes, opioids and research chemicals — each compound shipped with its Certificate of Analysis.';
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gray-50">
 
       {/* Page header */}
-      <div className="container mx-auto px-6 pt-24 lg:pt-20 pb-10">
-        <nav className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.25em] text-gray-400 mb-8" aria-label="Breadcrumb">
-          <a href="/" className="hover:text-emerald-600 transition-colors">Home</a>
-          <span>/</span>
-          <span className={selectedCategory ? '' : 'text-gray-900'}>Catalog</span>
-          {selectedCategory && (
-            <>
-              <span>/</span>
-              <span className="text-gray-900">{displayLabel}</span>
-            </>
-          )}
-        </nav>
+      <div className="bg-white border-b border-gray-200">
+        <div className="container mx-auto px-4 sm:px-6 pt-5 pb-7">
+          <nav className="flex items-center gap-2 text-xs text-gray-500 mb-4" aria-label="Breadcrumb">
+            <a href="/" className="hover:text-indigo-700 transition-colors">Home</a>
+            <span>/</span>
+            <a href="/products" className={selectedCategory ? 'hover:text-indigo-700 transition-colors' : 'text-gray-900 font-semibold'}>Shop</a>
+            {selectedCategory && (
+              <>
+                <span>/</span>
+                <span className="text-gray-900 font-semibold">{displayLabel}</span>
+              </>
+            )}
+          </nav>
 
-        <div className="grid lg:grid-cols-[1fr_auto] gap-8 lg:gap-16 items-end">
-          <div>
-            <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-extrabold text-gray-900 tracking-[-0.045em] leading-[0.9]">
-              {displayLabel}
-            </h1>
-            <span className="block mt-4 h-1.5 w-24 rounded-full bg-gradient-to-r from-emerald-500 to-lime-400" />
-            <p className="text-gray-500 max-w-xl text-sm sm:text-base leading-relaxed mt-6">
-              {displayDesc}
-            </p>
-          </div>
+          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5">
+            <div className="max-w-2xl">
+              <h1 className="font-display text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+                {displayLabel}
+              </h1>
+              <p className="text-gray-500 text-sm sm:text-base leading-relaxed mt-2">
+                {displayDesc}
+              </p>
+            </div>
 
-          <div className="flex flex-wrap lg:flex-col gap-2 lg:items-end">
-            {[
-              { href: '/products', label: 'All' },
-              { href: '/products?category=cannabinoids', label: 'Cannabinoids' },
-              { href: '/products?category=nitazenes', label: 'Nitazenes' },
-              { href: '/products?category=opioids', label: 'Opioids' },
-              { href: '/products?category=research%20chemicals', label: 'Research Chemicals' },
-              { href: '/products?category=etomidate', label: 'Etomidate' },
-            ].map(({ href, label }) => {
-              const active = label === 'All' ? !selectedCategory : catKey === label.toLowerCase();
-              return (
-                <a
-                  key={label}
-                  href={href}
-                  className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
-                    active
-                      ? 'bg-[#06130d] border-[#06130d] text-white'
-                      : 'bg-white border-gray-200 text-gray-700 hover:border-emerald-400 hover:text-emerald-700'
-                  }`}
-                >
-                  {active && <span className="w-1.5 h-1.5 rounded-full bg-lime-400" />}
-                  {label}
-                </a>
-              );
-            })}
+            <div className="flex flex-wrap gap-2">
+              {[
+                { href: '/products', label: 'All' },
+                { href: '/products?category=cannabinoids', label: 'Cannabinoids' },
+                { href: '/products?category=nitazenes', label: 'Nitazenes' },
+                { href: '/products?category=opioids', label: 'Opioids' },
+                { href: '/products?category=research%20chemicals', label: 'Research Chemicals' },
+                { href: '/products?category=etomidate', label: 'Etomidate' },
+              ].map(({ href, label }) => {
+                const active = label === 'All' ? !selectedCategory : catKey === label.toLowerCase();
+                return (
+                  <a
+                    key={label}
+                    href={href}
+                    className={`inline-flex items-center px-4 py-2 rounded-full text-xs font-bold transition-colors border ${
+                      active
+                        ? 'bg-indigo-600 border-indigo-600 text-white'
+                        : 'bg-white border-gray-200 text-gray-700 hover:border-indigo-400 hover:text-indigo-700'
+                    }`}
+                  >
+                    {label}
+                  </a>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
 
       {/* Product grid */}
-      <div className="container mx-auto px-6 pb-16">
+      <div className="container mx-auto px-4 sm:px-6 py-8 pb-16">
         <Suspense fallback={<ProductsLoading />}>
           <ProductList initialProducts={products} selectedCategory={selectedCategory} />
         </Suspense>

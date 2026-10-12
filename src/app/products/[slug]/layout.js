@@ -1,7 +1,7 @@
 import dbConnect from '@/lib/utils/db';
 import Product from '@/models/Product';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://binoidstore.com';
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
 
     if (!product) {
       return {
-        title: 'Product Not Found | CannabinoidSite',
+        title: 'Product Not Found | BinoidStore',
         description: 'The product you are looking for could not be found.',
       };
     }
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
 
     return {
       metadataBase: new URL(BASE_URL),
-      title: `Buy ${product.name} Online | Research Chemicals | CannabinoidSite`,
+      title: `Buy ${product.name} Online | Research Chemicals | BinoidStore`,
       description: shortDesc,
       keywords: [
         product.name,
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
         'research chemicals',
         'synthetic cannabinoids',
               'nitazenes',
-        'CannabinoidSite',
+        'BinoidStore',
         'high purity',
         'certificate of analysis',
         'lab verified',
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }) {
         canonical: `/products/${slug}`,
       },
       openGraph: {
-        title: `${product.name} | CannabinoidSite`,
+        title: `${product.name} | BinoidStore`,
         description: shortDesc,
         url: `/products/${slug}`,
         type: 'website',
@@ -62,14 +62,14 @@ export async function generateMetadata({ params }) {
       },
       twitter: {
         card: 'summary_large_image',
-        title: `${product.name} | CannabinoidSite`,
+        title: `${product.name} | BinoidStore`,
         description: shortDesc,
         images: [image],
       },
     };
   } catch {
     return {
-      title: 'CannabinoidSite | Research Chemicals',
+      title: 'BinoidStore | Research Chemicals',
       description: 'Premium research chemicals — high purity, certificate of analysis, discreet shipping.',
     };
   }

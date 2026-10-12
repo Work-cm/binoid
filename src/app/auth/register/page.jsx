@@ -59,7 +59,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <h1 className="text-2xl font-extrabold text-gray-900 mt-3">Create an account</h1>
-          <p className="text-gray-900 text-sm mt-1">Join CannabinoidSite for premium research chemicals</p>
+          <p className="text-gray-900 text-sm mt-1">Join BinoidStore for premium research chemicals</p>
         </div>
 
         <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8 shadow-sm">
@@ -113,7 +113,7 @@ export default function RegisterPage() {
             </div>
 
             <button type="submit" disabled={loading}
-              className="w-full bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 disabled:opacity-60 disabled:cursor-not-allowed text-[#06130d] font-bold py-3 px-4 rounded-xl flex items-center justify-center transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 mt-2">
+              className="w-full bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 disabled:opacity-60 disabled:cursor-not-allowed text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 mt-2">
               {loading ? <div className="animate-spin rounded-full h-5 w-5 border-t-2 border-b-2 border-white" /> : 'Create Account'}
             </button>
           </form>

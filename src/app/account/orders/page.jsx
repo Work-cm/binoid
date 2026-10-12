@@ -68,14 +68,14 @@ export default function OrdersPage() {
 
   if (loading || pageLoading) {
     return (
-      <div className="min-h-screen bg-white pt-24 flex items-center justify-center">
+      <div className="min-h-screen bg-white pt-8 flex items-center justify-center">
         <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-sky-500" />
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-white pt-24 pb-20">
+    <div className="min-h-screen bg-white pt-8 pb-20">
       <div className="container mx-auto px-4 max-w-4xl">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-sm text-gray-900 mb-6">
@@ -101,7 +101,7 @@ export default function OrdersPage() {
             <h2 className="text-lg font-semibold text-gray-900 mb-2">No Orders Yet</h2>
             <p className="text-gray-900 text-sm mb-6">You haven&apos;t placed any orders yet.</p>
             <Link href="/products"
-              className="bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] text-sm font-semibold py-2.5 px-6 rounded-xl inline-block transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25">
+              className="bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white text-sm font-semibold py-2.5 px-6 rounded-xl inline-block transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25">
               Start Shopping
             </Link>
           </div>

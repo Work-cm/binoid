@@ -1,63 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#06130d"/>
-      <stop offset="60%" stop-color="#0b1f16"/>
-      <stop offset="100%" stop-color="#064e3b"/>
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="55%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#312e81"/>
     </linearGradient>
     <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#059669"/>
-      <stop offset="55%" stop-color="#10b981"/>
-      <stop offset="100%" stop-color="#84cc16"/>
-    </linearGradient>
-    <linearGradient id="leaf" x1="32" y1="22" x2="32" y2="44" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#a3e635"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-    <linearGradient id="wordmark" x1="0" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#34d399"/>
-      <stop offset="55%" stop-color="#a3e635"/>
-      <stop offset="100%" stop-color="#bef264"/>
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#84cc16" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#84cc16" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#ff6b4a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ff6b4a" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#059669" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <circle cx="200" cy="120" r="320" fill="url(#glow2)"/>
-  <circle cx="1050" cy="560" r="340" fill="url(#glow)"/>
-
-  <!-- dashed orbit rings decor -->
-  <ellipse cx="600" cy="315" rx="520" ry="230" fill="none" stroke="rgba(167,243,208,0.08)" stroke-width="2" stroke-dasharray="10 14" transform="rotate(-10 600 315)"/>
-  <ellipse cx="600" cy="315" rx="430" ry="180" fill="none" stroke="rgba(132,204,22,0.10)" stroke-width="2" stroke-dasharray="6 12" transform="rotate(8 600 315)"/>
+  <circle cx="1020" cy="100" r="340" fill="url(#glow)"/>
+  <circle cx="160" cy="560" r="360" fill="url(#glow2)"/>
 
   <!-- logo mark -->
-  <g transform="translate(500,150) scale(3.1)">
-    <circle cx="32" cy="32" r="30" fill="url(#glow)"/>
-    <path d="M32 5 L55.4 18.5 V45.5 L32 59 L8.6 45.5 V18.5 Z" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/>
-    <ellipse cx="32" cy="32" rx="29" ry="11" transform="rotate(-24 32 32)" fill="none" stroke="url(#g)" stroke-opacity="0.4" stroke-width="1.4" stroke-dasharray="3 5"/>
-    <path d="M45 19 A16 16 0 1 0 45 45" fill="none" stroke="url(#g)" stroke-width="4.6" stroke-linecap="round"/>
-    <circle cx="45" cy="19" r="3.2" fill="#a3e635"/>
-    <circle cx="45" cy="45" r="3.2" fill="#a3e635"/>
-    <g fill="url(#leaf)">
-      <path d="M32 22 C34.5 27.5 34.8 33 32 39.5 C29.2 33 29.5 27.5 32 22 Z"/>
-      <path d="M32 25 C34 29 34.2 34 32 39.5 C29.8 34 30 29 32 25 Z" transform="rotate(42 32 39.5)"/>
-      <path d="M32 25 C34 29 34.2 34 32 39.5 C29.8 34 30 29 32 25 Z" transform="rotate(-42 32 39.5)"/>
-    </g>
-    <path d="M32 39.5 V44" stroke="url(#g)" stroke-width="2" stroke-linecap="round"/>
-    <circle cx="32" cy="5" r="2.8" fill="#a3e635"/>
+  <g transform="translate(500,120) scale(3.1)">
+    <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#g)"/>
+    <path d="M20 15 H36 C43.5 15 48 19 48 25.5 C48 29.5 46 32.2 42.8 33.4 C47 34.6 49.6 37.8 49.6 42.4 C49.6 49.2 44.8 53 36.8 53 H20 Z M28 22.2 V30.6 H35 C38.4 30.6 40.2 29.1 40.2 26.4 C40.2 23.7 38.4 22.2 35 22.2 Z M28 37.2 V45.8 H36 C39.8 45.8 41.6 44.2 41.6 41.5 C41.6 38.8 39.8 37.2 36 37.2 Z" fill="#4338ca"/>
+    <circle cx="50" cy="15" r="6" fill="#ff6b4a"/>
   </g>
 
   <!-- wordmark -->
-  <text x="600" y="430" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="76" font-weight="900" letter-spacing="2">
-    <tspan fill="#ffffff">CANNABINOID</tspan><tspan fill="url(#wordmark)">SITE</tspan>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="82" font-weight="900" letter-spacing="-2">
+    <tspan fill="#ffffff">Binoid</tspan><tspan fill="#ff8a65">Store</tspan>
   </text>
-  <text x="600" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" letter-spacing="10" fill="rgba(209,250,229,0.65)">CANNABINOIDSITE.COM</text>
-  <text x="600" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" letter-spacing="4" fill="rgba(167,243,208,0.45)">PREMIUM CANNABINOIDS &amp; RESEARCH CHEMICALS — LAB VERIFIED — DISCREET WORLDWIDE SHIPPING</text>
+  <text x="600" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" letter-spacing="10" fill="rgba(224,231,255,0.8)">BINOIDSTORE.COM</text>
+  <text x="600" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" letter-spacing="4" fill="rgba(224,231,255,0.55)">PREMIUM CANNABINOIDS &amp; RESEARCH CHEMICALS — LAB VERIFIED — DISCREET WORLDWIDE SHIPPING</text>
 </svg>

@@ -2,12 +2,12 @@ import Link from 'next/link';
 import { FaShippingFast, FaGlobeAmericas, FaShieldAlt, FaCheckCircle } from 'react-icons/fa';
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com'),
-  title: 'Shipping & Delivery Policy | CannabinoidSite',
-  description: 'Learn about CannabinoidSite shipping methods, delivery times, discreet international shipping, order tracking and free shipping on orders over €100 for research chemicals.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://binoidstore.com'),
+  title: 'Shipping & Delivery Policy | BinoidStore',
+  description: 'Learn about BinoidStore shipping methods, delivery times, discreet international shipping, order tracking and free shipping on orders over €100 for research chemicals.',
   keywords: [
     'research chemicals shipping', 'discreet shipping', 'international shipping',
-    'buy research chemicals online delivery', 'CannabinoidSite shipping',
+    'buy research chemicals online delivery', 'BinoidStore shipping',
     'track order', '48h dispatch',
   ],
   alternates: { canonical: '/shipping' },
@@ -20,7 +20,7 @@ export default function ShippingPolicyPage() {
       {/* Hero */}
       <section className="relative border-b border-gray-100 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-sky-50 to-white pointer-events-none" />
-        <div className="relative z-10 container mx-auto px-6 pt-32 pb-14 max-w-3xl">
+        <div className="relative z-10 container mx-auto px-6 pt-16 pb-14 max-w-3xl">
           <nav className="flex items-center gap-2 text-xs text-gray-400 mb-8">
             <Link href="/" className="hover:text-sky-500 transition-colors">Home</Link>
             <span>/</span>
@@ -136,7 +136,7 @@ export default function ShippingPolicyPage() {
           <ul className="space-y-2 ml-1">
             {[
               ['Unmarked Packaging', 'Plain, neutral boxes or envelopes with no branding'],
-              ['Generic Sender Name', 'No mention of "CannabinoidSite" on the package'],
+              ['Generic Sender Name', 'No mention of "BinoidStore" on the package'],
               ['Secure Sealing', 'Tamper-evident packaging to ensure product integrity'],
               ['Proper Cushioning', 'Products are carefully packed to prevent damage'],
               ['Confidential Labels', 'No product descriptions on shipping labels'],
@@ -245,7 +245,7 @@ export default function ShippingPolicyPage() {
             <li>Look for delivery notices or alternative drop-off locations</li>
             <li>Wait 24 hours as carriers sometimes mark packages delivered early</li>
             <li>Contact the shipping carrier directly with your tracking number</li>
-            <li>If still missing after 48 hours, contact us on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a></li>
+            <li>If still missing after 48 hours, contact us on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a></li>
           </ol>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-700 mb-6">
             <strong>Note:</strong> We are not responsible for packages stolen after delivery confirmation. Consider using a secure delivery location.
@@ -310,7 +310,7 @@ export default function ShippingPolicyPage() {
           <div className="border border-gray-200 rounded-xl p-5 space-y-2 text-sm mb-6">
             <p><strong>WhatsApp:</strong> <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Message us on WhatsApp</a></p>
             <p><strong>Response Time:</strong> Within 24 hours</p>
-            <p><strong>Telegram:</strong> <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@Zhong5cla</a></p>
+            <p><strong>Telegram:</strong> <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@chemsolution12maf</a></p>
             <p className="text-gray-400 text-xs pt-2">Please include your order number and tracking information when contacting us about shipping issues.</p>
           </div>
         </section>

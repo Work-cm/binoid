@@ -20,7 +20,7 @@ export async function POST(request) {
       // Generate JWT token
       const token = jwt.sign(
         { id: user._id },
-        process.env.JWT_SECRET || 'CannabinoidSite-secret-key',
+        process.env.JWT_SECRET || 'BinoidStore-secret-key',
         { expiresIn: '30d' }
       );
       

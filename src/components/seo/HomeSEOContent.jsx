@@ -6,7 +6,7 @@ export default function HomeSEOContent() {
           Premium Synthetic Cannabinoids &amp; Research Chemicals for Laboratory Use
         </h2>
         <p className="text-gray-900 text-sm leading-relaxed mb-6 text-center max-w-2xl mx-auto">
-          CannabinoidSite specialises in analytically verified synthetic cannabinoids, alongside nitazenes, opioids and laboratory research chemicals, supplied to laboratories and qualified researchers worldwide.
+          BinoidStore specialises in analytically verified synthetic cannabinoids, alongside nitazenes, opioids and laboratory research chemicals, supplied to laboratories and qualified researchers worldwide.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mt-10">

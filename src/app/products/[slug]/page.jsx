@@ -69,7 +69,7 @@ export default function ProductDetailPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-white pt-24 flex justify-center items-center">
+      <div className="min-h-screen bg-white pt-8 flex justify-center items-center">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-sky-500" />
       </div>
     );
@@ -77,7 +77,7 @@ export default function ProductDetailPage() {
 
   if (error || !product) {
     return (
-      <div className="min-h-screen bg-white pt-24">
+      <div className="min-h-screen bg-white pt-8">
         <div className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-3">Product Not Found</h1>
           <p className="text-gray-900 mb-6 text-sm">{error || 'The product you are looking for does not exist.'}</p>
@@ -100,23 +100,23 @@ export default function ProductDetailPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white pt-20 lg:pt-16 pb-28 lg:pb-20">
-      <div className="container mx-auto px-6">
+    <div className="min-h-screen bg-gray-50 pt-5 pb-20">
+      <div className="container mx-auto px-4 sm:px-6">
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.25em] text-gray-400 mb-8 overflow-x-auto whitespace-nowrap scrollbar-hide" aria-label="Breadcrumb">
-          <Link href="/" className="hover:text-emerald-600 transition-colors">Home</Link>
+        <nav className="flex items-center gap-2 text-xs text-gray-500 mb-5 overflow-x-auto whitespace-nowrap scrollbar-hide" aria-label="Breadcrumb">
+          <Link href="/" className="hover:text-indigo-700 transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/products" className="hover:text-emerald-600 transition-colors">Catalog</Link>
+          <Link href="/products" className="hover:text-indigo-700 transition-colors">Shop</Link>
           <span>/</span>
-          <Link href={`/products?category=${product.category}`} className="hover:text-emerald-600 transition-colors">{product.category}</Link>
+          <Link href={`/products?category=${product.category}`} className="hover:text-indigo-700 transition-colors capitalize">{product.category}</Link>
           <span>/</span>
-          <span className="text-gray-900 truncate max-w-[220px]">{product.name}</span>
+          <span className="text-gray-900 font-semibold truncate max-w-[220px]">{product.name}</span>
         </nav>
 
-        <div className="grid lg:grid-cols-[1fr_1.1fr] gap-10 lg:gap-16 items-start">
+        <div className="grid lg:grid-cols-[1fr_1.1fr] gap-8 lg:gap-12 items-start bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 lg:p-8">
           {/* ===== LEFT — sticky image column ===== */}
-          <div className="lg:sticky lg:top-20 space-y-3">
-            <div className="relative aspect-square w-full rounded-[1.75rem] overflow-hidden bg-[#06130d]">
+          <div className="lg:sticky lg:top-[150px] space-y-3">
+            <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-gray-50 border border-gray-200">
               {product.images && product.images.length > 0 ? (
                 <ProtectedImage
                   src={product.images[selectedImage]}
@@ -126,14 +126,15 @@ export default function ProductDetailPage() {
                   className="object-cover"
                 />
               ) : (
-                <div className="absolute inset-0 flex items-center justify-center text-white/40">No image</div>
+                <div className="absolute inset-0 flex items-center justify-center text-gray-400">No image</div>
               )}
-              <div className="absolute top-4 left-4 flex items-center gap-2">
-                <span className="font-mono text-[10px] uppercase tracking-[0.22em] px-2.5 py-1 rounded-full bg-white/10 backdrop-blur border border-white/15 text-white/85">{product.category}</span>
-                <span className={`font-mono text-[10px] uppercase tracking-[0.22em] px-2.5 py-1 rounded-full backdrop-blur border ${product.countInStock > 0 ? 'bg-emerald-500/20 border-emerald-400/40 text-emerald-200' : 'bg-red-500/20 border-red-400/40 text-red-200'}`}>
+              <div className="absolute top-3 left-3 flex items-center gap-2">
+                <span className="text-[10px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-md bg-white/95 backdrop-blur text-gray-700 shadow-sm">{product.category}</span>
+                <span className={`text-[10px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-md shadow-sm ${product.countInStock > 0 ? 'bg-green-500 text-white' : 'bg-red-500 text-white'}`}>
                   {product.countInStock > 0 ? 'In stock' : 'Sold out'}
                 </span>
               </div>
+              <span className="absolute top-3 right-3 bg-indigo-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-md shadow-sm">COA</span>
             </div>
 
             {product.images && product.images.length > 1 && (
@@ -142,8 +143,8 @@ export default function ProductDetailPage() {
                   <button
                     key={index}
                     onClick={() => setSelectedImage(index)}
-                    className={`relative h-16 w-16 rounded-xl overflow-hidden border-2 flex-shrink-0 transition-all ${
-                      selectedImage === index ? 'border-emerald-500' : 'border-gray-200 hover:border-emerald-300'
+                    className={`relative h-16 w-16 rounded-lg overflow-hidden border-2 flex-shrink-0 transition-all ${
+                      selectedImage === index ? 'border-indigo-600' : 'border-gray-200 hover:border-indigo-300'
                     }`}
                   >
                     <ProtectedImage src={image} alt={`${product.name} ${index + 1}`} fill sizes="64px" className="object-cover" />
@@ -155,30 +156,31 @@ export default function ProductDetailPage() {
 
           {/* ===== RIGHT — details ===== */}
           <div>
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-[-0.045em] leading-[0.92]">{product.name}</h1>
+            <p className="text-[11px] font-bold uppercase tracking-wider text-coral-600 mb-2 capitalize">{product.category}</p>
+            <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight leading-tight">{product.name}</h1>
 
-            <div className="flex items-center gap-3 mt-5">
+            <div className="flex items-center gap-3 mt-3">
               <div className="flex items-center gap-0.5">
                 {[...Array(5)].map((_, i) => (
                   <FaStar key={i} className={`w-3.5 h-3.5 ${i < Math.round(product.rating || 0) ? 'text-amber-400' : 'text-gray-200'}`} />
                 ))}
               </div>
-              <span className="font-mono text-xs text-gray-400">{(product.rating || 0).toFixed(1)} / 5</span>
+              <span className="text-xs text-gray-600">{(product.rating || 0).toFixed(1)} / 5 &middot; {product.numReviews || 0} reviews</span>
             </div>
 
             {/* Spec table */}
-            <dl className="mt-10 border-t border-gray-200">
+            <dl className="mt-6 bg-gray-50 border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-200">
               {specs.map(([k, v]) => (
-                <div key={k} className="grid grid-cols-[120px_1fr] sm:grid-cols-[160px_1fr] gap-4 py-3.5 border-b border-gray-200">
-                  <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-gray-400 pt-0.5">{k}</dt>
+                <div key={k} className="grid grid-cols-[120px_1fr] sm:grid-cols-[150px_1fr] gap-4 px-4 py-2.5">
+                  <dt className="text-xs font-semibold text-gray-500">{k}</dt>
                   <dd className="text-sm text-gray-900 font-medium">{v}</dd>
                 </div>
               ))}
             </dl>
 
             {/* Tiers — real product variants */}
-            <div className="mt-10">
-              <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-gray-400 mb-3">Select quantity</p>
+            <div className="mt-6">
+              <p className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-2.5">Select quantity</p>
               <div className="grid grid-cols-4 gap-2">
                 {(product.priceVariants?.length ? product.priceVariants.slice().sort((a, b) => a.quantity - b.quantity) : []).map(tier => {
                   const active = selectedGrams === tier.quantity;
@@ -186,12 +188,12 @@ export default function ProductDetailPage() {
                     <button
                       key={tier.quantity}
                       onClick={() => { setSelectedTier(tier); setSelectedGrams(tier.quantity); }}
-                      className={`flex flex-col items-center py-3 rounded-2xl border transition-all ${
-                        active ? 'bg-[#06130d] border-[#06130d] text-white' : 'bg-white border-gray-200 text-gray-900 hover:border-emerald-400'
+                      className={`flex flex-col items-center py-3 rounded-lg border-2 transition-all ${
+                        active ? 'bg-indigo-600 border-indigo-600 text-white' : 'bg-white border-gray-200 text-gray-900 hover:border-indigo-400'
                       }`}
                     >
                       <span className="font-display font-bold text-base leading-none">{tier.quantity}g</span>
-                      <span className={`font-mono text-[10px] mt-1.5 ${active ? 'text-lime-300' : 'text-gray-400'}`}>€{tier.price}</span>
+                      <span className={`text-[11px] font-semibold mt-1.5 ${active ? 'text-coral-200' : 'text-gray-500'}`}>€{tier.price}</span>
                     </button>
                   );
                 })}
@@ -199,14 +201,14 @@ export default function ProductDetailPage() {
             </div>
 
             {/* Price + CTA */}
-            <div className="mt-8 flex flex-col sm:flex-row sm:items-end gap-5 sm:gap-8">
+            <div className="mt-6 p-4 sm:p-5 bg-gray-50 border border-gray-200 rounded-xl flex flex-col sm:flex-row sm:items-end gap-4 sm:gap-6">
               <div>
-                <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-gray-400 mb-1">Total for {selectedGrams ?? 50}g × {quantity}</p>
-                <p className="font-display text-4xl font-extrabold text-gray-900 tracking-[-0.03em] leading-none">&euro;{(Number(selectedTier?.price ?? product.price ?? 0) * quantity).toFixed(2)}</p>
+                <p className="text-xs text-gray-500 mb-1">Total for {selectedGrams ?? 50}g × {quantity}</p>
+                <p className="font-display text-3xl sm:text-4xl font-extrabold text-coral-600 tracking-tight leading-none">&euro;{(Number(selectedTier?.price ?? product.price ?? 0) * quantity).toFixed(2)}</p>
               </div>
 
               <div className="flex items-center gap-3 flex-1">
-                <div className="flex items-center border border-gray-200 rounded-full overflow-hidden">
+                <div className="flex items-center bg-white border border-gray-200 rounded-lg overflow-hidden">
                   <button
                     onClick={() => setQuantity(prev => Math.max(1, prev - 1))}
                     disabled={quantity <= 1}
@@ -229,9 +231,9 @@ export default function ProductDetailPage() {
                 <button
                   onClick={handleAddToCart}
                   disabled={product.countInStock <= 0}
-                  className={`flex-1 h-12 px-6 rounded-full flex items-center justify-center gap-2.5 font-display font-bold text-sm transition-colors ${
+                  className={`flex-1 h-12 px-6 rounded-lg flex items-center justify-center gap-2.5 font-bold text-sm transition-colors ${
                     product.countInStock > 0
-                      ? 'bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] shadow-lg shadow-emerald-500/25'
+                      ? 'bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg shadow-indigo-600/25'
                       : 'bg-gray-100 border border-gray-200 text-gray-400 cursor-not-allowed'
                   }`}
                 >
@@ -242,11 +244,9 @@ export default function ProductDetailPage() {
             </div>
 
             {/* Description */}
-            <div className="mt-14">
-              <div className="flex items-center gap-4 mb-5 font-mono text-[11px] uppercase tracking-[0.3em] text-emerald-600">
-                <span>Notes</span><span className="h-px w-10 bg-emerald-300" /><span>Description</span>
-              </div>
-              <div className="text-gray-700 text-base leading-loose space-y-4">
+            <div className="mt-8 pt-6 border-t border-gray-200">
+              <h2 className="font-display text-lg font-bold text-gray-900 mb-3">Product description</h2>
+              <div className="text-gray-600 text-sm sm:text-base leading-relaxed space-y-3">
                 {product.description.split('\n').map((paragraph, index) => (
                   <p key={index}>{paragraph}</p>
                 ))}

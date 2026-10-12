@@ -2,12 +2,12 @@ import Link from 'next/link';
 import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com'),
-  title: 'Return & Refund Policy | CannabinoidSite',
-  description: 'Read the CannabinoidSite return and refund policy for research chemicals. Learn how to request returns for defective, damaged or incorrect products within 48 hours.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://binoidstore.com'),
+  title: 'Return & Refund Policy | BinoidStore',
+  description: 'Read the BinoidStore return and refund policy for research chemicals. Learn how to request returns for defective, damaged or incorrect products within 48 hours.',
   keywords: [
     'return policy', 'refund policy', 'research chemicals returns',
-    'defective products', 'CannabinoidSite refund',
+    'defective products', 'BinoidStore refund',
   ],
   alternates: { canonical: '/refund' },
 };
@@ -19,7 +19,7 @@ export default function RefundPolicyPage() {
       {/* Hero */}
       <section className="relative border-b border-gray-100 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-sky-50 to-white pointer-events-none" />
-        <div className="relative z-10 container mx-auto px-6 pt-32 pb-14 max-w-3xl">
+        <div className="relative z-10 container mx-auto px-6 pt-16 pb-14 max-w-3xl">
           <nav className="flex items-center gap-2 text-xs text-gray-400 mb-8">
             <Link href="/" className="hover:text-sky-500 transition-colors">Home</Link>
             <span>/</span>
@@ -265,7 +265,7 @@ export default function RefundPolicyPage() {
                 <li key={item} className="flex gap-2"><span className="w-1 h-1 rounded-full bg-amber-500 shrink-0 mt-2" />{item}</li>
               ))}
             </ul>
-            <p className="font-bold">Please contact us first on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
+            <p className="font-bold">Please contact us first on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
           </div>
         </section>
 
@@ -277,7 +277,7 @@ export default function RefundPolicyPage() {
             <p><strong>WhatsApp:</strong> <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Message us on WhatsApp</a></p>
             <p><strong>Message:</strong> Return Request - Order #[Your Order Number]</p>
             <p><strong>Response Time:</strong> Within 24 hours</p>
-            <p><strong>Telegram:</strong> <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@Zhong5cla</a></p>
+            <p><strong>Telegram:</strong> <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@chemsolution12maf</a></p>
           </div>
           <div className="bg-gray-50 border border-gray-100 rounded-xl p-5 text-sm">
             <p className="font-bold mb-2">Include in Your Message:</p>

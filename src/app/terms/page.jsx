@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com'),
-  title: 'Terms & Conditions | CannabinoidSite',
-  description: 'Read the CannabinoidSite Terms and Conditions. Learn our policies for purchasing research chemicals, synthetic cannabinoids, nitazenes and laboratory-grade compounds.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://binoidstore.com'),
+  title: 'Terms & Conditions | BinoidStore',
+  description: 'Read the BinoidStore Terms and Conditions. Learn our policies for purchasing research chemicals, synthetic cannabinoids, nitazenes and laboratory-grade compounds.',
   keywords: [
-    'terms and conditions', 'terms of service', 'CannabinoidSite terms',
+    'terms and conditions', 'terms of service', 'BinoidStore terms',
     'research chemicals terms', 'buy research chemicals',
   ],
   alternates: { canonical: '/terms' },
@@ -20,7 +20,7 @@ export default function TermsPage() {
       {/* Hero */}
       <section className="relative border-b border-gray-100 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-sky-50 to-white pointer-events-none" />
-        <div className="relative z-10 container mx-auto px-6 pt-32 pb-14 max-w-3xl">
+        <div className="relative z-10 container mx-auto px-6 pt-16 pb-14 max-w-3xl">
           <nav className="flex items-center gap-2 text-xs text-gray-400 mb-8">
             <Link href="/" className="hover:text-sky-500 transition-colors">Home</Link>
             <span>/</span>
@@ -29,7 +29,7 @@ export default function TermsPage() {
           <p className="text-sky-500 text-xs font-bold uppercase tracking-[0.25em] mb-3">Legal</p>
           <h1 className="text-4xl md:text-5xl font-black text-gray-900 tracking-tight mb-4">Terms &amp; Conditions</h1>
           <p className="text-gray-900 text-base leading-relaxed max-w-xl">
-            By using CannabinoidSite you agree to be bound by these terms. Please read them carefully before placing an order.
+            By using BinoidStore you agree to be bound by these terms. Please read them carefully before placing an order.
           </p>
           <p className="text-gray-400 text-xs mt-4">Last updated: December 3, 2025</p>
         </div>
@@ -40,8 +40,8 @@ export default function TermsPage() {
 
         <section>
           <h2 className="text-2xl font-black tracking-tight mb-4">1. Agreement to Terms</h2>
-          <p className="mb-4">Welcome to CannabinoidSite. By accessing or using our website, mobile application, or services (collectively, the &ldquo;Services&rdquo;), you agree to be bound by these Terms and Conditions. If you do not agree, please do not use our Services.</p>
-          <p className="mb-4">These Terms constitute a legally binding agreement between you and CannabinoidSite.</p>
+          <p className="mb-4">Welcome to BinoidStore. By accessing or using our website, mobile application, or services (collectively, the &ldquo;Services&rdquo;), you agree to be bound by these Terms and Conditions. If you do not agree, please do not use our Services.</p>
+          <p className="mb-4">These Terms constitute a legally binding agreement between you and BinoidStore.</p>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-700">
             <strong>Important:</strong> Our products are intended for research and laboratory use only. Not for human consumption.
           </div>
@@ -76,7 +76,7 @@ export default function TermsPage() {
 
           <h3 className="text-lg font-bold mb-3">Research Use Only</h3>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-700 mb-6">
-            <p className="font-bold mb-2">All products sold on CannabinoidSite are:</p>
+            <p className="font-bold mb-2">All products sold on BinoidStore are:</p>
             <ul className="space-y-1 ml-1">
               {['Intended for research and laboratory use ONLY','NOT for human or animal consumption','NOT for medical, therapeutic, or recreational use','To be handled by qualified professionals only','Subject to proper storage and handling requirements'].map(i=><li key={i} className="flex gap-2"><span className="w-1 h-1 rounded-full bg-amber-500 shrink-0 mt-2" />{i}</li>)}
             </ul>
@@ -130,7 +130,7 @@ export default function TermsPage() {
 
         <section>
           <h2 className="text-2xl font-black tracking-tight mb-4">9. Intellectual Property</h2>
-          <p className="mb-4">All content on our website is owned by or licensed to CannabinoidSite and protected by copyright, trademark, and other IP laws.</p>
+          <p className="mb-4">All content on our website is owned by or licensed to BinoidStore and protected by copyright, trademark, and other IP laws.</p>
           <p className="mb-3">We grant you a limited, non-exclusive, non-transferable license for personal, non-commercial use. You may not:</p>
           <ul className="space-y-2 ml-1">
             {['Reproduce, distribute, or modify our content','Use our trademarks or branding without permission','Create derivative works from our content','Reverse engineer or decompile our software'].map(i=><li key={i} className="flex gap-3"><Dot /><span>{i}</span></li>)}
@@ -162,7 +162,7 @@ export default function TermsPage() {
 
         <section>
           <h2 className="text-2xl font-black tracking-tight mb-4">12. Indemnification</h2>
-          <p className="mb-4">You agree to indemnify, defend, and hold harmless CannabinoidSite from any claims, damages, losses, liabilities, and expenses arising from:</p>
+          <p className="mb-4">You agree to indemnify, defend, and hold harmless BinoidStore from any claims, damages, losses, liabilities, and expenses arising from:</p>
           <ul className="space-y-2 ml-1">
             {['Your use or misuse of our Services or products','Violation of these Terms','Violation of any laws or regulations','Infringement of third-party rights','Your negligence or willful misconduct'].map(i=><li key={i} className="flex gap-3"><Dot /><span>{i}</span></li>)}
           </ul>
@@ -170,7 +170,7 @@ export default function TermsPage() {
 
         <section>
           <h2 className="text-2xl font-black tracking-tight mb-4">13. Dispute Resolution</h2>
-          <p className="mb-4">Before filing a claim, you agree to contact us on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a> to attempt to resolve the dispute informally.</p>
+          <p className="mb-4">Before filing a claim, you agree to contact us on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a> to attempt to resolve the dispute informally.</p>
           <p className="mb-4">Disputes that cannot be resolved informally shall be resolved through binding arbitration in accordance with applicable rules.</p>
           <p>You agree to resolve disputes on an individual basis and waive the right to participate in class actions or class arbitrations.</p>
         </section>
@@ -192,7 +192,7 @@ export default function TermsPage() {
 
         <section>
           <h2 className="text-2xl font-black tracking-tight mb-4">17. Entire Agreement</h2>
-          <p>These Terms, together with our Privacy Policy and any other legal notices on our website, constitute the entire agreement between you and CannabinoidSite.</p>
+          <p>These Terms, together with our Privacy Policy and any other legal notices on our website, constitute the entire agreement between you and BinoidStore.</p>
         </section>
 
         <section>
@@ -200,7 +200,7 @@ export default function TermsPage() {
           <p className="mb-5">If you have questions about these Terms, please contact us:</p>
           <div className="border border-gray-200 rounded-xl p-5 space-y-2 text-sm">
             <p><strong>WhatsApp:</strong> <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Message us on WhatsApp</a></p>
-            <p><strong>Telegram:</strong> <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@Zhong5cla</a></p>
+            <p><strong>Telegram:</strong> <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@chemsolution12maf</a></p>
             <p><strong>Response Time:</strong> We aim to respond within 48 hours</p>
           </div>
         </section>

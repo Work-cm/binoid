@@ -36,14 +36,14 @@ export default function CheckoutPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-white pt-24 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-sky-500" />
+      <div className="min-h-screen bg-white pt-8 flex items-center justify-center">
+        <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-indigo-500" />
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-white pt-24 pb-20">
+    <div className="min-h-screen bg-gray-50 pt-6 pb-20">
       <div className="container mx-auto px-4 max-w-6xl">
         {/* Breadcrumb + secure badge */}
         <div className="flex items-center justify-between mb-8">
@@ -54,7 +54,7 @@ export default function CheckoutPage() {
             <span>/</span>
             <span className="text-gray-900">Checkout</span>
           </div>
-          <div className="flex items-center gap-1.5 text-xs font-semibold text-emerald-600 bg-emerald-50 border border-emerald-200 rounded-full px-3 py-1">
+          <div className="flex items-center gap-1.5 text-xs font-semibold text-indigo-600 bg-indigo-50 border border-indigo-200 rounded-full px-3 py-1">
             <FaLock className="text-xs" />
             Secure Checkout
           </div>
@@ -80,7 +80,7 @@ export default function CheckoutPage() {
               </div>
               <p className="text-gray-600 text-xs leading-relaxed">
                 We accept Bitcoin (BTC) or USDT as our only payment methods. After placing your
-                order, we&apos;ll send you our wallet address and the exact amount via WhatsApp or Telegram.
+                order, we&apos;ll send you our wallet address and the exact amount via email or Telegram.
               </p>
             </div>
 
@@ -89,9 +89,9 @@ export default function CheckoutPage() {
               <p className="text-gray-500 text-xs mb-4 leading-relaxed">
                 Questions about your order? Our team is here to assist.
               </p>
-              <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer"
+              <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-sky-500 hover:text-sky-600 text-sm font-semibold transition-colors">
-                Contact Support &rarr;
+                Chat on Telegram &rarr;
               </a>
             </div>
           </div>

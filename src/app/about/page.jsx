@@ -23,7 +23,7 @@ export default function AboutPage() {
       {/* â”€â”€ Hero â”€â”€ */}
       <section className="relative overflow-hidden border-b border-gray-100">
         <div className="absolute inset-0 bg-gradient-to-b from-sky-50 to-white pointer-events-none" />
-        <div className="relative z-10 container mx-auto px-6 pt-36 pb-20 max-w-3xl">
+        <div className="relative z-10 container mx-auto px-6 pt-20 pb-20 max-w-3xl">
           <nav className="flex items-center gap-2 text-xs text-gray-900 mb-10">
             <Link href="/" className="hover:text-sky-500 transition-colors">Home</Link>
             <span>/</span>
@@ -35,7 +35,7 @@ export default function AboutPage() {
               We help researchers access the compounds they need reliably, discreetly, and fast.
             </h1>
             <p className="text-gray-900 text-lg leading-relaxed">
-              CannabinoidSite is a specialist supplier of high purity research chemicals. We serve scientists, laboratory professionals and academic researchers across more than 50 countries, providing analytically verified compounds with a full Certificate of Analysis on every order.
+              BinoidStore is a specialist supplier of high purity research chemicals. We serve scientists, laboratory professionals and academic researchers across more than 50 countries, providing analytically verified compounds with a full Certificate of Analysis on every order.
             </p>
           </motion.div>
         </div>
@@ -68,7 +68,7 @@ export default function AboutPage() {
           <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight mb-6">Our story</h2>
           <div className="space-y-5 text-gray-900 leading-relaxed">
             <p>
-              CannabinoidSite was founded on a simple premise: researchers shouldn't have to compromise on compound quality or spend weeks waiting for supply. We set out to build a service that pairs laboratory-grade chemicals with the speed and reliability that modern science demands.
+              BinoidStore was founded on a simple premise: researchers shouldn't have to compromise on compound quality or spend weeks waiting for supply. We set out to build a service that pairs laboratory-grade chemicals with the speed and reliability that modern science demands.
             </p>
             <p>
               Today our catalog spans <strong className="text-gray-900">synthetic cannabinoids, nitazenes</strong> and a growing range of novel research chemicals. Every item we stock undergoes independent analytical verification before it's listed, and every shipment leaves with a Certificate of Analysis attached.
@@ -170,7 +170,7 @@ export default function AboutPage() {
             <Link href="/products" className="group inline-flex items-center gap-2 bg-sky-500 hover:bg-sky-600 text-white font-bold px-8 py-3.5 rounded-2xl transition-all hover:-translate-y-0.5 text-sm shadow-lg shadow-sky-500/20">
               Browse Products <HiOutlineArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
             </Link>
-            <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border border-gray-300 text-gray-900 hover:text-sky-600 hover:border-sky-400 font-bold px-8 py-3.5 rounded-2xl transition-all hover:-translate-y-0.5 text-sm">
+            <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border border-gray-300 text-gray-900 hover:text-sky-600 hover:border-sky-400 font-bold px-8 py-3.5 rounded-2xl transition-all hover:-translate-y-0.5 text-sm">
               Contact Us
             </a>
           </div>

@@ -75,7 +75,7 @@ export default function FAQPage() {
     {
       category: 'shipping',
       question: 'Is packaging discreet?',
-      answer: 'Yes, absolutely. All orders are shipped in plain, unmarked packaging with no mention of CannabinoidSite or product details. The sender name is generic for your privacy.'
+      answer: 'Yes, absolutely. All orders are shipped in plain, unmarked packaging with no mention of BinoidStore or product details. The sender name is generic for your privacy.'
     },
     {
       category: 'shipping',
@@ -215,7 +215,7 @@ export default function FAQPage() {
   });
 
   return (
-    <div className="min-h-screen bg-white pt-24 pb-20">
+    <div className="min-h-screen bg-white pt-8 pb-20">
       <div className="container mx-auto px-4 max-w-4xl">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-sm text-gray-900 mb-8">
@@ -259,7 +259,7 @@ export default function FAQPage() {
                 onClick={() => setActiveCategory(category.id)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                   activeCategory === category.id
-                    ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d] shadow-lg shadow-emerald-500/25'
+                    ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-white shadow-lg shadow-emerald-500/25'
                     : 'bg-gray-50 border border-gray-200 text-gray-900 hover:text-gray-900 hover:border-emerald-300'
                 }`}
               >
@@ -317,10 +317,10 @@ export default function FAQPage() {
           <p className="text-gray-900 text-sm mb-6">Our support team typically responds within 24 hours.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 text-sm">
+              className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 text-sm">
               WhatsApp Support
             </a>
-            <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer"
+            <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-200 text-gray-900 font-semibold py-3 px-6 rounded-xl transition-colors text-sm">
               Telegram Us
             </a>

@@ -110,7 +110,7 @@ export default function AdminLayout({ children }) {
               <FaShieldAlt className="text-sky-400 text-sm" />
             </div>
             <div>
-              <p className="text-white font-extrabold text-sm leading-none">CannabinoidSite</p>
+              <p className="text-white font-extrabold text-sm leading-none">BinoidStore</p>
               <p className="text-gray-500 text-xs mt-0.5">Admin Panel</p>
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function AdminLayout({ children }) {
             <FaShieldAlt className="text-sky-400 text-xs" />
           </div>
           <div>
-            <p className="text-white font-extrabold text-sm leading-none">CannabinoidSite</p>
+            <p className="text-white font-extrabold text-sm leading-none">BinoidStore</p>
             <p className="text-gray-500 text-[10px]">Admin Panel</p>
           </div>
         </div>
@@ -169,7 +169,7 @@ export default function AdminLayout({ children }) {
                   <FaShieldAlt className="text-sky-400 text-sm" />
                 </div>
                 <div>
-                  <p className="text-white font-extrabold text-sm leading-none">CannabinoidSite</p>
+                  <p className="text-white font-extrabold text-sm leading-none">BinoidStore</p>
                   <p className="text-gray-500 text-xs mt-0.5">Admin Panel</p>
                 </div>
               </div>

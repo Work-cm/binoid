@@ -44,14 +44,14 @@ function CheckoutSuccessContent() {
   
   if (loading) {
     return (
-      <div className="min-h-screen bg-white pt-24 flex items-center justify-center">
+      <div className="min-h-screen bg-white pt-8 flex items-center justify-center">
         <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-sky-500" />
       </div>
     );
   }
   
   return (
-    <div className="min-h-screen bg-white pt-24 pb-20">
+    <div className="min-h-screen bg-white pt-8 pb-20">
       <div className="container mx-auto px-4 max-w-2xl">
         {/* Success card */}
         <div className="bg-gray-50 border border-gray-200 rounded-2xl overflow-hidden shadow-sm">
@@ -120,7 +120,7 @@ function CheckoutSuccessContent() {
                 <FaHome className="text-xs" /> Continue Shopping
               </Link>
               <Link href="/account/orders"
-                className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-5 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 text-sm">
+                className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white font-semibold py-3 px-5 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 text-sm">
                 <FaClipboardList className="text-xs" /> View My Orders
               </Link>
             </div>

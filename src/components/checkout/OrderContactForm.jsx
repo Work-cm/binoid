@@ -4,7 +4,7 @@ import { useState } from 'react';
 import toast from 'react-hot-toast';
 import {
   FaTelegramPlane,
-  FaWhatsapp,
+  FaEnvelope,
   FaPaperPlane,
   FaUser,
   FaPhoneAlt,
@@ -13,8 +13,7 @@ import {
   FaCheckCircle,
 } from 'react-icons/fa';
 
-const TELEGRAM_USERNAME = 'Zhong5cla';
-const WHATSAPP_NUMBER = '19852913802';
+const TELEGRAM_USERNAME = 'chemsolution12maf';
 
 function buildMessage({ name, contact, phone, address, notes }, cart, orderDetails) {
   const itemLines = cart
@@ -50,6 +49,7 @@ function buildMessage({ name, contact, phone, address, notes }, cart, orderDetai
 export default function OrderContactForm({ cart, orderDetails }) {
   const [confirmed, setConfirmed] = useState(false);
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
   const [method, setMethod] = useState('telegram');
   const [sentVia, setSentVia] = useState('telegram');
   const [form, setForm] = useState({
@@ -73,16 +73,49 @@ export default function OrderContactForm({ cart, orderDetails }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!isValid) return;
+    if (!isValid || sending) return;
+
+    if (method === 'email') {
+      setSending(true);
+      try {
+        const res = await fetch('/api/email-order', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: form.name,
+            email: form.contact,
+            phone: form.phone,
+            address: form.address,
+            notes: form.notes,
+            items: cart.map((item) => ({
+              id: item.id || item._id || item.product,
+              name: item.name,
+              quantity: item.quantity,
+              price: item.price ?? item.variant?.price ?? 0,
+              image: item.image,
+              variant: item.variant,
+            })),
+          }),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) {
+          throw new Error(data.message || 'Failed to send order');
+        }
+        toast.success('Order sent — check your email for a confirmation.');
+        setSentVia(method);
+        setSent(true);
+      } catch (err) {
+        toast.error(err.message || 'Failed to send order. Please try email or Telegram.');
+      } finally {
+        setSending(false);
+      }
+      return;
+    }
 
     const message = buildMessage(form, cart, orderDetails);
     const text = encodeURIComponent(message);
-    const url =
-      method === 'whatsapp'
-        ? `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`
-        : `https://t.me/${TELEGRAM_USERNAME}?text=${text}`;
-    window.open(url, '_blank', 'noopener,noreferrer');
-    toast.success(`Opening ${method === 'whatsapp' ? 'WhatsApp' : 'Telegram'} — send the pre-filled message to complete your order.`);
+    window.open(`https://t.me/${TELEGRAM_USERNAME}?text=${text}`, '_blank', 'noopener,noreferrer');
+    toast.success('Opening Telegram — send the pre-filled message to complete your order.');
     setSentVia(method);
     setSent(true);
   };
@@ -99,7 +132,10 @@ export default function OrderContactForm({ cart, orderDetails }) {
         </div>
         <h2 className="text-xl font-bold text-gray-900 mb-2">Order Request Ready</h2>
         <p className="text-gray-500 text-sm leading-relaxed max-w-sm mx-auto">
-          {sentVia === 'whatsapp' ? 'WhatsApp' : 'Telegram'} has been opened with your order details — just hit send. We&apos;ll reply to{' '}
+          {sentVia === 'email'
+            ? 'Your order has been emailed to us — check your inbox for a confirmation.'
+            : 'Telegram has been opened with your order details — just hit send.'}{' '}
+          We&apos;ll reply to{' '}
           <span className="font-semibold text-gray-900">{form.contact}</span> within 24 hours
           with our Bitcoin (BTC) or USDT wallet address and payment instructions. We accept BTC/USDT only.
         </p>
@@ -124,12 +160,12 @@ export default function OrderContactForm({ cart, orderDetails }) {
         </p>
       </div>
 
-      {/* Method — pick WhatsApp or Telegram */}
+      {/* Method — pick Telegram or Email */}
       <p className={labelClass}>Continue with</p>
       <div className="grid grid-cols-2 gap-3 mb-6">
         {[
           { key: 'telegram', label: 'Telegram', desc: 'Continue privately in Telegram', Icon: FaTelegramPlane, activeColor: 'border-sky-500 bg-sky-50/60 ring-sky-500/20', iconColor: 'text-sky-500' },
-          { key: 'whatsapp', label: 'WhatsApp', desc: 'Continue privately in WhatsApp', Icon: FaWhatsapp, activeColor: 'border-emerald-500 bg-emerald-50/60 ring-emerald-500/20', iconColor: 'text-emerald-500' },
+          { key: 'email', label: 'Email', desc: 'Send order via email', Icon: FaEnvelope, activeColor: 'border-indigo-500 bg-indigo-50/60 ring-indigo-500/20', iconColor: 'text-indigo-600' },
         ].map(({ key, label, desc, Icon, activeColor, iconColor }) => {
           const active = method === key;
           return (
@@ -163,16 +199,16 @@ export default function OrderContactForm({ cart, orderDetails }) {
         </div>
 
         <div>
-          <label className={labelClass}>{method === 'whatsapp' ? 'WhatsApp Number' : 'Telegram Username'}</label>
+          <label className={labelClass}>{method === 'email' ? 'Email Address' : 'Telegram Username'}</label>
           <div className="relative">
-            {method === 'whatsapp' ? <FaWhatsapp className={iconClass} /> : <FaTelegramPlane className={iconClass} />}
+            {method === 'email' ? <FaEnvelope className={iconClass} /> : <FaTelegramPlane className={iconClass} />}
             <input
               name="contact"
-              type="text"
+              type={method === 'email' ? 'email' : 'text'}
               required
               value={form.contact}
               onChange={handleChange}
-              placeholder={method === 'whatsapp' ? '+1 234 567 8900' : '@yourusername'}
+              placeholder={method === 'email' ? 'you@example.com' : '@yourusername'}
               className={inputClass}
             />
           </div>
@@ -216,23 +252,27 @@ export default function OrderContactForm({ cart, orderDetails }) {
           />
           <span className="text-[11px] text-gray-600 leading-relaxed">
             I am a serious buyer. I understand this is a real order request and I am ready to receive
-            payment instructions via {method === 'whatsapp' ? 'WhatsApp' : 'Telegram'}.
+            payment instructions via {method === 'email' ? 'Email' : 'Telegram'}.
           </span>
         </label>
 
         <button
           type="submit"
-          disabled={!isValid}
-          className="w-full bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 disabled:opacity-50 disabled:cursor-not-allowed text-[#06130d] font-bold py-3.5 px-4 rounded-lg flex items-center justify-center gap-2 transition-all text-sm shadow-lg shadow-emerald-500/25"
+          disabled={!isValid || sending}
+          className="w-full bg-coral-500 hover:bg-coral-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-3.5 px-4 rounded-lg flex items-center justify-center gap-2 transition-colors text-sm shadow-lg shadow-coral-500/25"
         >
           <>
             <FaPaperPlane className="text-xs" />
-            Send Order via {method === 'whatsapp' ? 'WhatsApp' : 'Telegram'} &mdash; &euro;{orderDetails.total.toFixed(2)}
+            {sending
+              ? 'Sending...'
+              : <>Send Order via {method === 'email' ? 'Email' : 'Telegram'} &mdash; &euro;{orderDetails.total.toFixed(2)}</>}
           </>
         </button>
 
         <p className="text-[11px] text-gray-400 text-center">
-          You&apos;ll fill your details and the order will be sent directly to us via {method === 'whatsapp' ? 'WhatsApp' : 'Telegram'}.
+          {method === 'email'
+            ? 'Your order details will be emailed directly to us and you\'ll get a confirmation email.'
+            : 'You\'ll fill your details and the order will be sent directly to us via Telegram.'}
         </p>
       </form>
     </div>

@@ -18,14 +18,14 @@ async function seedDatabase() {
     console.log('Cleared existing products');
     
     // Create admin user if it doesn't exist
-    const adminExists = await User.findOne({ email: 'admin@cannabinoidsite.com' });
+    const adminExists = await User.findOne({ email: 'admin@binoidstore.com' });
     if (!adminExists) {
       const salt = await bcrypt.genSalt(10);
       const hashedPassword = await bcrypt.hash('admin123', salt);
       
       await User.create({
         name: 'Admin User',
-        email: 'admin@cannabinoidsite.com',
+        email: 'admin@binoidstore.com',
         password: hashedPassword,
         isAdmin: true,
       });

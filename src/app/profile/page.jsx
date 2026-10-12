@@ -179,14 +179,14 @@ export default function ProfilePage() {
 
   if (loading || !isAuthenticated) {
     return (
-      <div className="min-h-screen bg-white pt-24 flex justify-center items-center">
+      <div className="min-h-screen bg-white pt-8 flex justify-center items-center">
         <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-sky-500"></div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-white pt-24">
+    <div className="min-h-screen bg-white pt-8">
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 mb-8">My Account</h1>
@@ -200,7 +200,7 @@ export default function ProfilePage() {
                     onClick={() => setActiveTab('profile')}
                     className={`flex items-center p-3 rounded-lg transition-colors ${
                       activeTab === 'profile' 
-                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d]' 
+                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-white' 
                         : 'text-gray-700 hover:bg-emerald-50'
                     }`}
                   >
@@ -211,7 +211,7 @@ export default function ProfilePage() {
                     onClick={() => setActiveTab('orders')}
                     className={`flex items-center p-3 rounded-lg transition-colors ${
                       activeTab === 'orders' 
-                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d]' 
+                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-white' 
                         : 'text-gray-700 hover:bg-emerald-50'
                     }`}
                   >
@@ -222,7 +222,7 @@ export default function ProfilePage() {
                     onClick={() => setActiveTab('shipping')}
                     className={`flex items-center p-3 rounded-lg transition-colors ${
                       activeTab === 'shipping' 
-                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d]' 
+                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-white' 
                         : 'text-gray-700 hover:bg-emerald-50'
                     }`}
                   >
@@ -233,7 +233,7 @@ export default function ProfilePage() {
                     onClick={() => setActiveTab('password')}
                     className={`flex items-center p-3 rounded-lg transition-colors ${
                       activeTab === 'password' 
-                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-[#06130d]' 
+                        ? 'bg-gradient-to-r from-emerald-500 to-lime-500 text-white' 
                         : 'text-gray-700 hover:bg-emerald-50'
                     }`}
                   >
@@ -292,7 +292,7 @@ export default function ProfilePage() {
                         whileTap={{ scale: 0.98 }}
                         type="submit"
                         disabled={updating}
-                        className={`bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 ${
+                        className={`bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 ${
                           updating ? 'opacity-70 cursor-not-allowed translate-y-0' : ''
                         }`}
                       >
@@ -474,7 +474,7 @@ export default function ProfilePage() {
                         whileTap={{ scale: 0.98 }}
                         type="submit"
                         disabled={updating}
-                        className={`bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 ${
+                        className={`bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 ${
                           updating ? 'opacity-70 cursor-not-allowed translate-y-0' : ''
                         }`}
                       >
@@ -548,7 +548,7 @@ export default function ProfilePage() {
                         whileTap={{ scale: 0.98 }}
                         type="submit"
                         disabled={updating}
-                        className={`bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-[#06130d] font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 ${
+                        className={`bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 ${
                           updating ? 'opacity-70 cursor-not-allowed translate-y-0' : ''
                         }`}
                       >

@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://cannabinoidsite.com'),
-  title: 'Privacy Policy | CannabinoidSite',
-  description: 'Read the CannabinoidSite Privacy Policy. Learn how we collect, use and protect your personal information when buying research chemicals online.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://binoidstore.com'),
+  title: 'Privacy Policy | BinoidStore',
+  description: 'Read the BinoidStore Privacy Policy. Learn how we collect, use and protect your personal information when buying research chemicals online.',
   keywords: [
-    'privacy policy', 'CannabinoidSite privacy', 'research chemicals privacy',
+    'privacy policy', 'BinoidStore privacy', 'research chemicals privacy',
     'personal information', 'data protection',
   ],
   alternates: { canonical: '/privacy' },
@@ -20,7 +20,7 @@ export default function PrivacyPolicyPage() {
       {/* Hero */}
       <section className="relative border-b border-gray-100 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-sky-50 to-white pointer-events-none" />
-        <div className="relative z-10 container mx-auto px-6 pt-32 pb-14 max-w-3xl">
+        <div className="relative z-10 container mx-auto px-6 pt-16 pb-14 max-w-3xl">
           <nav className="flex items-center gap-2 text-xs text-gray-400 mb-8">
             <Link href="/" className="hover:text-sky-500 transition-colors">Home</Link>
             <span>/</span>
@@ -40,8 +40,8 @@ export default function PrivacyPolicyPage() {
 
         <section>
           <h2 className="text-2xl font-black tracking-tight mb-4">1. Introduction</h2>
-          <p className="mb-4">Welcome to CannabinoidSite. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.</p>
-          <p>By accessing or using CannabinoidSite, you agree to the terms of this Privacy Policy. If you do not agree, please do not use our services.</p>
+          <p className="mb-4">Welcome to BinoidStore. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.</p>
+          <p>By accessing or using BinoidStore, you agree to the terms of this Privacy Policy. If you do not agree, please do not use our services.</p>
         </section>
 
         <section>
@@ -114,7 +114,7 @@ export default function PrivacyPolicyPage() {
           <ul className="space-y-2 ml-1 mb-4">
             {['Right to know what personal information is collected','Right to know if personal information is sold or disclosed','Right to opt-out of sale of personal information','Right to non-discrimination for exercising your rights'].map(i=><li key={i} className="flex gap-3"><Dot /><span>{i}</span></li>)}
           </ul>
-          <p>To exercise your rights, contact us on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
+          <p>To exercise your rights, contact us on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
         </section>
 
         <section>
@@ -151,14 +151,14 @@ export default function PrivacyPolicyPage() {
           <p className="mb-5">Questions about this Privacy Policy? Contact us:</p>
           <div className="border border-gray-200 rounded-xl p-5 space-y-2 text-sm">
             <p><strong>WhatsApp:</strong> <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Message us on WhatsApp</a></p>
-            <p><strong>Telegram:</strong> <a href="https://t.me/Zhong5cla" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@Zhong5cla</a></p>
+            <p><strong>Telegram:</strong> <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@chemsolution12maf</a></p>
             <p><strong>Response Time:</strong> We aim to respond within 48 hours</p>
           </div>
         </section>
 
         <section className="bg-gray-50 border border-gray-100 rounded-xl p-6 text-sm">
           <h2 className="text-lg font-black mb-3">Your Consent</h2>
-          <p>By using CannabinoidSite, you consent to our Privacy Policy and agree to its terms. If you do not agree, please discontinue use of our services immediately.</p>
+          <p>By using BinoidStore, you consent to our Privacy Policy and agree to its terms. If you do not agree, please discontinue use of our services immediately.</p>
         </section>
       </article>
 
