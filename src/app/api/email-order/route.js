@@ -60,17 +60,7 @@ export async function POST(request) {
       total: itemsPrice + shippingPrice + taxPrice,
     };
 
-    // Send the order email to the store inbox (Gmail)
-    await sendEmail(
-      buildOrderNotificationEmail({ customer, items, totals, notes })
-    );
-
-    // Send the customer a confirmation (non-blocking — don't fail the order if it bounces)
-    sendEmail(buildOrderConfirmationEmail({ customer, items, totals })).catch(
-      (err) => console.error('Failed to send customer confirmation email:', err)
-    );
-
-    // Best-effort: also save the order so it shows in the admin dashboard
+    // Persist the order first so it survives email failures and we have a real order ID
     let orderId = null;
     try {
       const conn = await dbConnect();
@@ -109,11 +99,23 @@ export async function POST(request) {
         orderId = saved._id;
       }
     } catch (dbErr) {
-      console.error('Email order saved to inbox but failed to persist in DB:', dbErr);
+      console.error('Failed to persist email order in DB:', dbErr);
     }
 
+    const orderRef = `BN-${(orderId || mongoose.Types.ObjectId.createFromTime(Math.floor(Date.now() / 1000))).toString().slice(-6).toUpperCase()}`;
+
+    // Send the order email to the store inbox (Gmail)
+    await sendEmail(
+      buildOrderNotificationEmail({ customer, items, totals, notes, orderRef })
+    );
+
+    // Instant reply to the customer (non-blocking — don't fail the order if it bounces)
+    sendEmail(buildOrderConfirmationEmail({ customer, items, totals, orderRef })).catch(
+      (err) => console.error('Failed to send customer confirmation email:', err)
+    );
+
     return NextResponse.json(
-      { message: 'Order sent via email', orderId },
+      { message: 'Order sent via email', orderId, orderRef },
       { status: 201 }
     );
   } catch (error) {

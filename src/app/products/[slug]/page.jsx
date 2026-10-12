@@ -113,7 +113,7 @@ export default function ProductDetailPage() {
           <span className="text-gray-900 font-semibold truncate max-w-[220px]">{product.name}</span>
         </nav>
 
-        <div className="grid lg:grid-cols-[1fr_1.1fr] gap-8 lg:gap-12 items-start bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 lg:p-8">
+        <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-8 lg:gap-12 items-start bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 lg:p-8">
           {/* ===== LEFT — sticky image column ===== */}
           <div className="lg:sticky lg:top-[150px] space-y-3">
             <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-gray-50 border border-gray-200">
@@ -122,7 +122,7 @@ export default function ProductDetailPage() {
                   src={product.images[selectedImage]}
                   alt={product.name}
                   fill
-                  sizes="(max-width: 1024px) 100vw, 45vw"
+                  sizes="(max-width: 1024px) 100vw, 38vw"
                   className="object-cover"
                 />
               ) : (

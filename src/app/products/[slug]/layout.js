@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
 
   try {
     await dbConnect();
-    const product = await Product.findOne({ slug }).select('name description category priceVariants images').lean();
+    const product = await Product.findOne({ slug }).select('name description category priceVariants images casNumber').lean();
 
     if (!product) {
       return {
@@ -19,9 +19,10 @@ export async function generateMetadata({ params }) {
 
     const startingPrice = product.priceVariants?.[0]?.price;
     const priceText = startingPrice ? ` Starting from \u20AC${startingPrice}.` : '';
-    const shortDesc = product.description
-      ? product.description.slice(0, 155).replace(/\n/g, ' ').trim() + '…'
-      : `Buy ${product.name} — high-purity ${product.category} research compound.${priceText}`;
+    const casText = product.casNumber ? ` CAS ${product.casNumber}.` : '';
+    const shortDesc = (product.description
+      ? product.description.slice(0, 155).replace(/\n/g, ' ').trim() + '\u2026'
+      : `Buy ${product.name} \u2014 high-purity ${product.category} research compound.${priceText}`) + casText;
 
     const image = product.images?.[0] || `${BASE_URL}/images/logo.svg`;
     const categoryKeywords = [product.category, product.category + ' for sale', 'buy ' + product.category].filter(Boolean);
@@ -34,6 +35,7 @@ export async function generateMetadata({ params }) {
         product.name,
         product.name.toLowerCase() + ' for sale',
         'buy ' + product.name.toLowerCase(),
+        ...(product.casNumber ? [product.casNumber, 'CAS ' + product.casNumber, 'buy ' + product.casNumber] : []),
         ...categoryKeywords,
         'research chemicals',
         'synthetic cannabinoids',

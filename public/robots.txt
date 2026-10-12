@@ -22,4 +22,4 @@ Disallow: /auth/
 Disallow: /auth/*
 Disallow: /login
 
-Sitemap: https://www.cannabinoidsite.com/sitemap.xml
+Sitemap: https://binoidstore.com/sitemap.xml

@@ -82,7 +82,7 @@ export default function AboutPage() {
 
       {/* â”€â”€ Image break â”€â”€ */}
       <section className="relative h-64 md:h-80 overflow-hidden">
-        <Image src="/images/Laboratory-Science.jpg" alt="Laboratory" fill className="object-cover object-center" sizes="100vw" />
+        <Image src="/images/lab-equipment.png" alt="Laboratory equipment" fill className="object-cover object-center" sizes="100vw" />
         <div className="absolute inset-0 bg-sky-900/30" />
       </section>
 

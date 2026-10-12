@@ -1,6 +1,7 @@
 import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
+import Script from "next/script";
 
 // Components
 import Navbar from "@/components/layout/Navbar";
@@ -136,6 +137,20 @@ export default function RootLayout({ children }) {
             </Shell>
           </CartProvider>
         </AuthProvider>
+
+        {/* Smartsupp Live Chat */}
+        <Script id="smartsupp-chat" strategy="afterInteractive">
+          {`
+            var _smartsupp = _smartsupp || {};
+            _smartsupp.key = 'e6987bfd5555a078100c3e88884b0d882c6966a4';
+            window.smartsupp||(function(d) {
+              var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+              s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+              c.type='text/javascript';c.charset='utf-8';c.async=true;
+              c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+            })(document);
+          `}
+        </Script>
 
       </body>
     </html>
