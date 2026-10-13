@@ -13,7 +13,7 @@ import {
   FaCheckCircle,
 } from 'react-icons/fa';
 
-const TELEGRAM_USERNAME = 'chemsolution12maf';
+const TELEGRAM_USERNAME = 'spaceoil7';
 
 function buildMessage({ name, contact, phone, address, notes }, cart, orderDetails) {
   const itemLines = cart

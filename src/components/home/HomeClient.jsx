@@ -255,7 +255,7 @@ function ContactCTA() {
               <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'support@binoidstore.com'}`} className="inline-flex items-center justify-center gap-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors min-w-[220px]">
                 <FaEnvelope size={15} /> Email us
               </a>
-              <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2.5 bg-blue-500 hover:bg-blue-600 text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors min-w-[220px]">
+              <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2.5 bg-blue-500 hover:bg-blue-600 text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors min-w-[220px]">
                 <FaTelegramPlane size={16} /> Telegram
               </a>
             </div>

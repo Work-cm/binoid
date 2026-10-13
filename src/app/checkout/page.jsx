@@ -89,7 +89,7 @@ export default function CheckoutPage() {
               <p className="text-gray-500 text-xs mb-4 leading-relaxed">
                 Questions about your order? Our team is here to assist.
               </p>
-              <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer"
+              <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-sky-500 hover:text-sky-600 text-sm font-semibold transition-colors">
                 Chat on Telegram &rarr;
               </a>

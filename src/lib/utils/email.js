@@ -93,7 +93,7 @@ function emailLayout({ preheader, badge, heading, content }) {
           ${content}
         </td></tr>
         <tr><td style="background:#f9fafb;border-top:1px solid ${BORDER};padding:16px 28px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:1.6;color:${MUTED};">
-          Need help? Email <a href="mailto:${ORDER_NOTIFICATION_EMAIL}" style="color:${BRAND};text-decoration:none;">${ORDER_NOTIFICATION_EMAIL}</a> or message us on Telegram <a href="https://t.me/chemsolution12maf" style="color:${BRAND};text-decoration:none;">@chemsolution12maf</a>.<br/>
+          Need help? Email <a href="mailto:${ORDER_NOTIFICATION_EMAIL}" style="color:${BRAND};text-decoration:none;">${ORDER_NOTIFICATION_EMAIL}</a> or message us on Telegram <a href="https://t.me/spaceoil7" style="color:${BRAND};text-decoration:none;">@spaceoil7</a>.<br/>
           &copy; ${new Date().getFullYear()} BinoidStore &mdash; For laboratory research use only. Not for human consumption.
         </td></tr>
       </table>

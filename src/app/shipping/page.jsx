@@ -245,7 +245,7 @@ export default function ShippingPolicyPage() {
             <li>Look for delivery notices or alternative drop-off locations</li>
             <li>Wait 24 hours as carriers sometimes mark packages delivered early</li>
             <li>Contact the shipping carrier directly with your tracking number</li>
-            <li>If still missing after 48 hours, contact us on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a></li>
+            <li>If still missing after 48 hours, contact us on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a></li>
           </ol>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-700 mb-6">
             <strong>Note:</strong> We are not responsible for packages stolen after delivery confirmation. Consider using a secure delivery location.
@@ -310,7 +310,7 @@ export default function ShippingPolicyPage() {
           <div className="border border-gray-200 rounded-xl p-5 space-y-2 text-sm mb-6">
             <p><strong>WhatsApp:</strong> <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Message us on WhatsApp</a></p>
             <p><strong>Response Time:</strong> Within 24 hours</p>
-            <p><strong>Telegram:</strong> <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@chemsolution12maf</a></p>
+            <p><strong>Telegram:</strong> <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@spaceoil7</a></p>
             <p className="text-gray-400 text-xs pt-2">Please include your order number and tracking information when contacting us about shipping issues.</p>
           </div>
         </section>

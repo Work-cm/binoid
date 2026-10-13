@@ -320,7 +320,7 @@ export default function FAQPage() {
               className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 text-sm">
               WhatsApp Support
             </a>
-            <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer"
+            <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-200 text-gray-900 font-semibold py-3 px-6 rounded-xl transition-colors text-sm">
               Telegram Us
             </a>

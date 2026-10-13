@@ -73,7 +73,7 @@ export default function Footer() {
               <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'support@binoidstore.com'}`} className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors">
                 <FaEnvelope size={13} /> Email us
               </a>
-              <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors">
+              <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors">
                 <FaTelegramPlane size={14} /> Telegram
               </a>
             </div>

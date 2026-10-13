@@ -96,7 +96,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-4 shrink-0">
               <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'support@binoidstore.com'}`} className="hidden sm:flex items-center gap-1.5 text-white/80 hover:text-white transition-colors"><FaEnvelope /> Email</a>
-              <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-1.5 text-white/80 hover:text-white transition-colors"><FaTelegramPlane /> Telegram</a>
+              <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-1.5 text-white/80 hover:text-white transition-colors"><FaTelegramPlane /> Telegram</a>
               <span className="font-semibold text-coral-300">BTC / USDT accepted</span>
             </div>
           </div>
@@ -322,7 +322,7 @@ export default function Navbar() {
 
               <div className="p-4 border-t border-gray-100 grid grid-cols-2 gap-2">
                 <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'support@binoidstore.com'}`} className="flex items-center justify-center gap-2 py-2.5 rounded-lg bg-indigo-600 text-white text-sm font-semibold"><FaEnvelope /> Email</a>
-                <a href="https://t.me/chemsolution12maf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 py-2.5 rounded-lg bg-blue-500 text-white text-sm font-semibold"><FaTelegramPlane /> Telegram</a>
+                <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 py-2.5 rounded-lg bg-blue-500 text-white text-sm font-semibold"><FaTelegramPlane /> Telegram</a>
               </div>
             </motion.aside>
           </>
