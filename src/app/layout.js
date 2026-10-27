@@ -9,7 +9,6 @@ import Footer from "@/components/layout/Footer";
 import ConditionalNavbar from "@/components/layout/ConditionalNavbar";
 import Shell from "@/components/layout/Shell";
 import VisitorTracker from "@/components/tracking/VisitorTracker";
-import WhatsAppButton from "@/components/common/WhatsAppButton";
 import TelegramButton from "@/components/common/TelegramButton";
 
 // Providers
@@ -124,7 +123,6 @@ export default function RootLayout({ children }) {
           <CartProvider>
             <VisitorTracker />
             <Toaster position="top-center" />
-            <WhatsAppButton />
             <TelegramButton />
             <ConditionalNavbar>
               <Navbar />

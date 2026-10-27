@@ -67,7 +67,7 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-2xl font-black tracking-tight mb-4">4. How We Share Your Information</h2>
           <h3 className="text-lg font-bold mb-3">Service Providers</h3>
           <ul className="space-y-2 ml-1 mb-6">
-            {[['Payment Processing','Bitcoin (BTC) or USDT only — no card or bank data stored'],['Shipping Partners','Courier services for order delivery'],['Messaging','WhatsApp and Telegram for support'],['Analytics','Google Analytics (anonymized data)'],['Customer Support','WhatsApp and Telegram for customer service']].map(([t,d])=><li key={t} className="flex gap-3"><Dot /><span><strong>{t}:</strong> {d}</span></li>)}
+            {[['Payment Processing','Bitcoin (BTC) or USDT only — no card or bank data stored'],['Shipping Partners','Courier services for order delivery'],['Messaging','Telegram and email for support'],['Analytics','Google Analytics (anonymized data)'],['Customer Support','Telegram and email for customer service']].map(([t,d])=><li key={t} className="flex gap-3"><Dot /><span><strong>{t}:</strong> {d}</span></li>)}
           </ul>
           <h3 className="text-lg font-bold mb-3">Legal Requirements</h3>
           <p className="mb-3">We may disclose your information if required by law, court order, or government request, or to:</p>
@@ -114,7 +114,7 @@ export default function PrivacyPolicyPage() {
           <ul className="space-y-2 ml-1 mb-4">
             {['Right to know what personal information is collected','Right to know if personal information is sold or disclosed','Right to opt-out of sale of personal information','Right to non-discrimination for exercising your rights'].map(i=><li key={i} className="flex gap-3"><Dot /><span>{i}</span></li>)}
           </ul>
-          <p>To exercise your rights, contact us on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
+          <p>To exercise your rights, contact us on <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
         </section>
 
         <section>
@@ -150,7 +150,7 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-2xl font-black tracking-tight mb-4">13. Contact Us</h2>
           <p className="mb-5">Questions about this Privacy Policy? Contact us:</p>
           <div className="border border-gray-200 rounded-xl p-5 space-y-2 text-sm">
-            <p><strong>WhatsApp:</strong> <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Message us on WhatsApp</a></p>
+            <p><strong>Email:</strong> <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@binoidstore.com'}`} className="text-sky-500 hover:underline">{process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@binoidstore.com'}</a></p>
             <p><strong>Telegram:</strong> <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@spaceoil7</a></p>
             <p><strong>Response Time:</strong> We aim to respond within 48 hours</p>
           </div>

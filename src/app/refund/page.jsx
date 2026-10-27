@@ -115,7 +115,7 @@ export default function RefundPolicyPage() {
           <h3 className="text-lg font-bold text-gray-900 mb-3">How to Request a Return</h3>
           <div className="space-y-4 mb-8">
             {[
-              { title: 'Contact Us Immediately', desc: 'Message us on WhatsApp or Telegram with your order number, product name, and reason.' },
+              { title: 'Contact Us Immediately', desc: 'Message us on Telegram or email with your order number, product name, and reason.' },
               { title: 'Provide Evidence', desc: 'Take clear photos of the product, packaging, and any damage.' },
               { title: 'Wait for Approval', desc: 'Our team reviews your request within 24-48 hours.' },
               { title: 'Receive Return Authorization', desc: 'If approved, you get an RA number. Do NOT return items without one.' },
@@ -265,7 +265,7 @@ export default function RefundPolicyPage() {
                 <li key={item} className="flex gap-2"><span className="w-1 h-1 rounded-full bg-amber-500 shrink-0 mt-2" />{item}</li>
               ))}
             </ul>
-            <p className="font-bold">Please contact us first on <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">WhatsApp</a> or <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
+            <p className="font-bold">Please contact us first on <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Telegram</a>.</p>
           </div>
         </section>
 
@@ -274,7 +274,7 @@ export default function RefundPolicyPage() {
           <h2 className="text-2xl font-black text-gray-900 tracking-tight mb-4">8. Contact Us for Returns</h2>
           <p className="mb-5">Have questions or need to start a return?</p>
           <div className="border border-gray-200 rounded-xl p-5 space-y-2 text-sm mb-6">
-            <p><strong>WhatsApp:</strong> <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">Message us on WhatsApp</a></p>
+            <p><strong>Email:</strong> <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@binoidstore.com'}`} className="text-sky-500 hover:underline">{process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@binoidstore.com'}</a></p>
             <p><strong>Message:</strong> Return Request - Order #[Your Order Number]</p>
             <p><strong>Response Time:</strong> Within 24 hours</p>
             <p><strong>Telegram:</strong> <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:underline">@spaceoil7</a></p>

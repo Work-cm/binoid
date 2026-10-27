@@ -23,12 +23,12 @@ export default function FAQPage() {
     {
       category: 'ordering',
       question: 'What payment methods do you accept?',
-      answer: 'We accept Bitcoin (BTC) and USDT only — no bank transfers, cards, or other cryptocurrencies. Contact us on WhatsApp or Telegram after placing your order to receive our wallet address and payment instructions.'
+      answer: 'We accept Bitcoin (BTC) and USDT only — no bank transfers, cards, or other cryptocurrencies. Contact us on Telegram or email after placing your order to receive our wallet address and payment instructions.'
     },
     {
       category: 'ordering',
       question: 'How do I pay for my order?',
-      answer: 'After adding items to your cart and proceeding to checkout, you\'ll need to contact us on WhatsApp or Telegram to receive our BTC or USDT wallet address. We\'ll respond within 24 hours with the exact amount and payment instructions. Once your payment is confirmed on the blockchain, we\'ll process and ship your order.'
+      answer: 'After adding items to your cart and proceeding to checkout, you\'ll need to contact us on Telegram or email to receive our BTC or USDT wallet address. We\'ll respond within 24 hours with the exact amount and payment instructions. Once your payment is confirmed on the blockchain, we\'ll process and ship your order.'
     },
     {
       category: 'ordering',
@@ -38,12 +38,12 @@ export default function FAQPage() {
     {
       category: 'ordering',
       question: 'Can I cancel my order after placing it?',
-      answer: 'You can cancel your order for a full refund only if it hasn\'t been processed or shipped yet. Orders are typically processed within 24-48 hours. Contact us immediately on WhatsApp or Telegram with your order number if you need to cancel.'
+      answer: 'You can cancel your order for a full refund only if it hasn\'t been processed or shipped yet. Orders are typically processed within 24-48 hours. Contact us immediately on Telegram or email with your order number if you need to cancel.'
     },
     {
       category: 'ordering',
       question: 'Do you offer bulk discounts?',
-      answer: 'Yes! We offer volume discounts for bulk orders. Contact us on WhatsApp or Telegram with details about the products and quantities you need, and we\'ll provide a custom quote.'
+      answer: 'Yes! We offer volume discounts for bulk orders. Contact us on Telegram or email with details about the products and quantities you need, and we\'ll provide a custom quote.'
     },
     {
       category: 'ordering',
@@ -80,7 +80,7 @@ export default function FAQPage() {
     {
       category: 'shipping',
       question: 'What if my package is lost or stolen?',
-      answer: 'If your package is marked as delivered but you haven\'t received it, wait 24-48 hours and check with neighbors or building management. If still missing, contact us immediately on WhatsApp or Telegram with your tracking number.'
+      answer: 'If your package is marked as delivered but you haven\'t received it, wait 24-48 hours and check with neighbors or building management. If still missing, contact us immediately on Telegram or email with your tracking number.'
     },
 
     // Products & Quality
@@ -102,7 +102,7 @@ export default function FAQPage() {
     {
       category: 'products',
       question: 'Can I request a Certificate of Analysis (COA)?',
-      answer: 'Yes! Contact us on WhatsApp or Telegram with your order number and product name, and we\'ll provide the COA for your batch within 24-48 hours.'
+      answer: 'Yes! Contact us on Telegram or email with your order number and product name, and we\'ll provide the COA for your batch within 24-48 hours.'
     },
     {
       category: 'products',
@@ -144,7 +144,7 @@ export default function FAQPage() {
     {
       category: 'account',
       question: 'How do I delete my account?',
-      answer: 'Contact us on WhatsApp or Telegram with your account email and request account deletion. We\'ll process your request within 7 business days. Note that order history may be retained for legal compliance.'
+      answer: 'Contact us on Telegram or email with your account email and request account deletion. We\'ll process your request within 7 business days. Note that order history may be retained for legal compliance.'
     },
 
     // Returns & Refunds
@@ -188,17 +188,17 @@ export default function FAQPage() {
     {
       category: 'shipping',
       question: 'Can I change my shipping address after ordering?',
-      answer: 'Contact us immediately on WhatsApp or Telegram if you need to change your shipping address. We can only modify the address if the order hasn\'t been shipped yet.'
+      answer: 'Contact us immediately on Telegram or email if you need to change your shipping address. We can only modify the address if the order hasn\'t been shipped yet.'
     },
     {
       category: 'account',
       question: 'Do you offer customer support?',
-      answer: 'Yes! Reach us on WhatsApp or Telegram, or use our contact form. We typically respond within 24 hours.'
+      answer: 'Yes! Reach us on Telegram or email, or use our contact form. We typically respond within 24 hours.'
     },
     {
       category: 'ordering',
       question: 'Can I order by phone?',
-      answer: 'Currently, we only accept orders through our website for security and accuracy. If you need assistance placing an order, contact us on WhatsApp or Telegram and we\'ll guide you through the process.'
+      answer: 'Currently, we only accept orders through our website for security and accuracy. If you need assistance placing an order, contact us on Telegram or email and we\'ll guide you through the process.'
     },
   ];
 
@@ -316,9 +316,9 @@ export default function FAQPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-2">Still have questions?</h2>
           <p className="text-gray-900 text-sm mb-6">Our support team typically responds within 24 hours.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="https://wa.me/19852913802" target="_blank" rel="noopener noreferrer"
+            <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@binoidstore.com'}`}
               className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-lime-500 hover:from-emerald-600 hover:to-lime-600 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:-translate-y-0.5 shadow-lg shadow-emerald-500/25 text-sm">
-              WhatsApp Support
+              Email Support
             </a>
             <a href="https://t.me/spaceoil7" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-200 text-gray-900 font-semibold py-3 px-6 rounded-xl transition-colors text-sm">
