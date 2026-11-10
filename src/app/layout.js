@@ -10,6 +10,7 @@ import ConditionalNavbar from "@/components/layout/ConditionalNavbar";
 import Shell from "@/components/layout/Shell";
 import VisitorTracker from "@/components/tracking/VisitorTracker";
 import TelegramButton from "@/components/common/TelegramButton";
+import EmailButton from "@/components/common/EmailButton";
 
 // Providers
 import AuthProvider from "@/components/auth/AuthProvider";
@@ -124,6 +125,7 @@ export default function RootLayout({ children }) {
             <VisitorTracker />
             <Toaster position="top-center" />
             <TelegramButton />
+            <EmailButton />
             <ConditionalNavbar>
               <Navbar />
             </ConditionalNavbar>
@@ -136,19 +138,13 @@ export default function RootLayout({ children }) {
           </CartProvider>
         </AuthProvider>
 
-        {/* Smartsupp Live Chat */}
-        <Script id="smartsupp-chat" strategy="afterInteractive">
-          {`
-            var _smartsupp = _smartsupp || {};
-            _smartsupp.key = 'e6987bfd5555a078100c3e88884b0d882c6966a4';
-            window.smartsupp||(function(d) {
-              var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-              s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-              c.type='text/javascript';c.charset='utf-8';c.async=true;
-              c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-            })(document);
-          `}
-        </Script>
+        {/* SiluxChat Live Chat */}
+        <Script
+          id="siluxchat-widget"
+          src="https://www.siluxchat.com/static/widget.js"
+          data-tenant="info-4"
+          strategy="afterInteractive"
+        />
 
       </body>
     </html>

@@ -90,7 +90,7 @@ export default function Navbar() {
         <div className="bg-ink text-white">
           <div className="container mx-auto px-4 sm:px-6 h-9 flex items-center justify-between gap-4 text-[12px]">
             <div className="flex items-center gap-5 overflow-hidden">
-              <span className="flex items-center gap-2 shrink-0"><FaTruck className="text-coral-400" /> Free discreet shipping on orders over &euro;500</span>
+              <span className="flex items-center gap-2 shrink-0"><FaTruck className="text-coral-400" /> Discreet worldwide shipping on every order</span>
               <span className="hidden md:flex items-center gap-2 shrink-0 text-white/70"><FaShieldAlt className="text-indigo-300" /> COA with every order</span>
               <span className="hidden lg:flex items-center gap-2 shrink-0 text-white/70"><FaBoxOpen className="text-indigo-300" /> 48h dispatch</span>
             </div>
