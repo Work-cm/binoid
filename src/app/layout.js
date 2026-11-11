@@ -138,11 +138,17 @@ export default function RootLayout({ children }) {
           </CartProvider>
         </AuthProvider>
 
-        {/* SiluxChat Live Chat */}
+        {/* Altidesk — analytics + recorder + chat */}
         <Script
-          id="siluxchat-widget"
-          src="https://www.siluxchat.com/static/widget.js"
-          data-tenant="info-4"
+          id="altidesk-analytics"
+          src="https://monitor.altidesk.io/script.js"
+          data-website-id="e4ffecdc-18d1-4a04-9bba-d5d847afb39d"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="altidesk-recorder"
+          src="https://monitor.altidesk.io/recorder.js"
+          data-website-id="e4ffecdc-18d1-4a04-9bba-d5d847afb39d"
           strategy="afterInteractive"
         />
 
